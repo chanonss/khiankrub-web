@@ -1,3 +1,5 @@
+[เกี่ยวกับ / About](https://khiankrub.app/about.html) · [นโยบายความเป็นส่วนตัว / Privacy Policy](https://khiankrub.app/privacy.html)
+
 <p align="center">
   <img src="icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
@@ -126,4 +128,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.9.1**, source commit `260919e9`.
+Prepared from version **0.9.1**, source commit `4d35c976`.
