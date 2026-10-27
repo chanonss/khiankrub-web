@@ -8,7 +8,7 @@
   
 <script type="module">
 import init, * as bindings from './wordcraft-web-fc8fac7f619549a4.js';
-const wasm = await init({ module_or_path: './wordcraft-web-ce3c8ebfea65e794_bg.wasm' });
+const wasm = await init({ module_or_path: './wordcraft-web-a874076d2bd12953_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -23,7 +23,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
     #wordcraft_loading { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
       color: #555; font: 14px system-ui, sans-serif; pointer-events: none; }
   </style>
-<link rel="modulepreload" href="./wordcraft-web-fc8fac7f619549a4.js" crossorigin="anonymous" integrity="sha384-B8sSdfrTiIR1sHiMh6IupNp5pgF7twtbkJbl6UFihbArgjF00qjmd9c0IUm+Err3"><link rel="preload" href="./wordcraft-web-ce3c8ebfea65e794_bg.wasm" crossorigin="anonymous" integrity="sha384-AQaBMyB72IaHpLsrEMlRWdPt5yF5clH0SwUNHLHnjZOmS4774cMRj9eOLKS0SG9j" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="./wordcraft-web-fc8fac7f619549a4.js" crossorigin="anonymous" integrity="sha384-B8sSdfrTiIR1sHiMh6IupNp5pgF7twtbkJbl6UFihbArgjF00qjmd9c0IUm+Err3"><link rel="preload" href="./wordcraft-web-a874076d2bd12953_bg.wasm" crossorigin="anonymous" integrity="sha384-WHKmvF3atJKrZTN1aBxkTtAgtr+/8jCrqRCwEbAAiGxawUdTrKrGf8mN/nDasoyA" as="fetch" type="application/wasm"></head>
 <body>
   <canvas id="wordcraft_canvas"></canvas>
   <div id="wordcraft_loading">Loading KhianKrub&hellip;</div>
