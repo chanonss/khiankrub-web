@@ -8,7 +8,11 @@
 
 **A free browser-based word processor for Thai and English.**
 
-**[เปิดใช้งาน / Open KhianKrub](https://khiankrub.app/)** · [แจ้งปัญหา / Report an issue](https://github.com/chanonss/khiankrub-web/issues)
+**[เปิดใช้งาน / Open KhianKrub](https://khiankrub.app/)** · ปุ่ม **แจ้งปัญหา** ในโปรแกรม / the **Report a problem** button in the app
+
+<p align="center">
+  <img src="images/khiankrub-web-hero.png" alt="KhianKrub Web with Thai menus: the navy band with the gold แจ้งปัญหา and แชร์ buttons, the Navigation pane listing 1. บทนำ, 2. วัตถุประสงค์, 3. ผลการดำเนินงาน, and a Thai report in TH Sarabun New with a list numbered ก. ข. ค. and a table captioned ตารางที่ 1" width="100%">
+</p>
 
 ## ประกาศเปิดตัวภาษาไทย
 
@@ -34,19 +38,35 @@ This is a small project that is still developing. If you find a problem or have 
 
 Based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted for Thai users by Chanon Sarasuk.
 
-## หน้าตาโปรแกรม / The interface
+## หน้าตาโปรแกรม / A look around
 
-### เมนูภาษาไทย / Thai menus
+### สีแถบด้านบนและลวดลายไทย / Band colours and Thai motifs
 
-![KhianKrub Web with Thai menus and an original Thai–English example document](images/khiankrub-web-editor-th.png)
+เลือกสีแถบด้านบนได้หกสี และใส่ลวดลายไทยจาง ๆ ได้ ทั้งประจำยาม กระจัง ก้านขด ดอกพิกุล และผ้าขาวม้า ที่ **ไฟล์ → ตัวเลือก → ทั่วไป** ลวดลายทุกแบบวาดขึ้นใหม่โดยโปรแกรมเอง
+
+Six band colours, each with an optional faint Thai motif: ประจำยาม, กระจัง, ก้านขด, ดอกพิกุล or ผ้าขาวม้า. Choose them under **File → Options → General**. Every motif is drawn by KhianKrub itself.
+
+<p align="center">
+  <img src="images/khiankrub-web-bands.png" alt="The KhianKrub title bar and Thai tabs six times: navy with ประจำยาม, teal with กระจัง, forest green with ก้านขด, plum with ดอกพิกุล, maroon with ผ้าขาวม้า, and plain graphite" width="100%">
+</p>
+
+<table>
+<tr>
+<td width="60%" valign="top"><img src="images/khiankrub-web-dark.png" alt="KhianKrub Web in the dark theme with Thai menus, the Navigation pane and the same Thai report" width="100%"><p align="center"><sub><b>ธีมมืด / Dark theme.</b> เมนูและแถบเครื่องมือเป็นสีเข้ม หน้ากระดาษยังขาวเหมือนตอนพิมพ์ / Dark menus and ribbon, with the page kept white as it will print.</sub></p></td>
+<td width="40%" valign="top"><img src="images/khiankrub-web-save.png" alt="The Save page in Thai with two choices: เครื่องนี้ (download a copy to this computer or iPad) and Google Drive (connect Google Drive)" width="100%"><p align="center"><sub><b>บันทึก / Save.</b> ดาวน์โหลดลงเครื่อง หรือบันทึกลง Google Drive ในหน้าเดียว / Download a copy, or save to Google Drive, from one page.</sub></p>
+<img src="images/khiankrub-web-loading.png" alt="The navy-and-gold loading screen with the gold ข, the name เขียนครับ, a gold loading bar and the message กำลังเปิดโปรแกรม…" width="100%"><p align="center"><sub><b>หน้ารอเปิดโปรแกรม / Loading screen</b> ครั้งแรกอาจใช้เวลาสักครู่ / The first visit takes a moment.</sub></p></td>
+</tr>
+</table>
 
 ### เมนูภาษาอังกฤษ / English menus
 
-![The same web editor with English menus](images/khiankrub-web-editor-en.png)
+![The web editor with English menus](images/khiankrub-web-editor-en.png)
 
-### หน้ารอเปิดโปรแกรม / Loading screen
+### แจ้งปัญหา / Report a problem
 
-![The navy-and-gold loading screen with the gold ข and Thai startup message](images/khiankrub-web-loading.png)
+ปุ่ม **แจ้งปัญหา** สีทองข้างปุ่มแชร์ เปิดแบบฟอร์มสั้น ๆ ให้เล่าว่าเกิดอะไรขึ้น โปรแกรมใส่รุ่นและชื่อเบราว์เซอร์ให้เอง ไม่มีการส่งเนื้อหาเอกสาร
+
+The gold **Report a problem** button beside Share opens a short form. The app fills in its version and your browser; no document content is sent.
 
 ## ความสามารถ / Features
 
@@ -79,7 +99,7 @@ Recovery is on by default. A snapshot is saved after about two seconds without c
 
 1. เปิด / Visit **[khiankrub.app](https://khiankrub.app/)** บนคอมพิวเตอร์หรือ iPad / on a computer or iPad.
 2. เริ่มพิมพ์ในเอกสารเปล่า หรือเลือก **ไฟล์ → เปิด** / Start typing, or choose **File → Open**.
-3. บันทึกงานผ่าน **ไฟล์ → บันทึกเป็น** / Save your work through **File → Save As**.
+3. บันทึกงานผ่าน **ไฟล์ → บันทึก** ลงเครื่องหรือ Google Drive / Save your work through **File → Save**, to this device or Google Drive.
 4. หากต้องการติดตั้ง กดไอคอนติดตั้งในแถบที่อยู่ของ Chrome (ถ้ามี) หรือเลือกคำสั่งติดตั้งแอปจากเมนู Chrome แล้วยืนยัน / To install, click Chrome's address-bar install icon, if shown, or use its app-install menu option and confirm.
 
 ## ข้อจำกัดที่ควรทราบ / Current limits
@@ -106,4 +126,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.9.1**, source commit `cc13edc5`.
+Prepared from version **0.9.1**, source commit `8eb72f2d`.
