@@ -9,4 +9,4 @@ KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the
 `NOTICE` and `ATTRIBUTION.md`. The fonts' licences, the full GPL text and checksums are in
 `fonts/`. The desktop app is open source at <https://github.com/chanonss/khiankrub>.
 
-Built from version 0.9.0, commit 702afe95.
+Built from version 0.9.0, commit f35deac7.

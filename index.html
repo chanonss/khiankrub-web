@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -7,8 +7,75 @@
   <link rel="icon" href="./wordcraft-34cbaa9d8cd08310.ico" integrity="sha384-ftTc8EN72A78z+Eb1RP4Wefr5kDxPvrUQ57y6gB/Mip4cp8WAOCCCc3XoEbIBcsQ"/>
   
 <script type="module">
+async function __trunkInitializer(init, source, sourceSize, initializer, initWithObject) {
+  if (initializer === undefined) {
+    return await init(initWithObject ? { module_or_path: source } : source);
+  }
+
+  const {
+    onStart, onProgress, onComplete, onSuccess, onFailure
+  } = initializer;
+
+  onStart?.();
+
+  const response = fetch(source)
+      .then((response) => {
+        const reader = response.body.getReader();
+        const headers = response.headers;
+        const status = response.status;
+        const statusText = response.statusText;
+
+        const total = sourceSize;
+        let current = 0;
+
+        const stream = new ReadableStream({
+          start(controller) {
+            function push() {
+              reader.read().then(({done, value}) => {
+                if (done) {
+                  onProgress?.({current: total, total});
+                  controller.close();
+                  return;
+                }
+
+                current += value.byteLength;
+                onProgress?.({current, total});
+                controller.enqueue(value);
+                push();
+              });
+            }
+
+            push();
+          },
+        });
+
+        return {
+          stream, init: {
+            headers, status, statusText
+          }
+        };
+      })
+      .then(({stream, init}) =>
+          new Response(stream, init),
+      );
+
+  return init(initWithObject ? { module_or_path: response } : response)
+      .then((value) => {
+        onComplete?.();
+        onSuccess?.(value);
+        return value;
+      }, (reason) => {
+        onComplete?.();
+        onFailure?.(reason);
+        return reason;
+      });
+}
+
+
 import init, * as bindings from './wordcraft-web-fc8fac7f619549a4.js';
-const wasm = await init({ module_or_path: './wordcraft-web-a874076d2bd12953_bg.wasm' });
+import initializer from './loading-9f3c19146eb7c993.js';
+
+const wasm = await __trunkInitializer(init, './wordcraft-web-72d66a2dd947923b_bg.wasm', 32402716, initializer(), true);
 
 
 window.wasmBindings = bindings;
@@ -21,11 +88,29 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
     html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #e6e6e6; }
     #wordcraft_canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
     #wordcraft_loading { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
-      color: #555; font: 14px system-ui, sans-serif; pointer-events: none; }
+      gap: 10px; padding: 24px; box-sizing: border-box; background: #f4f4f2; color: #1e3a8a;
+      font: 14px system-ui, sans-serif; text-align: center; }
+    .loading-icon { width: 54px; height: 54px; border-radius: 13px; display: flex; align-items: center; justify-content: center;
+      background: #1e3a8a; color: #f2b705; font: 700 34px/1 system-ui, sans-serif; }
+    .loading-name { margin: 0; font-size: 14px; font-weight: 500; }
+    #wordcraft_progress { width: 150px; height: 5px; border: 0; border-radius: 3px; overflow: hidden;
+      appearance: none; background: #e2e2de; accent-color: #1e3a8a; }
+    #wordcraft_progress::-webkit-progress-bar { background: #e2e2de; border-radius: 3px; }
+    #wordcraft_progress::-webkit-progress-value { background: #1e3a8a; border-radius: 3px; }
+    #wordcraft_progress::-moz-progress-bar { background: #1e3a8a; border-radius: 3px; }
+    #wordcraft_loading_status, .loading-note { margin: 0; color: #6b6b66; font-size: 12px; line-height: 1.6; }
+    #wordcraft_loading_status { max-width: 36em; overflow-wrap: anywhere; }
   </style>
-<link rel="modulepreload" href="./wordcraft-web-fc8fac7f619549a4.js" crossorigin="anonymous" integrity="sha384-B8sSdfrTiIR1sHiMh6IupNp5pgF7twtbkJbl6UFihbArgjF00qjmd9c0IUm+Err3"><link rel="preload" href="./wordcraft-web-a874076d2bd12953_bg.wasm" crossorigin="anonymous" integrity="sha384-WHKmvF3atJKrZTN1aBxkTtAgtr+/8jCrqRCwEbAAiGxawUdTrKrGf8mN/nDasoyA" as="fetch" type="application/wasm"></head>
+</head>
 <body>
   <canvas id="wordcraft_canvas"></canvas>
-  <div id="wordcraft_loading">Loading KhianKrub&hellip;</div>
+  <div id="wordcraft_loading" aria-busy="true">
+    <div class="loading-icon" aria-hidden="true">ข</div>
+    <h1 class="loading-name">เขียนครับ</h1>
+    <progress id="wordcraft_progress" max="100" aria-label="ความคืบหน้าการดาวน์โหลด"></progress>
+    <p id="wordcraft_loading_status" role="status">กำลังดาวน์โหลดโปรแกรม…</p>
+    <p class="loading-note">ครั้งแรกอาจใช้เวลาสักครู่</p>
+    <noscript>กรุณาเปิด JavaScript ในเบราว์เซอร์ แล้วโหลดหน้านี้ใหม่</noscript>
+  </div>
 </body>
 </html>
