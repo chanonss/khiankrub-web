@@ -18,7 +18,7 @@
 
 เหมาะสำหรับใช้งานบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ และยังต้องเชื่อมต่ออินเทอร์เน็ต มีฉบับกู้คืนอัตโนมัติที่เก็บในเบราว์เซอร์บนอุปกรณ์เดิม เพื่อช่วยกู้คืนงานหลังปิดหน้าโดยไม่ตั้งใจ แต่ยังควรบันทึกไฟล์สำเนาไว้ด้วย
 
-เป็นโครงการเล็ก ๆ ที่ยังอยู่ระหว่างพัฒนา หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนแจ้งผ่าน [Issues](https://github.com/chanonss/khiankrub-web/issues) ขอบคุณทุกคนที่ช่วยทดลองใช้และแนะนำครับ
+เป็นโครงการเล็ก ๆ ที่ยังอยู่ระหว่างพัฒนา หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้และแนะนำครับ
 
 พัฒนาต่อยอดจาก [WordCraft](https://github.com/storytold/wordcraft) โดยทีม ArtCraft ปรับปรุงสำหรับผู้ใช้ภาษาไทยโดย Chanon Sarasuk
 
@@ -30,7 +30,7 @@ The web app opens a blank document in TH Sarabun New, 16 pt, with Thai and Engli
 
 KhianKrub Web is intended for computers and iPads. Phones are not supported, and an internet connection is still required. Automatic recovery drafts stay in this browser on this device and can help restore interrupted work. Please also save a separate file copy.
 
-This is a small project that is still developing. If you find a problem or have a suggestion, please [open an issue](https://github.com/chanonss/khiankrub-web/issues). Thank you for trying it and helping improve it.
+This is a small project that is still developing. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it and helping improve it.
 
 Based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted for Thai users by Chanon Sarasuk.
 
@@ -106,4 +106,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.9.1**, source commit `e9f336a3`.
+Prepared from version **0.9.1**, source commit `cc13edc5`.

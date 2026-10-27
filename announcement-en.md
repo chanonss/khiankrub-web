@@ -4,6 +4,6 @@ The web app opens a blank document in TH Sarabun New, 16 pt, with Thai and Engli
 
 KhianKrub Web is intended for computers and iPads. Phones are not supported, and an internet connection is still required. Automatic recovery drafts stay in this browser on this device and can help restore interrupted work. Please also save a separate file copy.
 
-This is a small project that is still developing. If you find a problem or have a suggestion, please [open an issue](https://github.com/chanonss/khiankrub-web/issues). Thank you for trying it and helping improve it.
+This is a small project that is still developing. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it and helping improve it.
 
 Based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted for Thai users by Chanon Sarasuk.
