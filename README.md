@@ -114,9 +114,9 @@ Recovery is on by default. A snapshot is saved after about two seconds without c
 
 ## ข้อมูลและความเป็นส่วนตัว / Data and privacy
 
-เอกสารประมวลผลในเบราว์เซอร์ การตั้งค่า ฟอนต์ที่เพิ่มเอง และฉบับกู้คืนเก็บในเบราว์เซอร์ ไม่มีการส่งฉบับกู้คืนไปยังเซิร์ฟเวอร์ของ KhianKrub สามารถปิดการกู้คืนและทิ้งฉบับกู้คืนได้ การล้างข้อมูลเว็บไซต์อาจลบข้อมูลเหล่านี้ การตั้งค่าไม่ซิงก์ระหว่างอุปกรณ์ การเชื่อมต่อ Google Drive เกิดขึ้นเมื่อผู้ใช้เลือกเชื่อมต่อ และโทเคนอยู่ในหน่วยความจำของหน้านั้น
+เอกสารประมวลผลในเบราว์เซอร์ การตั้งค่า ฟอนต์ที่เพิ่มเอง และฉบับกู้คืนเก็บในเบราว์เซอร์ ไม่มีการส่งฉบับกู้คืนไปยังเซิร์ฟเวอร์ของ KhianKrub สามารถปิดการกู้คืนและทิ้งฉบับกู้คืนได้ การล้างข้อมูลเว็บไซต์อาจลบข้อมูลเหล่านี้ การตั้งค่าไม่ซิงก์ระหว่างอุปกรณ์ การเชื่อมต่อ Google Drive เกิดขึ้นเมื่อผู้ใช้เลือกเชื่อมต่อ และโทเคนอยู่ในหน่วยความจำของหน้านั้น เว็บนับจำนวนผู้เข้าชมด้วย Cloudflare Web Analytics ซึ่งไม่ใช้คุกกี้และไม่ส่งเนื้อหาเอกสาร
 
-Documents are processed in the browser. Preferences, explicitly added fonts and recovery drafts are stored locally in the browser; clearing site data can remove them. Recovery drafts are not uploaded to KhianKrub servers. You can turn recovery off and discard drafts. Preferences do not sync between devices. Google Drive connects when requested, and its access token stays in page memory.
+Documents are processed in the browser. Preferences, explicitly added fonts and recovery drafts are stored locally in the browser; clearing site data can remove them. Recovery drafts are not uploaded to KhianKrub servers. You can turn recovery off and discard drafts. Preferences do not sync between devices. Google Drive connects when requested, and its access token stays in page memory. Visits are counted with Cloudflare Web Analytics, which uses no cookies and sends no document content.
 
 ## โครงการและสิทธิ์การใช้งาน / Project and credits
 
@@ -126,4 +126,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.9.1**, source commit `8eb72f2d`.
+Prepared from version **0.9.1**, source commit `260919e9`.
