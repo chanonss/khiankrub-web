@@ -104,19 +104,22 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
     .loading-logo { position: relative; z-index: 2; display: block; width: 100%; height: 100%; overflow: visible;
       animation: settle 3.8s cubic-bezier(.25,.8,.25,1) infinite; }
     .loading-name { margin: 0; font-size: 22px; font-weight: 650; line-height: 1.5; }
-    /* Keep the startup activity accessible without a second visible animation. */
-    #wordcraft_progress { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
-      overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+    /* Draft A's moving gold bar under the name, while the app downloads and starts. */
+    #wordcraft_progress { width: 150px; height: 5px; border-radius: 3px; overflow: hidden; background: rgb(255 255 255 / 18%); }
     #wordcraft_progress[hidden] { display: none; }
+    .loading-fill { width: 40%; height: 100%; border-radius: 3px; background: #f2b705; animation: loading 1.6s ease-in-out infinite; }
+    @keyframes loading{0%{margin-left:-40%}100%{margin-left:100%}}
     @keyframes sheet-one{0%,8%{transform:translate(-45%,-23%) rotate(-22deg);opacity:0}20%,37%{transform:translate(-38%,-18%) rotate(-18deg);opacity:1}63%,86%{transform:translate(0,0) rotate(0);opacity:1}100%{transform:translate(0,0) rotate(0);opacity:0}}
     @keyframes sheet-two{0%,14%{transform:translate(45%,-16%) rotate(22deg);opacity:0}28%,44%{transform:translate(38%,-12%) rotate(18deg);opacity:1}72%,86%{transform:translate(0,0) rotate(0);opacity:1}100%{transform:translate(0,0) rotate(0);opacity:0}}
     @keyframes settle{0%,8%{transform:translateY(10%) scale(.88)}28%,44%{transform:translateY(5%) scale(.94)}72%,100%{transform:translateY(0) scale(1)}}
     @media (prefers-reduced-motion: reduce) {
       .loading-icon .sheet { display: none; }
       .loading-logo { animation: none; }
+      .loading-fill { animation: none; margin: auto; }
     }
     #wordcraft_loading[aria-busy="false"] .sheet { display: none; }
     #wordcraft_loading[aria-busy="false"] .loading-logo { animation: none; }
+    #wordcraft_loading[aria-busy="false"] #wordcraft_progress { display: none; }
     #wordcraft_loading_status, .loading-note { margin: 0; color: rgb(255 255 255 / 75%); font-size: 12px; line-height: 1.6; }
     #wordcraft_loading_status { max-width: 36em; overflow-wrap: anywhere; }
   </style>
@@ -132,7 +135,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
       </svg>
     </div>
     <h1 class="loading-name">เขียนครับ</h1>
-    <div id="wordcraft_progress" role="progressbar" aria-label="กำลังเปิดโปรแกรม"></div>
+    <div id="wordcraft_progress" role="progressbar" aria-label="กำลังเปิดโปรแกรม"><div class="loading-fill"></div></div>
     <p id="wordcraft_loading_status" role="status">กำลังเปิดโปรแกรม…</p>
     <noscript>กรุณาเปิด JavaScript ในเบราว์เซอร์ แล้วโหลดหน้านี้ใหม่</noscript>
   </div>
