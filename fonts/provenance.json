@@ -1,0 +1,72 @@
+[
+  {
+    "file": "Sarabun-Regular.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/sarabun/Sarabun-Regular.ttf",
+    "sha256": "226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1"
+  },
+  {
+    "file": "Sarabun-SemiBold.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/sarabun/Sarabun-SemiBold.ttf",
+    "sha256": "c0bb057d86e4a12097d701ac0953597e315788d47a446f5b63a6604ab21dceba"
+  },
+  {
+    "file": "OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/sarabun/OFL.txt",
+    "sha256": "b26cae1321380296ba8311b632a397d5eac11b47197f9d0aa0b9310f1531ad60"
+  },
+  {
+    "file": "THSarabunNew-Regular.ttf",
+    "source": "Original unmodified font file: THSarabunNew.ttf",
+    "sha256": "b248f824f3d7a8576bc396826a4d898070c1420564f6ce6aa716aa8ad24f824a"
+  },
+  {
+    "file": "THSarabunNew-Bold.ttf",
+    "source": "Original unmodified font file: THSarabunNew Bold.ttf",
+    "sha256": "49596f298a8fe248c5340b4589b3b4adfcf34a3e24084ebeb4f49c6600f75fa7"
+  },
+  {
+    "file": "THSarabunNew-Italic.ttf",
+    "source": "Original unmodified font file: THSarabunNew Italic.ttf",
+    "sha256": "341b9b5d13b696f74c6318d32bbae7ff183e6bdc07ef3ca1a6f9c5dd83c6494b"
+  },
+  {
+    "file": "THSarabunNew-BoldItalic.ttf",
+    "source": "Original unmodified font file: THSarabunNew BoldItalic.ttf",
+    "sha256": "64a69cbeca6d34dc754a7ab2106615c14fbd359d339ed0f65d2a7b17de14cdfa"
+  },
+  {
+    "file": "THSarabunPSK-Regular.ttf",
+    "source": "Original unmodified font file: THSarabun.ttf",
+    "sha256": "51a071f55fe0b21d05334bea94d6e13393edd23e4bf775fd6b1f829bece967f4"
+  },
+  {
+    "file": "THSarabunPSK-Bold.ttf",
+    "source": "Original unmodified font file: THSarabun Bold.ttf",
+    "sha256": "7457675c19186491cae40957f07d2426f0fe9633379fa0198b78fc0db753702b"
+  },
+  {
+    "file": "THSarabunPSK-Italic.ttf",
+    "source": "Original unmodified font file: THSarabun Italic.ttf",
+    "sha256": "79ba913cdb90bac50e312875823e55322f7b80c5a5ab8a0e4d351ee215840004"
+  },
+  {
+    "file": "THSarabunPSK-BoldItalic.ttf",
+    "source": "Original unmodified font file: THSarabun Bold Italic.ttf",
+    "sha256": "8a8731b6bed21f1a0b6788162239d4390974e1ad379462235d55a6377e8b1689"
+  },
+  {
+    "file": "LICENSE-THSarabunNew.txt",
+    "source": "Copyright and licence embedded in original font name tables",
+    "sha256": "4c85e83a9cc6c416a7ad2b59e2418491ec4a2a81c5cc1f2767093b0b89c3add5"
+  },
+  {
+    "file": "LICENSE-THSarabunPSK.txt",
+    "source": "Copyright and licence embedded in original font name tables",
+    "sha256": "ee1d7818eb0d9fe4eac01746c14ca922676702dc00394ada71b678ce2fd63a6e"
+  },
+  {
+    "file": "GPL-2.0.txt",
+    "source": "GNU GPL version 2, unmodified licence text",
+    "sha256": "c38aee9e3c8c4d5d594ff548a1be05453023016d6286931f6512db215ec1fd42"
+  }
+]
