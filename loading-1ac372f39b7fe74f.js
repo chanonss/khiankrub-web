@@ -1,4 +1,4 @@
-// Browser bootstrap only: Trunk streams the Wasm and reports its decoded byte counts.
+// Browser bootstrap only: reject phone screens before Trunk downloads the Wasm.
 // The editor and font-loading stages remain in Rust.
 export function isPhoneScreen({ userAgent, mobile, maxTouchPoints, coarse, width, height }) {
   // iPadOS may identify as a Mac; its physical screen stays tablet-sized in Split View.
@@ -16,7 +16,6 @@ export default function loading() {
   const message = (text) => {
     if (status) status.textContent = text;
   };
-  const mb = (bytes) => (bytes / 1_000_000).toFixed(1);
   return {
     onStart() {
       if (!isPhoneScreen({
@@ -32,20 +31,12 @@ export default function loading() {
       document.getElementById("wordcraft_loading")?.setAttribute("aria-busy", "false");
       status?.setAttribute("role", "alert");
       message("เขียนครับยังไม่รองรับการใช้งานบนโทรศัพท์มือถือ");
-      const note = document.querySelector(".loading-note");
-      if (note) note.textContent = "กรุณาเปิดด้วยคอมพิวเตอร์หรือ iPad";
+      const note = document.createElement("p");
+      note.className = "loading-note";
+      note.textContent = "กรุณาเปิดด้วยคอมพิวเตอร์หรือ iPad";
+      document.getElementById("wordcraft_loading")?.appendChild(note);
       // Trunk invokes onStart before fetch; stop both the download and editor initialization.
       throw new DOMException("KhianKrub does not support phone screens", "NotSupportedError");
-    },
-    onProgress({ current, total }) {
-      if (total > 0) {
-        if (progress) progress.value = Math.min(100, current / total * 100);
-        message(`กำลังดาวน์โหลด ${mb(current)} / ${mb(total)} MB`);
-      } else {
-        if (progress) progress.removeAttribute("value");
-        message(`กำลังดาวน์โหลด ${mb(current)} MB`);
-      }
-      if (total > 0 && current >= total) message("กำลังเตรียมโปรแกรม…");
     },
     onFailure(error) {
       console.error("KhianKrub could not start", error);
