@@ -13,14 +13,16 @@
 <main id="main">
 <p class="language"><a href="#thai">ภาษาไทย</a> · <a href="#english" lang="en">English</a></p>
 <section id="thai" lang="th">
-<h1>นโยบายความเป็นส่วนตัว</h1><p class="date">มีผลตั้งแต่ 27 ตุลาคม 2569 (2026)</p>
+<h1>นโยบายความเป็นส่วนตัว</h1><p class="date">มีผลตั้งแต่ 28 ตุลาคม 2569 (2026)</p>
 <p>นโยบายนี้อธิบายการจัดการข้อมูลของเขียนครับ (KhianKrub) ที่ <a href="./about.html">khiankrub.app</a> ซึ่งดูแลโดย Chanon Sarasuk ติดต่อเรื่องข้อมูลส่วนบุคคลได้ที่ <a href="mailto:khiankrub@gmail.com">khiankrub@gmail.com</a></p>
 <h2>1. เอกสารและการตั้งค่า</h2>
 <p>แอปเปิด แก้ไข และจัดรูปแบบเอกสารในเบราว์เซอร์ ไม่ส่งเนื้อหาเอกสารไปยังเซิร์ฟเวอร์ของผู้ดูแล KhianKrub เพื่อประมวลผล การตั้งค่าหน้าตาและภาษาจัดเก็บใน local storage ของเบราว์เซอร์ การบันทึกลงเครื่องจะสร้างไฟล์ดาวน์โหลดหรือใช้ตัวเลือกบันทึกไฟล์ของเบราว์เซอร์</p>
 <h2>2. Google Drive และข้อมูลที่แอปใช้</h2>
 <p>การเชื่อมต่อ Google Drive เป็นทางเลือก เมื่อคุณกดเชื่อมต่อ แอปจะโหลดบริการลงชื่อเข้าใช้ของ Google และขอสิทธิ์ <code>https://www.googleapis.com/auth/drive.file</code> สิทธิ์นี้ครอบคลุมเฉพาะไฟล์ที่คุณเลือกให้แอปหรือสร้างด้วยแอป ไม่ใช่ทุกไฟล์ใน Drive</p>
 <p>แอปใช้เนื้อหาไฟล์ ชื่อไฟล์ รหัสไฟล์ และหมายเลขเวอร์ชัน เพื่อแสดงและเปิดเอกสาร บันทึกสำเนาใหม่ หรือบันทึกกลับไฟล์เดิมตามคำสั่งของคุณ การบันทึกกลับจะตรวจสอบเวอร์ชันก่อน เพื่อปฏิเสธการเขียนทับเมื่อพบว่าไฟล์เปลี่ยนไป ไม่มีการบันทึกขึ้น Drive อัตโนมัติ ไฟล์ส่งตรงระหว่างเบราว์เซอร์กับ Google</p>
-<p>โทเค็นการเข้าถึง Google อายุสั้นเก็บอยู่ในหน่วยความจำของแท็บ ไม่บันทึกโทเค็นลง local storage แอปไม่ขอหรือจัดเก็บรหัสผ่าน Google ของคุณ ข้อมูล Google ใช้เพื่อคุณสมบัติเปิด แก้ไข และบันทึกเอกสารเท่านั้น ไม่ขายข้อมูล ไม่ใช้เพื่อโฆษณา หรือฝึกโมเดล AI และไม่ส่งข้อมูล Google ให้ผู้ดูแล KhianKrub หรือผู้ให้บริการวิเคราะห์การเข้าชม</p>
+<p>โทเค็นการเข้าถึง Google อายุสั้นเก็บอยู่ในหน่วยความจำของแท็บ ไม่บันทึกโทเค็นลง local storage แอปไม่ขอหรือจัดเก็บรหัสผ่าน Google ของคุณ ข้อมูล Google ใช้เพื่อคุณสมบัติเปิด แก้ไข และบันทึกเอกสารเท่านั้น ไม่ขายข้อมูล ไม่ใช้เพื่อโฆษณา หรือฝึกโมเดล AI และไม่ส่งเนื้อหาเอกสารหรือข้อมูลรับรองการเชื่อมต่อให้ผู้ให้บริการวิเคราะห์การเข้าชม</p>
+<p>เพื่อให้เชื่อมต่อได้ต่อเนื่องระหว่างการเข้าชม บริการที่ drive.khiankrub.app เก็บโทเค็นเข้าถึงและโทเค็นต่ออายุของ Google โดยเข้ารหัสในฐานข้อมูลบน Cloudflare D1 และแยกกุญแจเข้ารหัสออกจากฐานข้อมูล เบราว์เซอร์ได้รับคุกกี้ระบุการเชื่อมต่อแบบ Secure และ HttpOnly บริการนี้ไม่รับเนื้อหาเอกสารและไม่ต้องเก็บชื่อ อีเมล หรือรหัสผ่าน Google ของคุณ</p>
+<p>การเชื่อมต่อหมดอายุเมื่อไม่ได้ใช้งานหนึ่งปี และระบบลบรายการหมดอายุเป็นระยะ Google อาจทำให้สิทธิ์หมดอายุหรือถูกถอนก่อนหน้านั้น ปุ่มยกเลิกการเชื่อมต่อ Google Drive จะลบข้อมูลรับรองที่บันทึกไว้และคุกกี้ พร้อมส่งคำขอถอนสิทธิ์ไปยัง Google หากส่งคำขอไม่ได้ คุณยังถอนสิทธิ์จากบัญชี Google ได้ การล้างคุกกี้เพียงอย่างเดียวไม่ลบข้อมูลรับรองบนเซิร์ฟเวอร์ทันที สำเนาสำรองฐานข้อมูลอาจคงรายการที่เข้ารหัสไว้จนกว่าจะครบวงรอบเก็บสำรองของผู้ให้บริการ</p>
 <p>การใช้และการส่งต่อข้อมูลที่ได้รับจาก Google APIs ของ KhianKrub เป็นไปตาม <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> รวมถึงข้อกำหนด Limited Use ส่วนบริการของ Google อยู่ภายใต้ <a href="https://policies.google.com/privacy">นโยบายความเป็นส่วนตัวของ Google</a></p>
 <h2>3. สำเนากู้คืนและระยะเวลาจัดเก็บ</h2>
 <p>การกู้คืนอัตโนมัติเปิดไว้ตามค่าเริ่มต้น เอกสารที่กำลังแก้ไขซึ่งไม่ได้ป้องกันด้วยรหัสผ่าน รวมถึงเอกสารที่เปิดจาก Drive อาจถูกบันทึกเป็นสำเนากู้คืนใน IndexedDB ของเบราว์เซอร์ ประกอบด้วยข้อความ รูปแบบ และสื่อที่ฝังไว้ แอปเก็บสำเนาล่าสุดและสำเนาก่อนหน้าไว้บนอุปกรณ์ ไม่ส่งสำเนาเหล่านี้ไปยังเซิร์ฟเวอร์ของ KhianKrub</p>
@@ -35,14 +37,17 @@
 <h2>6. การเปลี่ยนแปลง</h2><p>เมื่อมีการเปลี่ยนแปลงวิธีใช้ข้อมูล เราจะปรับปรุงนโยบายหน้านี้และวันที่มีผล หากต้องใช้ข้อมูล Google เพื่อวัตถุประสงค์ใหม่ จะอธิบายและขอความยินยอมตามที่ Google กำหนด</p>
 </section>
 <section id="english" lang="en" class="section-language">
-<h2>Privacy Policy</h2><p class="date">Effective 27 October 2026</p>
+<h2>Privacy Policy</h2><p class="date">Effective 28 October 2026</p>
 <p>This policy describes KhianKrub at khiankrub.app, developed and operated by Chanon Sarasuk. Contact <a href="mailto:khiankrub@gmail.com">khiankrub@gmail.com</a> with privacy questions or requests.</p>
 <h3>1. Documents and settings</h3>
 <p>Documents are opened, edited and formatted in your browser. Document contents are not uploaded to the operator's servers for processing. Interface and language settings are stored in your browser's local storage. A local save downloads a file or uses your browser's file-saving controls.</p>
 <h3>2. Google Drive data and its use</h3>
 <p>Drive is optional. Choosing Connect loads Google's sign-in service and requests <code>https://www.googleapis.com/auth/drive.file</code>, covering files you select for the app or create with it, rather than all your Drive files.</p>
 <p>The app accesses file contents, names, IDs and version numbers to display and open documents, create copies, or save back to the opened file when you request it. Save-back checks the Drive version first and refuses when it detects a change. Transfers go directly between your browser and Google. There is no automatic saving to Drive.</p>
-<p>Short-lived Google access tokens stay in the tab's memory and are not stored in local storage. KhianKrub does not request or store your Google password. Google data is used only to provide document opening, editing and saving. It is not sold, used for advertising or AI model training, or sent to the KhianKrub operator or analytics providers.</p>
+<p>Short-lived Google access tokens stay in the tab's memory and are not stored in local storage. KhianKrub does not request or store your Google password. Google data is used only to provide document opening, editing and saving. It is not sold, used for advertising or AI model training, or shared with analytics providers. Document contents are not sent to the connection service.</p>
+<p>To stay connected between visits, the service at drive.khiankrub.app stores Google access and refresh tokens encrypted in a Cloudflare D1 database, with the encryption key stored separately. Your browser receives a necessary Secure, HttpOnly connection cookie. The service receives no document contents and does not need to store your Google name, email address or password.</p>
+<p>The connection expires after one year without use, and expired records are periodically deleted. Google may expire or revoke access sooner. Disconnect Google Drive deletes the stored connection credentials and cookie and requests revocation at Google. If that request cannot reach Google, you can revoke access in your Google Account. Clearing cookies alone does not immediately delete the server record. Encrypted records may remain in database backups until the hosting provider's backup-retention cycle ends.</p>
+<p>Cloudflare hosts the connection service and encrypted database and receives technical request information, such as IP addresses, to operate its service. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>.</p>
 <p>KhianKrub's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Google's services are also governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
 <h3>3. Local recovery and retention</h3>
 <p>Recovery is enabled by default. Unprotected documents you edit, including those opened from Drive, may be saved in this browser's IndexedDB, with text, formatting and embedded media. The latest and previous recovery copies stay on the device and are not sent to KhianKrub servers.</p>
