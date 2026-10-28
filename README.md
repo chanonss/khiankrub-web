@@ -75,7 +75,7 @@ The gold **Report a problem** button beside Share opens a short form. The app fi
 | ภาษาไทย | English |
 |---|---|
 | เปิด แก้ไข และบันทึกไฟล์ Word (`.docx`) พร้อมส่งออก PDF | Open, edit and save Word documents (`.docx`), and export PDF |
-| เอกสารใหม่ใช้ TH Sarabun New 16 จุด มี TH SarabunPSK ให้เลือก | New documents use TH Sarabun New, 16 pt; TH SarabunPSK is also available |
+| เอกสารใหม่ใช้ TH Sarabun New 16 จุด พร้อมฟอนต์แห่งชาติ SIPA ครบ 13 ตระกูล ไม่ต้องติดตั้งเพิ่ม | New documents use TH Sarabun New, 16 pt; all 13 original SIPA national-font families are included, with no installation needed |
 | ตัดคำไทย จัดข้อความแบบกระจายไทย และใช้เลขหรือตัวอักษรไทยในรายการ | Thai word breaking, Thai Distribution, and Thai list numbering |
 | จัดรูปแบบข้อความ ย่อหน้า สไตล์ หัวเรื่อง ตาราง และรูปภาพ | Format text, paragraphs, styles, headings, tables and pictures |
 | เมนูหลักภาษาไทยและภาษาอังกฤษ บางกล่องโต้ตอบยังเป็นภาษาอังกฤษ | Thai and English interface options; some dialogs remain in English |
@@ -128,4 +128,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.9.1**, source commit `adffb32b`.
+Prepared from version **0.9.1**, source commit `23a4441b`.

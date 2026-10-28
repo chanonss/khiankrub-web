@@ -124,3 +124,28 @@ These are fetched into `target/web-fonts` and copied beside the web app; no font
 | `fonts/Sarabun-Regular.ttf`, `fonts/Sarabun-SemiBold.ttf` | The Sarabun Project Authors | https://github.com/google/fonts/tree/main/ofl/sarabun | SIL OFL 1.1 (`fonts/OFL.txt`) |
 | `fonts/THSarabunNew-Regular.ttf`, `fonts/THSarabunNew-Bold.ttf`, `fonts/THSarabunNew-Italic.ttf`, `fonts/THSarabunNew-BoldItalic.ttf` | Suppakit Chalermlarp; SIPA | Original installed font files, copied unchanged; https://www.f0nt.com/release/th-sarabun-new/ | GPL-2.0-or-later with document font exception; exact metadata in `fonts/LICENSE-THSarabunNew.txt`, full GPL in `fonts/GPL-2.0.txt` |
 | `fonts/THSarabunPSK-Regular.ttf`, `fonts/THSarabunPSK-Bold.ttf`, `fonts/THSarabunPSK-Italic.ttf`, `fonts/THSarabunPSK-BoldItalic.ttf` | Suppakit Chalermlarp; DIP and SIPA | Original installed font files, copied unchanged | Embedded Font Computer Program License Agreement (`fonts/LICENSE-THSarabunPSK.txt`) |
+
+### Complete original SIPA national-font set
+
+The 13 original packages are distributed by SIPA through [f0nt.com](https://www.f0nt.com/release/13-free-fonts-from-sipa/).
+`packaging/web/sipa-fonts.json` pins archive and face SHA-256 checksums and records each original filename,
+family and style. Binaries are copied unchanged (no renaming of internal names, subsetting or conversion).
+The original bilingual licence files are copied byte-for-byte alongside the fonts; each face also retains
+its embedded copyright and licence. The three Srisakdi-owned families use their own licence, rather than
+DIP/SIPA's. Both package licences permit reproduction and distribution of the unmodified files.
+
+| Distribution files | Author / copyright holder | Source | Licence notice shipped unchanged |
+|---|---|---|---|
+| `fonts/THCharmonman-*.ttf` (Bold, Regular) | เอกลักษณ์ เพียรพนาเวช; Prof. Dr. Srisakdi Charmonman | Original [01-TH-Charmonman.zip](https://www.f0nt.com/?dl_name=sipafonts/01-TH-Charmonman.zip) | `fonts/LICENSE-SIPA-01.txt` |
+| `fonts/THKrub-*.ttf` (Bold, Bold Italic, Italic, Regular) | เอกลักษณ์ เพียรพนาเวช; DIP/SIPA | Original [02-TH-Krub.zip](https://www.f0nt.com/?dl_name=sipafonts/02-TH-Krub.zip) | `fonts/LICENSE-SIPA-02.txt` |
+| `fonts/THSrisakdi-*.ttf` (Bold, Regular) | ทีม อักษราเมธี; Prof. Dr. Srisakdi Charmonman | Original [03-TH-Srisakdi.zip](https://www.f0nt.com/?dl_name=sipafonts/03-TH-Srisakdi.zip) | `fonts/LICENSE-SIPA-03.txt` |
+| `fonts/THNiramitAS-*.ttf` (Bold, Bold Italic, Italic, Regular) | ทีม อักษราเมธี; DIP/SIPA | Original [04-TH-Niramit-AS.zip](https://www.f0nt.com/?dl_name=sipafonts/04-TH-Niramit-AS.zip) | `fonts/LICENSE-SIPA-04.txt` |
+| `fonts/THCharmofAU-*.ttf` (Regular) | กัลยาณมิตร นรรัตน์พุทธิ; Prof. Dr. Srisakdi Charmonman | Original [05-TH-Charm-of-AU.zip](https://www.f0nt.com/?dl_name=sipafonts/05-TH-Charm-of-AU.zip) | `fonts/LICENSE-SIPA-05.txt` |
+| `fonts/THKodchasal-*.ttf` (Bold, Bold Italic, Italic, Regular) | กัลย์สุดา เปี่ยมประจักพงษ์; DIP/SIPA | Original [06-TH-Kodchasal.zip](https://www.f0nt.com/?dl_name=sipafonts/06-TH-Kodchasal.zip) | `fonts/LICENSE-SIPA-06.txt` |
+| `fonts/THSarabunPSK-*.ttf` (Bold, Bold Italic, Italic, Regular) | Suppakit Chalermlarp; DIP/SIPA | Original [07-TH-Sarabun-PSK.zip](https://www.f0nt.com/?dl_name=sipafonts/07-TH-Sarabun-PSK.zip) | `fonts/LICENSE-SIPA-07.txt` |
+| `fonts/THK2DJuly8-*.ttf` (Bold, Bold Italic, Italic, Regular) | กานต์ รอดสวัสดิ์; DIP/SIPA | Original [08-TH-K2D-July8.zip](https://www.f0nt.com/?dl_name=sipafonts/08-TH-K2D-July8.zip) | `fonts/LICENSE-SIPA-08.txt` |
+| `fonts/THMaliGrade6-*.ttf` (Bold, Bold Italic, Italic, Regular) | สุดารัตน์ เลิศสีทอง; DIP/SIPA | Original [09-TH-Mali-Grade-6.zip](https://www.f0nt.com/?dl_name=sipafonts/09-TH-Mali-Grade-6.zip) | `fonts/LICENSE-SIPA-09.txt` |
+| `fonts/THChakraPetch-*.ttf` (Bold, Bold Italic, Italic, Regular) | ธีรวัฒน์ พจน์วิบูลศิริ; DIP/SIPA | Original [10-TH-Chakra-Petch.zip](https://www.f0nt.com/?dl_name=sipafonts/10-TH-Chakra-Petch.zip) | `fonts/LICENSE-SIPA-10.txt` |
+| `fonts/THBaijam-*.ttf` (Bold, Bold Italic, Italic, Regular) | ทีม PITA; DIP/SIPA | Original [11-TH-Baijam.zip](https://www.f0nt.com/?dl_name=sipafonts/11-TH-Baijam.zip) | `fonts/LICENSE-SIPA-11.txt` |
+| `fonts/THKoHo-*.ttf` (Bold, Bold Italic, Italic, Regular) | กลุ่ม ก-ฮ; DIP/SIPA | Original [12-TH-KoHo.zip](https://www.f0nt.com/?dl_name=sipafonts/12-TH-KoHo.zip) | `fonts/LICENSE-SIPA-12.txt` |
+| `fonts/THFahkwang-*.ttf` (Bold, Bold Italic, Italic, Regular) | ทีม สิบเอ็ด; DIP/SIPA | Original [13-TH-Fah-Kwang.zip](https://www.f0nt.com/?dl_name=sipafonts/13-TH-Fah-Kwang.zip) | `fonts/LICENSE-SIPA-13.txt` |

@@ -1,0 +1,434 @@
+[
+  {
+    "archive": "01-TH-Charmonman.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/01-TH-Charmonman.zip",
+    "sha256": "c72053c7cdcd7252b84ca031b3f05086e18a8a192cab5014603f221639c9dd09",
+    "license": "ProfDrSrisakdi Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-01.txt",
+    "faces": [
+      {
+        "source": "TH Charmonman Bold.ttf",
+        "file": "THCharmonman-Bold.ttf",
+        "family": "TH Charmonman",
+        "style": "Bold",
+        "sha256": "46b0477640532b03738aad11b638974ae44faf8ed785e560cd38afce3b91396b"
+      },
+      {
+        "source": "TH Charmonman.ttf",
+        "file": "THCharmonman-Regular.ttf",
+        "family": "TH Charmonman",
+        "style": "Regular",
+        "sha256": "25b4cb7b253c10e53292bc770ac198d37965a913f6b8ac76d4d50038d4167607"
+      }
+    ]
+  },
+  {
+    "archive": "02-TH-Krub.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/02-TH-Krub.zip",
+    "sha256": "c13417e852a9ca65c1e8f6c14bc3335d13ed8233618f72f51f49c4a6d539eedf",
+    "license": "DIP&SIPA Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-02.txt",
+    "faces": [
+      {
+        "source": "TH Krub Bold.ttf",
+        "file": "THKrub-Bold.ttf",
+        "family": "TH Krub",
+        "style": "Bold",
+        "sha256": "d6d701fdf72d0679ad016b339f77b367627243ad2024fd978820d808eddadf5c"
+      },
+      {
+        "source": "TH Krub Bold Italic.ttf",
+        "file": "THKrub-BoldItalic.ttf",
+        "family": "TH Krub",
+        "style": "Bold Italic",
+        "sha256": "09ff5c1f4e19810b55658250c9a8c8449f9ab63a931338e5044271744db91321"
+      },
+      {
+        "source": "TH Krub Italic.ttf",
+        "file": "THKrub-Italic.ttf",
+        "family": "TH Krub",
+        "style": "Italic",
+        "sha256": "11233808ace0dfe292d12dce4af91e85b897cfb45fcb04d2706b964c140d8c3e"
+      },
+      {
+        "source": "TH Krub.ttf",
+        "file": "THKrub-Regular.ttf",
+        "family": "TH Krub",
+        "style": "Regular",
+        "sha256": "8fafbc46d67e950f391010ae388c98016853631611214af7a67a4634e1520ba3"
+      }
+    ]
+  },
+  {
+    "archive": "03-TH-Srisakdi.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/03-TH-Srisakdi.zip",
+    "sha256": "3ae07e27d0f4eba6d04664f234dc257e0b842d901bd38aba9ea815c2f88d18db",
+    "license": "ProfDrSrisakdi Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-03.txt",
+    "faces": [
+      {
+        "source": "TH Srisakdi Bold.ttf",
+        "file": "THSrisakdi-Bold.ttf",
+        "family": "TH Srisakdi",
+        "style": "Bold",
+        "sha256": "f8c371ecbdee5ae729721f5211da530610d543ab36dafbeaac2744338065c063"
+      },
+      {
+        "source": "TH Srisakdi.ttf",
+        "file": "THSrisakdi-Regular.ttf",
+        "family": "TH Srisakdi",
+        "style": "Regular",
+        "sha256": "f5700482ed0c7b0e3119514879ac63313d4d1899d9af2fcf9044d0c3d186f4be"
+      }
+    ]
+  },
+  {
+    "archive": "04-TH-Niramit-AS.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/04-TH-Niramit-AS.zip",
+    "sha256": "4bc5f6ef6a736dd572fdb5ec2d0e6e893a2ded8960d57fbd0c2490af13c940b5",
+    "license": "DIP&SIPA Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-04.txt",
+    "faces": [
+      {
+        "source": "TH Niramit AS Bold.ttf",
+        "file": "THNiramitAS-Bold.ttf",
+        "family": "TH Niramit AS",
+        "style": "Bold",
+        "sha256": "7e4d21c1cfd1fc769f64aa011bd3b3394702b318fc94664165adb4943049f0c6"
+      },
+      {
+        "source": "TH Niramit AS Bold Italic.ttf",
+        "file": "THNiramitAS-BoldItalic.ttf",
+        "family": "TH Niramit AS",
+        "style": "Bold Italic",
+        "sha256": "b3bd90a80c41a5a392e2fbc4fc65b379558ab43fbe0c611d5cab1f2654dab23e"
+      },
+      {
+        "source": "TH Niramit AS Italic.ttf",
+        "file": "THNiramitAS-Italic.ttf",
+        "family": "TH Niramit AS",
+        "style": "Italic",
+        "sha256": "861b5959267af082fa4950b639fd9f9e382c000be242ffb0adec33b66d21b984"
+      },
+      {
+        "source": "TH Niramit AS.ttf",
+        "file": "THNiramitAS-Regular.ttf",
+        "family": "TH Niramit AS",
+        "style": "Regular",
+        "sha256": "2a2ac2eb947d5b4ca82c322680fe78d6ba042be1305b60113ab64548213d6dbf"
+      }
+    ]
+  },
+  {
+    "archive": "05-TH-Charm-of-AU.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/05-TH-Charm-of-AU.zip",
+    "sha256": "b2e97fa8fa100b085c2b29af9d4fba3f2076aafbe6f86d080a670b0c2ffe0d97",
+    "license": "ProfDrSrisakdi Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-05.txt",
+    "faces": [
+      {
+        "source": "TH Charm of AU.ttf",
+        "file": "THCharmofAU-Regular.ttf",
+        "family": "TH Charm of AU",
+        "style": "Regular",
+        "sha256": "d11cdc3055ff82b0381689e9a24ba295d5302ea0d3432b06f7b67cdb61045750"
+      }
+    ]
+  },
+  {
+    "archive": "06-TH-Kodchasal.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/06-TH-Kodchasal.zip",
+    "sha256": "80c9a0eb44d226334c38c4a200cb069adebd60168fb728cbf295c1847b364ab8",
+    "license": "DIP&SIPA Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-06.txt",
+    "faces": [
+      {
+        "source": "TH Kodchasal Bold.ttf",
+        "file": "THKodchasal-Bold.ttf",
+        "family": "TH Kodchasal",
+        "style": "Bold",
+        "sha256": "bf70a6371da23043161ff9c97d1dc25747707d29be9c09ca423abf2324c98d02"
+      },
+      {
+        "source": "TH Kodchasal Bold Italic.ttf",
+        "file": "THKodchasal-BoldItalic.ttf",
+        "family": "TH Kodchasal",
+        "style": "Bold Italic",
+        "sha256": "b136df1ec39f6fdb0aa3cf1ecc25d01c99dd020162ced73bd6ffe4ab22b29fb7"
+      },
+      {
+        "source": "TH Kodchasal Italic.ttf",
+        "file": "THKodchasal-Italic.ttf",
+        "family": "TH Kodchasal",
+        "style": "Italic",
+        "sha256": "128eec6b1355bd1b83f200489a43292c7c55893c0532e19b2b06df140738ce9c"
+      },
+      {
+        "source": "TH Kodchasal.ttf",
+        "file": "THKodchasal-Regular.ttf",
+        "family": "TH Kodchasal",
+        "style": "Regular",
+        "sha256": "5ceb42c3d461d87f8b90294a3ad1bd89f3da76eda49f135818dcc8edac934cb9"
+      }
+    ]
+  },
+  {
+    "archive": "07-TH-Sarabun-PSK.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/07-TH-Sarabun-PSK.zip",
+    "sha256": "fd7b1596364ab8ae11f50e8abb71eb1189b0aa6275e71c8e25b0187578a26cae",
+    "license": "DIP&SIPA Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-07.txt",
+    "faces": [
+      {
+        "source": "THSarabun Bold.ttf",
+        "file": "THSarabunPSK-Bold.ttf",
+        "family": "TH SarabunPSK",
+        "style": "Bold",
+        "sha256": "7457675c19186491cae40957f07d2426f0fe9633379fa0198b78fc0db753702b"
+      },
+      {
+        "source": "THSarabun Bold Italic.ttf",
+        "file": "THSarabunPSK-BoldItalic.ttf",
+        "family": "TH SarabunPSK",
+        "style": "Bold Italic",
+        "sha256": "8a8731b6bed21f1a0b6788162239d4390974e1ad379462235d55a6377e8b1689"
+      },
+      {
+        "source": "THSarabun Italic.ttf",
+        "file": "THSarabunPSK-Italic.ttf",
+        "family": "TH SarabunPSK",
+        "style": "Italic",
+        "sha256": "79ba913cdb90bac50e312875823e55322f7b80c5a5ab8a0e4d351ee215840004"
+      },
+      {
+        "source": "THSarabun.ttf",
+        "file": "THSarabunPSK-Regular.ttf",
+        "family": "TH SarabunPSK",
+        "style": "Regular",
+        "sha256": "51a071f55fe0b21d05334bea94d6e13393edd23e4bf775fd6b1f829bece967f4"
+      }
+    ]
+  },
+  {
+    "archive": "08-TH-K2D-July8.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/08-TH-K2D-July8.zip",
+    "sha256": "48250962168ae4e42738518b968f8075e326a7d10ec40d67c5cfbeeac6a2e37a",
+    "license": "DIP&SIPA Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-08.txt",
+    "faces": [
+      {
+        "source": "TH K2D July8 Bold.ttf",
+        "file": "THK2DJuly8-Bold.ttf",
+        "family": "TH K2D July8",
+        "style": "Bold",
+        "sha256": "16fbce0d8e1a376cd7aaa5ee60e30bda9c8aefb9653b1d8b802cd0f44682d259"
+      },
+      {
+        "source": "TH K2D July8 Bold Italic.ttf",
+        "file": "THK2DJuly8-BoldItalic.ttf",
+        "family": "TH K2D July8",
+        "style": "Bold Italic",
+        "sha256": "4f8a1314c4bf06ece10ef7fdf47b1d7f1ab884376d821c544395ef303614e60e"
+      },
+      {
+        "source": "TH K2D July8 Italic.ttf",
+        "file": "THK2DJuly8-Italic.ttf",
+        "family": "TH K2D July8",
+        "style": "Italic",
+        "sha256": "68e6832a2744cbcd1898ad144af91a453696e3a907f07d405ebeed6e83360fdf"
+      },
+      {
+        "source": "TH K2D July8.ttf",
+        "file": "THK2DJuly8-Regular.ttf",
+        "family": "TH K2D July8",
+        "style": "Regular",
+        "sha256": "192df259261b2cd010d065f7907bc64d854dd850cc61e2f5d0c0ae9e579c97cd"
+      }
+    ]
+  },
+  {
+    "archive": "09-TH-Mali-Grade-6.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/09-TH-Mali-Grade-6.zip",
+    "sha256": "decb8aa3c2406f1ebceeed5f5e4a21fb2ba4333bdc95263a54576a69b98d7ca9",
+    "license": "DIP&SIPA Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-09.txt",
+    "faces": [
+      {
+        "source": "TH Mali Grade6 Bold.ttf",
+        "file": "THMaliGrade6-Bold.ttf",
+        "family": "TH Mali Grade 6",
+        "style": "Bold",
+        "sha256": "fc8cecad1b094830c1a4f419687913cdbc7b98bffd1c1b21b0ad601d5702da2a"
+      },
+      {
+        "source": "TH Mali Grade6 Bold Italic.ttf",
+        "file": "THMaliGrade6-BoldItalic.ttf",
+        "family": "TH Mali Grade 6",
+        "style": "Bold Italic",
+        "sha256": "834e2600db99ce630433aa2b2811bfaf62b95036fc9c29512fd3f71bfdecae22"
+      },
+      {
+        "source": "TH Mali Grade6 Italic.ttf",
+        "file": "THMaliGrade6-Italic.ttf",
+        "family": "TH Mali Grade 6",
+        "style": "Italic",
+        "sha256": "913deffb47c12705d8aab8e5986688069d6136f166647241abb40849069215eb"
+      },
+      {
+        "source": "TH Mali Grade6.ttf",
+        "file": "THMaliGrade6-Regular.ttf",
+        "family": "TH Mali Grade 6",
+        "style": "Regular",
+        "sha256": "3494da866877aef996adc0a8262f550ce52fcc35a2bdd2d5a3063a3ce49353c3"
+      }
+    ]
+  },
+  {
+    "archive": "10-TH-Chakra-Petch.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/10-TH-Chakra-Petch.zip",
+    "sha256": "7507b3b81ae36460057e325fa7b4a467a0003bb855b57ec84a8ac5efe71cc9c5",
+    "license": "DIP&SIPA Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-10.txt",
+    "faces": [
+      {
+        "source": "TH Chakra Petch Bold.ttf",
+        "file": "THChakraPetch-Bold.ttf",
+        "family": "TH Chakra Petch",
+        "style": "Bold",
+        "sha256": "4aee6b09f5e3b4ea8b7d7935ecc6dc47d66c8d3b63855530173ab62e15b17e44"
+      },
+      {
+        "source": "TH Chakra Petch Bold Italic.ttf",
+        "file": "THChakraPetch-BoldItalic.ttf",
+        "family": "TH Chakra Petch",
+        "style": "Bold Italic",
+        "sha256": "4b8fcba1f229cd6d89cef7bf52344b96fc92970f8b3fa569fa6450bdfb8c7b7f"
+      },
+      {
+        "source": "TH Chakra Petch Italic.ttf",
+        "file": "THChakraPetch-Italic.ttf",
+        "family": "TH Chakra Petch",
+        "style": "Italic",
+        "sha256": "518ec53ed8af250898ed16cda21cf057e23cdf8e06881b295a9c03f3b928cd80"
+      },
+      {
+        "source": "TH Chakra Petch.ttf",
+        "file": "THChakraPetch-Regular.ttf",
+        "family": "TH Chakra Petch",
+        "style": "Regular",
+        "sha256": "498e6aa92dfe03fb27455a877af7e5f61ba36fd7c7cd4a5a73c0644deff3dedd"
+      }
+    ]
+  },
+  {
+    "archive": "11-TH-Baijam.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/11-TH-Baijam.zip",
+    "sha256": "f32f37df240f368b89f48050826f6a7a264cb093f06cfe7b278bf235e44673e9",
+    "license": "DIP&SIPA Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-11.txt",
+    "faces": [
+      {
+        "source": "TH Baijam Bold.ttf",
+        "file": "THBaijam-Bold.ttf",
+        "family": "TH Baijam",
+        "style": "Bold",
+        "sha256": "e7de464d9344df098d8e704c5c265eb192b9be7780151be84ab7c3b22a771500"
+      },
+      {
+        "source": "TH Baijam Bold Italic.ttf",
+        "file": "THBaijam-BoldItalic.ttf",
+        "family": "TH Baijam",
+        "style": "Bold Italic",
+        "sha256": "0c03a35f0a6fb0eaa08c4c33385888ad43850342ef2eb5125dee43ca8c264db4"
+      },
+      {
+        "source": "TH Baijam Italic.ttf",
+        "file": "THBaijam-Italic.ttf",
+        "family": "TH Baijam",
+        "style": "Italic",
+        "sha256": "2b6f59cb4486567da39a35d721486aeeacf882e86541f174e251937a7a811fbc"
+      },
+      {
+        "source": "TH Baijam.ttf",
+        "file": "THBaijam-Regular.ttf",
+        "family": "TH Baijam",
+        "style": "Regular",
+        "sha256": "e6bd291dc2c02cbb2383b4ba6037146e67d62963a37eea03bbe40491e034a034"
+      }
+    ]
+  },
+  {
+    "archive": "12-TH-KoHo.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/12-TH-KoHo.zip",
+    "sha256": "ae99bfbbfb1c9f2886e54a6c27816e8a7246c795bfc8e3713b984fccb39a49e8",
+    "license": "DIP&SIPA Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-12.txt",
+    "faces": [
+      {
+        "source": "TH KoHo Bold.ttf",
+        "file": "THKoHo-Bold.ttf",
+        "family": "TH KoHo",
+        "style": "Bold",
+        "sha256": "df6074c4f07af44706078dba485d2a0a7ef336460cf1d21992640599539a4e3e"
+      },
+      {
+        "source": "TH KoHo Bold Italic.ttf",
+        "file": "THKoHo-BoldItalic.ttf",
+        "family": "TH KoHo",
+        "style": "Bold Italic",
+        "sha256": "ccc46f90054ad1b442e29501dcfb3f2853ff7107d922957c7e69a588f8c4da7a"
+      },
+      {
+        "source": "TH KoHo Italic.ttf",
+        "file": "THKoHo-Italic.ttf",
+        "family": "TH KoHo",
+        "style": "Italic",
+        "sha256": "287eb3c69de930cb8cf007ba53b3556e83f65058533b61923e402a16c9c77794"
+      },
+      {
+        "source": "TH KoHo.ttf",
+        "file": "THKoHo-Regular.ttf",
+        "family": "TH KoHo",
+        "style": "Regular",
+        "sha256": "759d2df74d1ea8fbe1fc295a0d16228794449f23442f4e33d5d32175a25ff07f"
+      }
+    ]
+  },
+  {
+    "archive": "13-TH-Fah-Kwang.zip",
+    "url": "https://www.f0nt.com/?dl_name=sipafonts/13-TH-Fah-Kwang.zip",
+    "sha256": "c84defc4af5e4dd1b8c0c9bd25d23b1962a8998d5b58f5700468eff6eb0d1869",
+    "license": "DIP&SIPA Font License Agreement.txt",
+    "license_file": "LICENSE-SIPA-13.txt",
+    "faces": [
+      {
+        "source": "TH Fahkwang Bold.ttf",
+        "file": "THFahkwang-Bold.ttf",
+        "family": "TH Fah kwang",
+        "style": "Bold",
+        "sha256": "3c02ead3b77e5eb15d6e50e30a9f4dc5a3c11ae38bdfd4add7b5aa2d72cdb6ed"
+      },
+      {
+        "source": "TH Fahkwang Bold Italic.ttf",
+        "file": "THFahkwang-BoldItalic.ttf",
+        "family": "TH Fah kwang",
+        "style": "Bold Italic",
+        "sha256": "628c3f7a756dbc0391ce5af66f2dd69f99e8dca4987f870d475d2e25b0796f1b"
+      },
+      {
+        "source": "TH Fahkwang Italic.ttf",
+        "file": "THFahkwang-Italic.ttf",
+        "family": "TH Fah kwang",
+        "style": "Italic",
+        "sha256": "fa64f2e8d095814c1107be5caed276dc063f7e098cc9072f6cf7342ca989ff9b"
+      },
+      {
+        "source": "TH Fahkwang.ttf",
+        "file": "THFahkwang-Regular.ttf",
+        "family": "TH Fah kwang",
+        "style": "Regular",
+        "sha256": "b25f4b34712abb513825a9fbf2bf9fe3502e841591eb0230386390fc49088806"
+      }
+    ]
+  }
+]
