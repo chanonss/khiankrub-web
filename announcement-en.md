@@ -1,9 +1,9 @@
-Introducing **KhianKrub Web v0.9.1**, a free word processor for Thai and English that runs in your browser. Try it at **[khiankrub.app](https://khiankrub.app/)** without downloading an installer.
+**KhianKrub Web v0.10.0** brings a new front door. **[khiankrub.app](https://khiankrub.app/)** now opens **KrubOffice**, a home for Thai office apps on the web. **KhianKrub** (documents) is ready today; **KhitKrub** (spreadsheets) and **PhutKrub** (presentations) are coming later.
 
-The web app opens a blank document in TH Sarabun New, 16 pt, with Thai and English menus. It includes text and paragraph formatting, lists, tables and pictures; opens, edits and saves Word documents (`.docx`); and exports PDF. Chrome users can also install it to open in a separate app window.
+KhianKrub now opens on a start screen, like other online word processors. Pick a blank document or a template (letter, résumé, report), or carry on with one of your **drafts in this browser**: click one to keep writing, or download it as a Word file or discard it. Drafts stay only in this browser on this device, so please also save a file copy.
 
-KhianKrub Web is intended for computers and iPads. Phones are not supported, and an internet connection is still required. Automatic recovery drafts stay in this browser on this device and can help restore interrupted work. Please also save a separate file copy.
+This release also includes improvements from WordCraft v0.12: Tab indents whole selected paragraphs, style sets keep a document's Thai defaults, pictures can be cropped from the right-click menu, regex Replace supports capture groups, Standard-encrypted Office files open, and PDF export is faster.
 
-This is a small project that is still developing. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it and helping improve it.
+It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
 Based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted for Thai users by Chanon Sarasuk.

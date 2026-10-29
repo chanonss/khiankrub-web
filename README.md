@@ -4,43 +4,56 @@
   <img src="khian/icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
 
-# เขียนครับ · KhianKrub Web v0.9.1
+# เขียนครับ · KhianKrub Web v0.10.0
 
 **โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
 **A free browser-based word processor for Thai and English.**
 
-**[เปิดใช้งาน / Open KhianKrub](https://khiankrub.app/)** · ปุ่ม **แจ้งปัญหา** ในโปรแกรม / the **Report a problem** button in the app
+**[เปิดใช้งาน / Open KhianKrub](https://khiankrub.app/khian/)** · [KrubOffice](https://khiankrub.app/) · ปุ่ม **แจ้งปัญหา** ในโปรแกรม / the **Report a problem** button in the app
 
 <p align="center">
   <img src="images/khiankrub-web-hero.png" alt="KhianKrub Web with Thai menus: the navy band with the gold แจ้งปัญหา and แชร์ buttons, the Navigation pane listing 1. บทนำ, 2. วัตถุประสงค์, 3. ผลการดำเนินงาน, and a Thai report in TH Sarabun New with a list numbered ก. ข. ค. and a table captioned ตารางที่ 1" width="100%">
 </p>
 
-## ประกาศเปิดตัวภาษาไทย
+## ประกาศภาษาไทย
 
-ขอแนะนำ **เขียนครับบนเว็บ (KhianKrub Web) v0.9.1** โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษที่ใช้ได้ฟรีผ่านเบราว์เซอร์ เปิดใช้งานได้ที่ **[khiankrub.app](https://khiankrub.app/)** โดยไม่ต้องดาวน์โหลดตัวติดตั้ง
+**เขียนครับบนเว็บ (KhianKrub Web) v0.10.0** มาพร้อมหน้าแรกใหม่ เมื่อเข้า **[khiankrub.app](https://khiankrub.app/)** จะพบหน้า **KrubOffice** ชุดโปรแกรมสำนักงานภาษาไทยบนเว็บ ตอนนี้เปิดใช้ **เขียนครับ** (เอกสาร) ได้แล้ว ส่วน **คิดครับ** (ตารางคำนวณ) และ **พูดครับ** (งานนำเสนอ) รอว่างก่อนครับ
 
-รุ่นเว็บเริ่มต้นด้วยเอกสารเปล่า ใช้ TH Sarabun New ขนาด 16 จุด มีเมนูภาษาไทยและภาษาอังกฤษ เครื่องมือจัดรูปแบบข้อความ ย่อหน้า รายการ ตาราง และรูปภาพ เปิด แก้ไข และบันทึกไฟล์ Word (`.docx`) รวมถึงส่งออกเป็น PDF ได้ ผู้ใช้ Chrome สามารถติดตั้งให้เปิดเป็นหน้าต่างแอปแยกได้ด้วย
+เขียนครับเปิดที่หน้าเริ่มต้นแบบเดียวกับโปรแกรมเอกสารออนไลน์ทั่วไป เลือกเอกสารเปล่าหรือแม่แบบ (จดหมาย ประวัติย่อ รายงาน) ได้ทันที และมีรายการ **ฉบับร่างในเบราว์เซอร์นี้** กดเพื่อเขียนต่อจากที่ค้างไว้ ดาวน์โหลดเป็นไฟล์ Word หรือทิ้งฉบับร่างได้ ฉบับร่างเก็บไว้เฉพาะในเบราว์เซอร์บนเครื่องนี้ จึงควรบันทึกไฟล์สำเนาไว้ด้วย
 
-เหมาะสำหรับใช้งานบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ และยังต้องเชื่อมต่ออินเทอร์เน็ต มีฉบับกู้คืนอัตโนมัติที่เก็บในเบราว์เซอร์บนอุปกรณ์เดิม เพื่อช่วยกู้คืนงานหลังปิดหน้าโดยไม่ตั้งใจ แต่ยังควรบันทึกไฟล์สำเนาไว้ด้วย
+รุ่นนี้รวมการปรับปรุงจาก WordCraft v0.12 ด้วย เช่น กด Tab เพื่อเยื้องย่อหน้าที่เลือกทั้งหมด ชุดสไตล์คงค่าภาษาไทยของเอกสารไว้ ครอบตัดรูปจากเมนูคลิกขวา แทนที่ด้วยนิพจน์ปกติแบบใช้กลุ่ม เปิดไฟล์ Office ที่เข้ารหัสแบบ Standard ได้ และส่งออก PDF เร็วขึ้น
 
-เป็นโครงการเล็ก ๆ ที่ยังอยู่ระหว่างพัฒนา หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้และแนะนำครับ
+ใช้ได้ฟรีบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้ครับ
 
 พัฒนาต่อยอดจาก [WordCraft](https://github.com/storytold/wordcraft) โดยทีม ArtCraft ปรับปรุงสำหรับผู้ใช้ภาษาไทยโดย Chanon Sarasuk
 
-## English launch announcement
+## English announcement
 
-Introducing **KhianKrub Web v0.9.1**, a free word processor for Thai and English that runs in your browser. Try it at **[khiankrub.app](https://khiankrub.app/)** without downloading an installer.
+**KhianKrub Web v0.10.0** brings a new front door. **[khiankrub.app](https://khiankrub.app/)** now opens **KrubOffice**, a home for Thai office apps on the web. **KhianKrub** (documents) is ready today; **KhitKrub** (spreadsheets) and **PhutKrub** (presentations) are coming later.
 
-The web app opens a blank document in TH Sarabun New, 16 pt, with Thai and English menus. It includes text and paragraph formatting, lists, tables and pictures; opens, edits and saves Word documents (`.docx`); and exports PDF. Chrome users can also install it to open in a separate app window.
+KhianKrub now opens on a start screen, like other online word processors. Pick a blank document or a template (letter, résumé, report), or carry on with one of your **drafts in this browser**: click one to keep writing, or download it as a Word file or discard it. Drafts stay only in this browser on this device, so please also save a file copy.
 
-KhianKrub Web is intended for computers and iPads. Phones are not supported, and an internet connection is still required. Automatic recovery drafts stay in this browser on this device and can help restore interrupted work. Please also save a separate file copy.
+This release also includes improvements from WordCraft v0.12: Tab indents whole selected paragraphs, style sets keep a document's Thai defaults, pictures can be cropped from the right-click menu, regex Replace supports capture groups, Standard-encrypted Office files open, and PDF export is faster.
 
-This is a small project that is still developing. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it and helping improve it.
+It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
 Based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted for Thai users by Chanon Sarasuk.
 
 ## หน้าตาโปรแกรม / A look around
+
+### KrubOffice และหน้าเริ่มต้น / KrubOffice and the start screen
+
+**khiankrub.app** เปิดที่หน้า KrubOffice ให้เลือกโปรแกรม ตอนนี้ใช้ได้เฉพาะเขียนครับ คิดครับและพูดครับรอว่างก่อนครับ เขียนครับเปิดที่หน้าเริ่มต้น เลือกแม่แบบ หรือเขียนต่อจากฉบับร่างในเบราว์เซอร์นี้
+
+**khiankrub.app** opens on KrubOffice, where you pick an app; KhianKrub is available now, with KhitKrub and PhutKrub to come. KhianKrub opens on a start screen: pick a template, or carry on with a draft kept in this browser.
+
+<table>
+<tr>
+<td width="50%" valign="top"><img src="images/khiankrub-web-krubOffice.png" alt="The KrubOffice page: the three-tile logo, the greeting วันนี้อยากทำอะไรครับ, and three app icons, เขียนครับ (a gold ข on navy) and the faded คิดครับ and พูดครับ marked รอว่างก่อนครับ, on an off-white background with a faint ประจำยาม lattice" width="100%"><p align="center"><sub><b>KrubOffice</b> · khiankrub.app</sub></p></td>
+<td width="50%" valign="top"><img src="images/khiankrub-web-start.png" alt="The KhianKrub start screen in Thai: a top bar with เปิดไฟล์, Google Drive, ตัวเลือก and แอปทั้งหมด, the greeting สวัสดีครับ เริ่มเขียนอะไรดี, five template thumbnails, and the section ฉบับร่างในเบราว์เซอร์นี้" width="100%"><p align="center"><sub><b>หน้าเริ่มต้น / Start screen</b> · khiankrub.app/khian/</sub></p></td>
+</tr>
+</table>
 
 ### สีแถบด้านบนและลวดลายไทย / Band colours and Thai motifs
 
@@ -81,6 +94,7 @@ The gold **Report a problem** button beside Share opens a short form. The app fi
 | เมนูหลักภาษาไทยและภาษาอังกฤษ บางกล่องโต้ตอบยังเป็นภาษาอังกฤษ | Thai and English interface options; some dialogs remain in English |
 | เลือกธีม สีแถบด้านบน ลวดลายไทย ขนาดเมนู และหน่วยวัด | Choose the theme, band colour, Thai motif, interface size and measurement units |
 | เก็บภาษา หน่วยวัด ธีม และการตั้งค่าเมนูในเบราว์เซอร์เดิมบนอุปกรณ์เดิม | Remember language, units, theme and interface preferences in the same browser on the same device |
+| หน้าเริ่มต้นพร้อมแม่แบบ และรายการฉบับร่างในเบราว์เซอร์ให้เขียนต่อ ดาวน์โหลด หรือทิ้งได้ | A start screen with templates and the drafts kept in this browser, to keep writing, download or discard |
 | มีฉบับกู้คืนอัตโนมัติในเบราว์เซอร์ พร้อมกู้คืน ดาวน์โหลด และทิ้งฉบับกู้คืน | Automatic recovery drafts in the browser, with restore, download and discard controls |
 | ติดตั้งผ่าน Chrome เพื่อเปิดในหน้าต่างแอปแยก | Install through Chrome to open in a separate app window |
 
@@ -88,9 +102,9 @@ The gold **Report a problem** button beside Share opens a short form. The app fi
 
 ![KhianKrub recovery drafts manager in Thai, with restore, download and discard controls](images/khiankrub-web-recovery.png)
 
-เปิดการกู้คืนไว้โดยเริ่มต้น โปรแกรมจะเก็บฉบับกู้คืนในเบราว์เซอร์หลังหยุดพิมพ์ประมาณ 2 วินาที หรือเป็นระยะระหว่างพิมพ์ต่อเนื่อง เมื่อเปิดเว็บอีกครั้ง ให้เลือก **จัดการฉบับกู้คืน** เพื่อกู้คืน ดาวน์โหลดสำเนา หรือทิ้งฉบับที่ไม่ต้องการ ตั้งค่าได้ที่ **ไฟล์ → ตัวเลือก → ทั่วไป → การกู้คืนในอุปกรณ์นี้**
+เปิดการกู้คืนไว้โดยเริ่มต้น โปรแกรมจะเก็บฉบับกู้คืนในเบราว์เซอร์หลังหยุดพิมพ์ประมาณ 2 วินาที หรือเป็นระยะระหว่างพิมพ์ต่อเนื่อง เมื่อเปิดเว็บอีกครั้ง ฉบับร่างจะอยู่ในหน้าเริ่มต้น กดเพื่อเขียนต่อ หรือใช้เมนู ⋮ เพื่อดาวน์โหลดสำเนาหรือทิ้ง และยังจัดการได้ที่ **จัดการฉบับกู้คืน** ตั้งค่าได้ที่ **ไฟล์ → ตัวเลือก → ทั่วไป → การกู้คืนในอุปกรณ์นี้**
 
-Recovery is on by default. A snapshot is saved after about two seconds without changes, or periodically during continuous editing. On return, use **Manage recovery drafts** to restore, download a copy, or discard a draft. Configure it under **File → Options → General → Recovery on this device**.
+Recovery is on by default. A snapshot is saved after about two seconds without changes, or periodically during continuous editing. On return, drafts are listed on the start screen: click one to keep writing, or use its ⋮ menu to download a copy or discard it. **Manage recovery drafts** works too. Configure it under **File → Options → General → Recovery on this device**.
 
 - สถานะ **บันทึกฉบับกู้คืนในอุปกรณ์นี้แล้ว** หมายถึงฉบับกู้คืนในเบราว์เซอร์ ไม่ใช่ไฟล์ต้นฉบับหรือ Drive / **Recovery copy saved on this device** refers to a browser draft, not the original file or Drive.
 - เก็บฉบับก่อนหน้าไว้ด้วย การดาวน์โหลดไม่ลบฉบับกู้คืน / The previous snapshot is also kept. Downloads do not delete drafts.
@@ -99,8 +113,8 @@ Recovery is on by default. A snapshot is saved after about two seconds without c
 
 ## เริ่มใช้งาน / Getting started
 
-1. เปิด / Visit **[khiankrub.app](https://khiankrub.app/)** บนคอมพิวเตอร์หรือ iPad / on a computer or iPad.
-2. เริ่มพิมพ์ในเอกสารเปล่า หรือเลือก **ไฟล์ → เปิด** / Start typing, or choose **File → Open**.
+1. เปิด / Visit **[khiankrub.app](https://khiankrub.app/)** บนคอมพิวเตอร์หรือ iPad แล้วเลือก **เขียนครับ** / on a computer or iPad, and choose **KhianKrub**.
+2. ที่หน้าเริ่มต้น เลือกเอกสารเปล่า แม่แบบ หรือฉบับร่าง หรือกด **เปิดไฟล์** / On the start screen, pick a blank document, a template or a draft, or press **Open file**.
 3. บันทึกงานผ่าน **ไฟล์ → บันทึก** ลงเครื่องหรือ Google Drive / Save your work through **File → Save**, to this device or Google Drive.
 4. หากต้องการติดตั้ง กดไอคอนติดตั้งในแถบที่อยู่ของ Chrome (ถ้ามี) หรือเลือกคำสั่งติดตั้งแอปจากเมนู Chrome แล้วยืนยัน / To install, click Chrome's address-bar install icon, if shown, or use its app-install menu option and confirm.
 
@@ -111,14 +125,14 @@ Recovery is on by default. A snapshot is saved after about two seconds without c
 - ฉบับกู้คืนอยู่เฉพาะในเบราว์เซอร์และอุปกรณ์เดิม การล้างข้อมูลเว็บไซต์ โหมดส่วนตัว หรือความเสียหายของอุปกรณ์อาจทำให้ฉบับกู้คืนหายไป ควรบันทึกไฟล์สำเนาไว้ด้วย / Recovery stays in the same browser and device. Clearing site data, private browsing, or device failure can remove it; keep a saved file copy too.
 - เอกสารที่มีรหัสผ่านไม่ถูกเก็บเป็นฉบับกู้คืนอัตโนมัติ เอกสารใหญ่หรือพื้นที่เต็มอาจบันทึกฉบับกู้คืนไม่ได้ ให้ดูข้อความสถานะ / Password-protected documents are excluded from automatic recovery. Large documents or storage limits can prevent recovery saves; check the status message.
 - เอกสาร Word ที่ซับซ้อนอาจแสดงต่างจากต้นฉบับ ควรตรวจรูปแบบก่อนนำไปใช้ / Complex Word documents may render differently; check important formatting.
-- Google Drive ยังเป็นฟีเจอร์ทดลอง อาจจำกัดบัญชีที่เชื่อมต่อ บันทึกเป็นสำเนาใหม่ได้ไม่เกิน 5 MB และต้องเชื่อมต่อใหม่หลังโหลดหน้า / Google Drive is experimental and may be limited to configured test users. It saves new copies up to 5 MB and requires reconnection after a reload.
-- ยังไม่เพิ่มการเชื่อมต่อ Google แบบค้างไว้หรือสิทธิ์เข้าถึง Drive ทั้งหมด / Persistent Google connection and whole-Drive access have not been added.
+- Google Drive ยังเป็นฟีเจอร์ทดลอง อาจจำกัดบัญชีที่เชื่อมต่อ เชื่อมต่อค้างไว้หลังโหลดหน้าใหม่ได้ บันทึกเป็นสำเนาใหม่หรือบันทึกทับไฟล์ที่เปิดจาก Drive ได้ไม่เกิน 5 MB / Google Drive is experimental and may be limited to configured test users. The connection stays after a reload; it saves new copies, or back to the file opened from Drive, up to 5 MB.
+- ยังไม่มีการบันทึกอัตโนมัติลง Drive หรือสิทธิ์เข้าถึง Drive ทั้งหมด / Drive autosave and whole-Drive access have not been added.
 
 ## ข้อมูลและความเป็นส่วนตัว / Data and privacy
 
-เอกสารประมวลผลในเบราว์เซอร์ การตั้งค่า ฟอนต์ที่เพิ่มเอง และฉบับกู้คืนเก็บในเบราว์เซอร์ ไม่มีการส่งฉบับกู้คืนไปยังเซิร์ฟเวอร์ของ KhianKrub สามารถปิดการกู้คืนและทิ้งฉบับกู้คืนได้ การล้างข้อมูลเว็บไซต์อาจลบข้อมูลเหล่านี้ การตั้งค่าไม่ซิงก์ระหว่างอุปกรณ์ การเชื่อมต่อ Google Drive เกิดขึ้นเมื่อผู้ใช้เลือกเชื่อมต่อ และโทเคนอยู่ในหน่วยความจำของหน้านั้น เว็บนับจำนวนผู้เข้าชมด้วย Cloudflare Web Analytics ซึ่งไม่ใช้คุกกี้และไม่ส่งเนื้อหาเอกสาร
+เอกสารประมวลผลในเบราว์เซอร์ การตั้งค่า ฟอนต์ที่เพิ่มเอง และฉบับกู้คืนเก็บในเบราว์เซอร์ ไม่มีการส่งฉบับกู้คืนไปยังเซิร์ฟเวอร์ของ KhianKrub สามารถปิดการกู้คืนและทิ้งฉบับกู้คืนได้ การล้างข้อมูลเว็บไซต์อาจลบข้อมูลเหล่านี้ การตั้งค่าไม่ซิงก์ระหว่างอุปกรณ์ การเชื่อมต่อ Google Drive เกิดขึ้นเมื่อผู้ใช้เลือกเชื่อมต่อเท่านั้น เพื่อให้เชื่อมต่อต่อเนื่องระหว่างการเข้าชม บริการที่ drive.khiankrub.app เก็บโทเค็นแบบเข้ารหัส และยกเลิกการเชื่อมต่อได้ (ดูนโยบายความเป็นส่วนตัว) เว็บนับจำนวนผู้เข้าชมด้วย Cloudflare Web Analytics ซึ่งไม่ใช้คุกกี้และไม่ส่งเนื้อหาเอกสาร
 
-Documents are processed in the browser. Preferences, explicitly added fonts and recovery drafts are stored locally in the browser; clearing site data can remove them. Recovery drafts are not uploaded to KhianKrub servers. You can turn recovery off and discard drafts. Preferences do not sync between devices. Google Drive connects when requested, and its access token stays in page memory. Visits are counted with Cloudflare Web Analytics, which uses no cookies and sends no document content.
+Documents are processed in the browser. Preferences, explicitly added fonts and recovery drafts are stored locally in the browser; clearing site data can remove them. Recovery drafts are not uploaded to KhianKrub servers. You can turn recovery off and discard drafts. Preferences do not sync between devices. Google Drive connects only when you choose to. To stay connected between visits, the service at drive.khiankrub.app stores Google tokens encrypted, and you can disconnect (see the Privacy Policy). Visits are counted with Cloudflare Web Analytics, which uses no cookies and sends no document content.
 
 ## โครงการและสิทธิ์การใช้งาน / Project and credits
 
@@ -126,6 +140,6 @@ Documents are processed in the browser. Preferences, explicitly added fonts and 
 
 This public repository contains the built web app, screenshots, documentation and licence notices. The web app's source repository is private.
 
-KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
+KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `khian/fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.9.1**, source commit `f1450a3d`.
+Prepared from version **0.10.0**, source commit `4763efaa`.
