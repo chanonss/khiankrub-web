@@ -1,0 +1,35 @@
+Original font creators
+----------------------
+* Kinnari:
+  - Db Type Co.
+* Garuda:
+  - Unity Progress Co.
+* Norasi:
+  - Yannis Haralambous
+  - Virach Sornlertlamvanich
+  - Anuttara Tantraporn
+* TlwgMono, Tlwg Typewriter, Purisa:
+  - Poonlap Veerathanabutr
+* Tlwg Typist, Tlwg Typo:
+  - Based on Tlwg Typewriter by Poonlap Veerathanabutr
+  - Thai glyphs from scratch by Theppitak Karoonboonyanan
+* Loma:
+  - Sirichai Lerdvorawut
+* Sawasdee:
+  - Pol Udomwittayanukul
+* Waree, Umpush:
+  - Widhaya Trisarnwadhana
+* Laksaman:
+  - Based on "TH Sarabun New" by Suppakit Chalermlarp
+  - Modified by Theppitak Karoonboonyanan
+
+fonts-tlwg maintainers
+----------------------
+- Theppitak Karoonboonyanan <theppitak@gmail.com>
+
+fonts-tlwg contributors in the past
+-----------------------------------
+- Chanop Silpa-Anan
+- Poonlap Veerathanabutr
+- Vee Satayamas
+

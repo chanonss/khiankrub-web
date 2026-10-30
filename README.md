@@ -4,7 +4,7 @@
   <img src="icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
 
-# เขียนครับ · KhianKrub Web v0.10.2
+# เขียนครับ · KhianKrub Web v0.10.3
 
 **โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
@@ -18,11 +18,9 @@
 
 ## ประกาศภาษาไทย
 
-**เขียนครับบนเว็บ (KhianKrub Web) v0.10.2** เปิดเข้าโปรแกรมได้ทันที เมื่อเข้า **[khiankrub.app](https://khiankrub.app/)** จะพบหน้าเริ่มต้นของเขียนครับเลย ส่วนหน้ารวมชุดโปรแกรมสำนักงานภาษาไทย **KrubOffice** ย้ายไปอยู่ที่ **[kruboffice.app](https://kruboffice.app/)** ตอนนี้เปิดใช้ **เขียนครับ** (เอกสาร) ได้แล้ว ส่วน **คิดครับ** (ตารางคำนวณ) และ **พูดครับ** (งานนำเสนอ) รอว่างก่อนนะครับ
+**เขียนครับบนเว็บ (KhianKrub Web) v0.10.3** เพิ่มฟอนต์ไทยจากกลุ่มผู้ใช้ลินุกซ์ไทย (TLWG) อีก 8 ตระกูล ได้แก่ **Garuda, Kinnari, Laksaman, Loma, Norasi, Sawasdee, Umpush และ Waree** ซึ่งพบบ่อยในเอกสารไทยที่สร้างบนลินุกซ์ มีอยู่ในรายการฟอนต์ และเปิดเอกสารที่ระบุฟอนต์เหล่านี้ได้ทันทีโดยไม่ต้องติดตั้ง เช่นเดียวกับฟอนต์เสริมอื่น ๆ แต่ละตระกูลจะดาวน์โหลดเมื่อเอกสารหรือรายการฟอนต์ใช้ครั้งแรกเท่านั้น การเปิดโปรแกรมครั้งแรกจึงยังเบาเหมือนเดิม
 
-**ฉบับร่างและการเชื่อมต่อยังอยู่ครบ** ลิงก์เก่า เช่น khiankrub.app/khian/ ยังใช้ได้และพาเข้าโปรแกรมตามเดิม ฉบับร่างที่เก็บไว้ในเบราว์เซอร์นี้ การเชื่อมต่อ Google Drive และแอปที่ติดตั้งไว้ใช้ต่อได้ตามปกติ ปุ่ม **แอปทั้งหมด** ในโปรแกรมพาไปที่ kruboffice.app
-
-**PDF ปลอดภัยขึ้น** ถ้าบันทึกหรือพิมพ์เป็น PDF ในจังหวะแรกหลังเปิดเอกสาร ขณะที่ฟอนต์ที่ใช้ยังโหลดไม่เสร็จ เขียนครับจะขอให้ลองอีกครั้งในอีกสักครู่ แทนที่จะสร้าง PDF ด้วยฟอนต์สำรอง
+**เรื่องสัญญาอนุญาต** ฟอนต์เหล่านี้เป็นไฟล์ต้นฉบับของ TLWG ที่ไม่ได้แก้ไข (รุ่น 0.7.4) ทุกตระกูลยกเว้น Waree ใช้สัญญา GNU GPL พร้อมข้อยกเว้นสำหรับฟอนต์ในเอกสาร เอกสารหรือ PDF ที่คุณสร้างด้วยฟอนต์เหล่านี้จึงไม่ตกอยู่ภายใต้ GPL ส่วน Waree ใช้สัญญา Bitstream Vera ข้อความสัญญาและซอร์สโค้ดฉบับเต็มของ TLWG เก็บไว้พร้อมฟอนต์ที่ [khiankrub.app/fonts/](https://khiankrub.app/fonts/LICENSE-TLWG.txt)
 
 ใช้ได้ฟรีบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้ครับ
 
@@ -30,11 +28,9 @@
 
 ## English announcement
 
-**KhianKrub Web v0.10.2** opens straight into the editor. **[khiankrub.app](https://khiankrub.app/)** now shows KhianKrub's start screen right away, and **KrubOffice**, the home of our Thai office apps, has its own address: **[kruboffice.app](https://kruboffice.app/)**. **KhianKrub** (documents) is ready today; **KhitKrub** (spreadsheets) and **PhutKrub** (presentations) are coming later.
+**KhianKrub Web v0.10.3** adds eight more Thai font families from the Thai Linux Working Group (TLWG): **Garuda, Kinnari, Laksaman, Loma, Norasi, Sawasdee, Umpush and Waree**. They often appear in Thai documents made on Linux. They are in the font list and open in any document that names them, with nothing to install. Like our other extra fonts, each family downloads only the first time a document or the font list uses it, so the first start stays light.
 
-**Your drafts and sign-in stay.** Old links such as khiankrub.app/khian/ still work and take you to the editor. Your recovery drafts in this browser, your Google Drive connection and the installed app carry on as before. The **All apps** button now opens kruboffice.app.
-
-**Safer PDFs.** If you save or print a PDF in the first moment after opening a document, while a font it uses is still downloading, KhianKrub now asks you to try again in a moment instead of making a PDF in a substitute font.
+**About the licences.** These are TLWG's own unmodified files (release 0.7.4). All but Waree are under the GNU GPL with the document-font exception, so a document or PDF you make with them is not covered by the GPL; Waree is under the Bitstream Vera licence. The licence texts and TLWG's complete source release are kept with the fonts at [khiankrub.app/fonts/](https://khiankrub.app/fonts/LICENSE-TLWG.txt).
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
@@ -88,7 +84,7 @@ The gold **Report a problem** button beside Share opens a short form. The app fi
 | ภาษาไทย | English |
 |---|---|
 | เปิด แก้ไข และบันทึกไฟล์ Word (`.docx`) พร้อมส่งออก PDF | Open, edit and save Word documents (`.docx`), and export PDF |
-| เอกสารใหม่ใช้ TH Sarabun New 16 จุด พร้อมฟอนต์แห่งชาติ SIPA ครบ 13 ตระกูล ไม่ต้องติดตั้งเพิ่ม | New documents use TH Sarabun New, 16 pt; all 13 original SIPA national-font families are included, with no installation needed |
+| เอกสารใหม่ใช้ TH Sarabun New 16 จุด พร้อมฟอนต์แห่งชาติ SIPA ครบ 13 ตระกูล และฟอนต์ TLWG 8 ตระกูล (Garuda, Kinnari, Laksaman, Loma, Norasi, Sawasdee, Umpush, Waree) ไม่ต้องติดตั้งเพิ่ม | New documents use TH Sarabun New, 16 pt; all 13 original SIPA national-font families and 8 TLWG families (Garuda, Kinnari, Laksaman, Loma, Norasi, Sawasdee, Umpush, Waree) are included, with no installation needed |
 | ตัดคำไทย จัดข้อความแบบกระจายไทย และใช้เลขหรือตัวอักษรไทยในรายการ | Thai word breaking, Thai Distribution, and Thai list numbering |
 | จัดรูปแบบข้อความ ย่อหน้า สไตล์ หัวเรื่อง ตาราง และรูปภาพ | Format text, paragraphs, styles, headings, tables and pictures |
 | เมนูหลักภาษาไทยและภาษาอังกฤษ บางกล่องโต้ตอบยังเป็นภาษาอังกฤษ | Thai and English interface options; some dialogs remain in English |
@@ -140,6 +136,6 @@ Documents are processed in the browser. Preferences, explicitly added fonts and 
 
 This public repository contains the built web app, screenshots, documentation and licence notices. The web app's source repository is private.
 
-KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
+KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. The TLWG fonts (version 0.7.4) are the publisher's unmodified files; their [source release](https://github.com/tlwg/fonts-tlwg/releases/tag/v0.7.4) is also kept in `fonts/`. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.10.2**, source commit `f9fe02d9`.
+Prepared from version **0.10.3**, source commit `405e385f`.

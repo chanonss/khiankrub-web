@@ -335,9 +335,224 @@
     "sha256": "f7a2fc4da4010c59c03df9dc17a8e44ff4860916a9a82f1bde8c929887821a31"
   },
   {
+    "file": "Garuda.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Garuda.ttf",
+    "sha256": "9635471eac8af604a54a4438d016d492d27090f889e9eaffb907d9b52bd68223"
+  },
+  {
+    "file": "Garuda-Bold.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Garuda-Bold.ttf",
+    "sha256": "3a87997f9ad8b187c49707c6992bf3eef3c2e0a877ca1d61a80786396a3ba38b"
+  },
+  {
+    "file": "Garuda-Oblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Garuda-Oblique.ttf",
+    "sha256": "2cf4c806046d1556d35b5423a13591662055150751a7f4b644f498314a76bc7f"
+  },
+  {
+    "file": "Garuda-BoldOblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Garuda-BoldOblique.ttf",
+    "sha256": "233e9c10adebadf1db45ec9fc0cbb4a41c286d3d4c9eca7dde559f9458c200d0"
+  },
+  {
+    "file": "Kinnari.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Kinnari.ttf",
+    "sha256": "5aefa8ef5de03363596c2262b03f41f686be016c0c79fb02df8356ce8fac9421"
+  },
+  {
+    "file": "Kinnari-Bold.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Kinnari-Bold.ttf",
+    "sha256": "ba57b9dc489aca1968a5efbae02e3ca98024d437b2f72cade14333739e95901f"
+  },
+  {
+    "file": "Kinnari-Italic.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Kinnari-Italic.ttf",
+    "sha256": "dfaa4bdacc2d1c5ec32289181033d54c98b55544c7eae4cb6525ab5623e22774"
+  },
+  {
+    "file": "Kinnari-BoldItalic.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Kinnari-BoldItalic.ttf",
+    "sha256": "d9c7f041ed869e802fb5a1a319356e4a67714559d65fd7ddf293e09972391ddd"
+  },
+  {
+    "file": "Kinnari-Oblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Kinnari-Oblique.ttf",
+    "sha256": "eb411579da89326c34dc4181afb482b82bf5e9443f826c52377e4b390c5fc6f0"
+  },
+  {
+    "file": "Kinnari-BoldOblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Kinnari-BoldOblique.ttf",
+    "sha256": "5af49863627b74e7354650898a5690c9605906aa56a25f31312889da1545964a"
+  },
+  {
+    "file": "Laksaman.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Laksaman.ttf",
+    "sha256": "41cd81b1c046c225491e5392f81d805ff7d19603bbf0f51978e9f226779c7e36"
+  },
+  {
+    "file": "Laksaman-Bold.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Laksaman-Bold.ttf",
+    "sha256": "b1df0762ca6c14b29f1c90d3a6e2600da1f8cee2c263bca1f435e0f9bba88627"
+  },
+  {
+    "file": "Laksaman-Italic.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Laksaman-Italic.ttf",
+    "sha256": "cc2abd9dc1d09bcc7e44878f7daea7f73f78ef0a5008bb2887db2b3bc7ab533d"
+  },
+  {
+    "file": "Laksaman-BoldItalic.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Laksaman-BoldItalic.ttf",
+    "sha256": "9b4de097897e38748338f5307bfbe2665d19630766f07d9ef71a0c2adfcb05ba"
+  },
+  {
+    "file": "Loma.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Loma.ttf",
+    "sha256": "23ee99fcbdb1d7e57c55a90c606ebf684134215d8386773bae34f0c238f07dd7"
+  },
+  {
+    "file": "Loma-Bold.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Loma-Bold.ttf",
+    "sha256": "32f04548ff4d602673c1619cf865799896716c0bce57162c2e43b29f50ba2b4a"
+  },
+  {
+    "file": "Loma-Oblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Loma-Oblique.ttf",
+    "sha256": "fb29cad448a3d7352ef53f7fd8ddf15f994827b08aa31867122ed68d6dc36a9e"
+  },
+  {
+    "file": "Loma-BoldOblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Loma-BoldOblique.ttf",
+    "sha256": "78861ef7054c409e77f9ec8901f03f4b1950ac4faa76adad243ad9c9ed1da24d"
+  },
+  {
+    "file": "Norasi.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Norasi.ttf",
+    "sha256": "7a0ac727cb27107a09855883e434e2c38d09f3f97a3a816e892f32b10ad6020b"
+  },
+  {
+    "file": "Norasi-Bold.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Norasi-Bold.ttf",
+    "sha256": "cdbce4c80e378f04d863490bef3e31cd611eef96b687aa9976bc2844d112f8c8"
+  },
+  {
+    "file": "Norasi-Italic.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Norasi-Italic.ttf",
+    "sha256": "22f863f598eb76db0c662fbb9a76ce5257821a985a82b3ab791a2bc1fd0937e9"
+  },
+  {
+    "file": "Norasi-BoldItalic.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Norasi-BoldItalic.ttf",
+    "sha256": "7edb3221053b0101b961e6afea569f6aa58f482dc7afa173cd636608da7980b3"
+  },
+  {
+    "file": "Norasi-Oblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Norasi-Oblique.ttf",
+    "sha256": "722f540eccae75508ece3102394dcb407897b84cfd3726ac20356fccea7f64e8"
+  },
+  {
+    "file": "Norasi-BoldOblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Norasi-BoldOblique.ttf",
+    "sha256": "58a31fe62794a7b31cff86befa377d29fcfe2541d242fe86b55908ae2651071e"
+  },
+  {
+    "file": "Sawasdee.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Sawasdee.ttf",
+    "sha256": "83feec08181a755c5975ffa35ba671b15ea0e866c5a5072c0e9a2e6c8becc3f9"
+  },
+  {
+    "file": "Sawasdee-Bold.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Sawasdee-Bold.ttf",
+    "sha256": "54c9065be6c2c996ff474af29c60cbe196878c2431b0240d38f00c1da3fef75c"
+  },
+  {
+    "file": "Sawasdee-Oblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Sawasdee-Oblique.ttf",
+    "sha256": "9bd39009eff30a18e79f4ea9357aa6034b406c0aa80bb945fae7b9ae5f59220e"
+  },
+  {
+    "file": "Sawasdee-BoldOblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Sawasdee-BoldOblique.ttf",
+    "sha256": "5e01aa47ee6cab7fc15da3074cca62168be8045b1fa16b3da44e21a064cc5a29"
+  },
+  {
+    "file": "Umpush.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Umpush.ttf",
+    "sha256": "eb5590442d4658ffa331f475827fa604b7f47833c6d55586d4b1c48af2285ce5"
+  },
+  {
+    "file": "Umpush-Bold.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Umpush-Bold.ttf",
+    "sha256": "29aa0cd72b0304d0f2d7dc80930eaa2ba5c03025a50ea722a81141ecd02defa3"
+  },
+  {
+    "file": "Umpush-Oblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Umpush-Oblique.ttf",
+    "sha256": "ad80d7ddeb191c486cbdce6fa0ec755399313fb93df96bab80f6dc85d802748e"
+  },
+  {
+    "file": "Umpush-BoldOblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Umpush-BoldOblique.ttf",
+    "sha256": "969caa816e29b4dc8e8ac97b2031cbbc1b2133efa8b72fca044be26726f17be3"
+  },
+  {
+    "file": "Umpush-Light.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Umpush-Light.ttf",
+    "sha256": "8fb05565fac9d603dd82d9fe19c32a53c22e147733625ad1f3c54f03d9e1ad57"
+  },
+  {
+    "file": "Umpush-LightOblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Umpush-LightOblique.ttf",
+    "sha256": "48787da958193cbcfdc4a58a9091b633674c3a1e5617d3cb81dd3a42d352720f"
+  },
+  {
+    "file": "Waree.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Waree.ttf",
+    "sha256": "f7678f57fe6bbbd6a2e33897910512b38c413b5ffd2e74d089a6255258eb46f4"
+  },
+  {
+    "file": "Waree-Bold.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Waree-Bold.ttf",
+    "sha256": "dc9e97b0bcd9638ff239143678855f5c2f088aab5c2391be3e4528eb00a4a38e"
+  },
+  {
+    "file": "Waree-Oblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Waree-Oblique.ttf",
+    "sha256": "0cb3f00145c7aa17ec13b2100dddce759032d686be32aeb9483651bfadbb168f"
+  },
+  {
+    "file": "Waree-BoldOblique.ttf",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/ttf-tlwg-0.7.4.tar.xz / ttf-tlwg-0.7.4/Waree-BoldOblique.ttf",
+    "sha256": "c549e83c5fc9c26d01273c88a6d59f26991c10b5d7ef15a45e0eaf815d8b09e0"
+  },
+  {
+    "file": "LICENSE-TLWG.txt",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/fonts-tlwg-0.7.4.tar.xz / fonts-tlwg-0.7.4/COPYING",
+    "sha256": "87404cd84fa22bb13e30142dc81d9d2e1f1320799dfb3750140470c2b74c220d"
+  },
+  {
+    "file": "AUTHORS-TLWG.txt",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/fonts-tlwg-0.7.4.tar.xz / fonts-tlwg-0.7.4/AUTHORS",
+    "sha256": "83730bc8bc650c07ea4ea47d70414f14a38402dc94bbcb2d102c4a6fef338d6b"
+  },
+  {
+    "file": "GPL-2.0-TLWG.txt",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/fonts-tlwg-0.7.4.tar.xz / fonts-tlwg-0.7.4/GPL",
+    "sha256": "c38aee9e3c8c4d5d594ff548a1be05453023016d6286931f6512db215ec1fd42"
+  },
+  {
+    "file": "fonts-tlwg-0.7.4.tar.xz",
+    "source": "https://github.com/tlwg/fonts-tlwg/releases/download/v0.7.4/fonts-tlwg-0.7.4.tar.xz",
+    "sha256": "2531d3e02de1d293e4a9f8527ac4d3d044a845f49dc2d314c5766b4f68730735"
+  },
+  {
     "file": "sipa-fonts.json",
     "source": "Pinned SIPA font packages from their publisher",
     "sha256": "147028e94ae338f5110b8eb69d74fb429344d1c3e70c7f2ed19fd167f2cadf06"
+  },
+  {
+    "file": "tlwg-fonts.json",
+    "source": "Pinned TLWG font release from its publisher",
+    "sha256": "1bfc9136b91acf629ea8dd56052e0913a638e433852bf7ab0350bbcb8085a271"
   },
   {
     "file": "GPL-2.0.txt",

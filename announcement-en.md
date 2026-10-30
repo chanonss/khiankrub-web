@@ -1,8 +1,6 @@
-**KhianKrub Web v0.10.2** opens straight into the editor. **[khiankrub.app](https://khiankrub.app/)** now shows KhianKrub's start screen right away, and **KrubOffice**, the home of our Thai office apps, has its own address: **[kruboffice.app](https://kruboffice.app/)**. **KhianKrub** (documents) is ready today; **KhitKrub** (spreadsheets) and **PhutKrub** (presentations) are coming later.
+**KhianKrub Web v0.10.3** adds eight more Thai font families from the Thai Linux Working Group (TLWG): **Garuda, Kinnari, Laksaman, Loma, Norasi, Sawasdee, Umpush and Waree**. They often appear in Thai documents made on Linux. They are in the font list and open in any document that names them, with nothing to install. Like our other extra fonts, each family downloads only the first time a document or the font list uses it, so the first start stays light.
 
-**Your drafts and sign-in stay.** Old links such as khiankrub.app/khian/ still work and take you to the editor. Your recovery drafts in this browser, your Google Drive connection and the installed app carry on as before. The **All apps** button now opens kruboffice.app.
-
-**Safer PDFs.** If you save or print a PDF in the first moment after opening a document, while a font it uses is still downloading, KhianKrub now asks you to try again in a moment instead of making a PDF in a substitute font.
+**About the licences.** These are TLWG's own unmodified files (release 0.7.4). All but Waree are under the GNU GPL with the document-font exception, so a document or PDF you make with them is not covered by the GPL; Waree is under the Bitstream Vera licence. The licence texts and TLWG's complete source release are kept with the fonts at [khiankrub.app/fonts/](https://khiankrub.app/fonts/LICENSE-TLWG.txt).
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
