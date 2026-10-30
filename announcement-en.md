@@ -1,10 +1,8 @@
-**KhianKrub Web v0.10.1** opens faster, speaks more kindly, and can be installed as an app. **[khiankrub.app](https://khiankrub.app/)** still opens **KrubOffice**, the home of our Thai office apps: **KhianKrub** (documents) is ready today; **KhitKrub** (spreadsheets) and **PhutKrub** (presentations) are coming later.
+**KhianKrub Web v0.10.2** opens straight into the editor. **[khiankrub.app](https://khiankrub.app/)** now shows KhianKrub's start screen right away, and **KrubOffice**, the home of our Thai office apps, has its own address: **[kruboffice.app](https://kruboffice.app/)**. **KhianKrub** (documents) is ready today; **KhitKrub** (spreadsheets) and **PhutKrub** (presentations) are coming later.
 
-**Faster start.** The editor now loads only the two fonts it needs to open: Sarabun for the menus and TH Sarabun New for documents, about 0.5 MB instead of 3.2 MB. Every other Thai font is fetched the first time a document or the font list uses it, so the first start is lighter and the rest of the fonts are still there when you need them.
+**Your drafts and sign-in stay.** Old links such as khiankrub.app/khian/ still work and take you to the editor. Your recovery drafts in this browser, your Google Drive connection and the installed app carry on as before. The **All apps** button now opens kruboffice.app.
 
-**Install it.** In Chrome you can install khiankrub.app as an app from the install button in the address bar, and open it like any program on your computer.
-
-**Smaller touches.** The KrubOffice page and the start screen are worded in a friendlier Thai. The font list draws each name at a size that suits the design of the font, so the Thai SIPA fonts are easier to read. The "coming soon" tiles are cleaner.
+**Safer PDFs.** If you save or print a PDF in the first moment after opening a document, while a font it uses is still downloading, KhianKrub now asks you to try again in a moment instead of making a PDF in a substitute font.
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 

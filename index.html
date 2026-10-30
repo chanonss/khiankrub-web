@@ -2,99 +2,145 @@
 <html lang="th">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KrubOffice</title>
-  <meta name="description" content="ชุดโปรแกรมสำนักงานภาษาไทยบนเว็บ ใช้ฟรี: เขียนครับ สำหรับเอกสาร">
-  <meta name="theme-color" content="#FBF8F1" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#14161F" media="(prefers-color-scheme: dark)">
-  <!-- KrubOffice logo (three tiles: coral, teal and navy for the three apps; gold bar on navy). -->
-  <link rel="icon" type="image/svg+xml" href="./icons/krubOffice.svg">
-  <link rel="icon" type="image/png" sizes="192x192" href="./icons/krubOffice-192.png">
-  <link rel="apple-touch-icon" href="./icons/krubOffice-maskable-512.png">
-  <!-- Installable as one app, KrubOffice, whose scope covers every app on the site. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>KhianKrub</title>
+  <meta name="theme-color" content="#1E3A8A">
+  <!-- The site's KhianKrub manifest (packaging/web/public), copied beside this page after the build. -->
   <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="canonical" href="https://khiankrub.app/">
+  <link rel="apple-touch-icon" href="./icons/192/ai.storyteller.wordcraft.png">
+  
+  
+  <link rel="icon" href="./wordcraft-34cbaa9d8cd08310.ico" integrity="sha384-ftTc8EN72A78z+Eb1RP4Wefr5kDxPvrUQ57y6gB/Mip4cp8WAOCCCc3XoEbIBcsQ"/>
+  
+<script type="module">
+async function __trunkInitializer(init, source, sourceSize, initializer, initWithObject) {
+  if (initializer === undefined) {
+    return await init(initWithObject ? { module_or_path: source } : source);
+  }
+
+  const {
+    onStart, onProgress, onComplete, onSuccess, onFailure
+  } = initializer;
+
+  onStart?.();
+
+  const response = fetch(source)
+      .then((response) => {
+        const reader = response.body.getReader();
+        const headers = response.headers;
+        const status = response.status;
+        const statusText = response.statusText;
+
+        const total = sourceSize;
+        let current = 0;
+
+        const stream = new ReadableStream({
+          start(controller) {
+            function push() {
+              reader.read().then(({done, value}) => {
+                if (done) {
+                  onProgress?.({current: total, total});
+                  controller.close();
+                  return;
+                }
+
+                current += value.byteLength;
+                onProgress?.({current, total});
+                controller.enqueue(value);
+                push();
+              });
+            }
+
+            push();
+          },
+        });
+
+        return {
+          stream, init: {
+            headers, status, statusText
+          }
+        };
+      })
+      .then(({stream, init}) =>
+          new Response(stream, init),
+      );
+
+  return init(initWithObject ? { module_or_path: response } : response)
+      .then((value) => {
+        onComplete?.();
+        onSuccess?.(value);
+        return value;
+      }, (reason) => {
+        onComplete?.();
+        onFailure?.(reason);
+        return reason;
+      });
+}
+
+
+import init, * as bindings from './wordcraft-web-23f1887b4bd0970.js';
+import initializer from './loading-1ac372f39b7fe74f.js';
+
+const wasm = await __trunkInitializer(init, './wordcraft-web-3507adda01b58632_bg.wasm', 33005992, initializer(), true);
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
   <style>
-    /* Paper background with a faint ประจำยาม (Prajam Yam) lattice, drawn here at 6%. Navy and gold
-       stay the brand colours; the page itself is neutral so it reads as the suite, not KhianKrub. */
-    :root { color-scheme: light dark; --bg: #fbf8f1; --text: #1e3a8a; --sub: #4a5578; --accent: #b8860b; --wait: #8a6a12; --ring: #1e3a8a;
-      --pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48'%3E%3Cpath d='M24 1L47 24L24 47L1 24Z' fill='none' stroke='rgba(30,58,138,0.06)' stroke-width='1'/%3E%3Cpath transform='rotate(0 24 24)' d='M24 24C19.5 19 20 12 24 6.5C28 12 28.5 19 24 24Z' fill='none' stroke='rgba(30,58,138,0.06)' stroke-width='1.2'/%3E%3Cpath transform='rotate(90 24 24)' d='M24 24C19.5 19 20 12 24 6.5C28 12 28.5 19 24 24Z' fill='none' stroke='rgba(30,58,138,0.06)' stroke-width='1.2'/%3E%3Cpath transform='rotate(180 24 24)' d='M24 24C19.5 19 20 12 24 6.5C28 12 28.5 19 24 24Z' fill='none' stroke='rgba(30,58,138,0.06)' stroke-width='1.2'/%3E%3Cpath transform='rotate(270 24 24)' d='M24 24C19.5 19 20 12 24 6.5C28 12 28.5 19 24 24Z' fill='none' stroke='rgba(30,58,138,0.06)' stroke-width='1.2'/%3E%3Ccircle cx='24' cy='24' r='2.8' fill='rgba(184,134,11,0.1)'/%3E%3Ccircle cx='0' cy='0' r='2' fill='rgba(184,134,11,0.1)'/%3E%3Ccircle cx='48' cy='0' r='2' fill='rgba(184,134,11,0.1)'/%3E%3Ccircle cx='0' cy='48' r='2' fill='rgba(184,134,11,0.1)'/%3E%3Ccircle cx='48' cy='48' r='2' fill='rgba(184,134,11,0.1)'/%3E%3C/svg%3E"); }
-    @media (prefers-color-scheme: dark) {
-      :root { --bg: #14161f; --text: #f4f1ea; --sub: #aab3cf; --accent: #f2b705; --wait: #e9c766; --ring: #ffe293;
-        --pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48'%3E%3Cpath d='M24 1L47 24L24 47L1 24Z' fill='none' stroke='rgba(242,183,5,0.06)' stroke-width='1'/%3E%3Cpath transform='rotate(0 24 24)' d='M24 24C19.5 19 20 12 24 6.5C28 12 28.5 19 24 24Z' fill='none' stroke='rgba(242,183,5,0.06)' stroke-width='1.2'/%3E%3Cpath transform='rotate(90 24 24)' d='M24 24C19.5 19 20 12 24 6.5C28 12 28.5 19 24 24Z' fill='none' stroke='rgba(242,183,5,0.06)' stroke-width='1.2'/%3E%3Cpath transform='rotate(180 24 24)' d='M24 24C19.5 19 20 12 24 6.5C28 12 28.5 19 24 24Z' fill='none' stroke='rgba(242,183,5,0.06)' stroke-width='1.2'/%3E%3Cpath transform='rotate(270 24 24)' d='M24 24C19.5 19 20 12 24 6.5C28 12 28.5 19 24 24Z' fill='none' stroke='rgba(242,183,5,0.06)' stroke-width='1.2'/%3E%3Ccircle cx='24' cy='24' r='2.8' fill='rgba(242,183,5,0.1)'/%3E%3Ccircle cx='0' cy='0' r='2' fill='rgba(242,183,5,0.1)'/%3E%3Ccircle cx='48' cy='0' r='2' fill='rgba(242,183,5,0.1)'/%3E%3Ccircle cx='0' cy='48' r='2' fill='rgba(242,183,5,0.1)'/%3E%3Ccircle cx='48' cy='48' r='2' fill='rgba(242,183,5,0.1)'/%3E%3C/svg%3E"); }
+    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #e6e6e6; }
+    #wordcraft_canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+    #wordcraft_loading { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 10px; padding: 24px; box-sizing: border-box; background: #1e3a8a; color: #fff;
+      font: 14px system-ui, sans-serif; text-align: center; }
+    .loading-icon { position: relative; width: 88px; height: 88px; margin-bottom: 12px; }
+    .loading-icon .sheet { position: absolute; inset: 0; border-radius: 21%; border: 1.5px solid #ffe293;
+      box-sizing: border-box; transform-origin: 50% 65%; box-shadow: 0 6px 14px #07184230; }
+    .loading-icon .one { background: #d9a716; animation: sheet-one 3.8s cubic-bezier(.25,.8,.25,1) infinite; }
+    .loading-icon .two { background: #4c76d4; animation: sheet-two 3.8s cubic-bezier(.25,.8,.25,1) infinite; }
+    .loading-logo { position: relative; z-index: 2; display: block; width: 100%; height: 100%; overflow: visible;
+      animation: settle 3.8s cubic-bezier(.25,.8,.25,1) infinite; }
+    .loading-name { margin: 0; font-size: 22px; font-weight: 650; line-height: 1.5; }
+    /* Draft A's moving gold bar under the name, while the app downloads and starts. */
+    #wordcraft_progress { width: 150px; height: 5px; border-radius: 3px; overflow: hidden; background: rgb(255 255 255 / 18%); }
+    #wordcraft_progress[hidden] { display: none; }
+    .loading-fill { width: 40%; height: 100%; border-radius: 3px; background: #f2b705; animation: loading 1.6s ease-in-out infinite; }
+    @keyframes loading{0%{margin-left:-40%}100%{margin-left:100%}}
+    @keyframes sheet-one{0%,8%{transform:translate(-45%,-23%) rotate(-22deg);opacity:0}20%,37%{transform:translate(-38%,-18%) rotate(-18deg);opacity:1}63%,86%{transform:translate(0,0) rotate(0);opacity:1}100%{transform:translate(0,0) rotate(0);opacity:0}}
+    @keyframes sheet-two{0%,14%{transform:translate(45%,-16%) rotate(22deg);opacity:0}28%,44%{transform:translate(38%,-12%) rotate(18deg);opacity:1}72%,86%{transform:translate(0,0) rotate(0);opacity:1}100%{transform:translate(0,0) rotate(0);opacity:0}}
+    @keyframes settle{0%,8%{transform:translateY(10%) scale(.88)}28%,44%{transform:translateY(5%) scale(.94)}72%,100%{transform:translateY(0) scale(1)}}
+    @media (prefers-reduced-motion: reduce) {
+      .loading-icon .sheet { display: none; }
+      .loading-logo { animation: none; }
+      .loading-fill { animation: none; margin: auto; }
     }
-    html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--text); }
-    body { display: flex; flex-direction: column; min-height: 100vh; background-image: var(--pattern); background-size: 48px 48px;
-      font: 15px/1.6 system-ui, -apple-system, "Segoe UI", "Noto Sans Thai", sans-serif; }
-    main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px 16px 32px; box-sizing: border-box; text-align: center; }
-    .brand { display: inline-flex; align-items: center; gap: 12px; margin: 0; font-size: 26px; font-weight: 700; letter-spacing: .01em; }
-    .brand svg { width: 48px; height: 48px; }
-    .brand .word span { color: var(--accent); }
-    h1 { margin: 14px 0 40px; font-size: 24px; font-weight: 600; line-height: 1.4; }
-    .apps { display: flex; flex-wrap: wrap; justify-content: center; gap: 32px 48px; margin: 0; padding: 0; list-style: none; }
-    .app { width: 136px; display: flex; flex-direction: column; align-items: center; color: inherit; text-decoration: none; border-radius: 18px; padding: 10px 0 12px; }
-    .app svg { width: 96px; height: 96px; display: block; border-radius: 22px; }
-    a.app:hover svg, a.app:focus-visible svg { outline: 3px solid var(--ring); outline-offset: 4px; }
-    a.app:focus-visible { outline: none; }
-    .name { margin-top: 14px; font-size: 17px; font-weight: 600; }
-    .kind { font-size: 12px; color: var(--sub); }
-    .soon { cursor: default; }
-    /* Coming-soon tiles fade over a solid backing in the page colour, so the lattice doesn't show through. */
-    .backing { display: block; border-radius: 22px; background: var(--bg); }
-    .soon svg { opacity: .35; filter: saturate(.5); }
-    .soon .name, .soon .kind { opacity: .6; }
-    .wait { margin-top: 6px; font-size: 12px; color: var(--wait); }
-    footer { padding: 16px; text-align: center; font-size: 12px; color: var(--sub); }
-    footer a { color: var(--text); }
-    @media (max-width: 420px) { .backing { border-radius: 17px; } .brand { font-size: 22px; } .brand svg { width: 40px; height: 40px; } h1 { font-size: 20px; margin-bottom: 28px; } .apps { gap: 20px 10px; } .app { width: 104px; } .app svg { width: 72px; height: 72px; border-radius: 17px; } .name { font-size: 15px; } .kind { font-size: 11px; } }
+    #wordcraft_loading[aria-busy="false"] .sheet { display: none; }
+    #wordcraft_loading[aria-busy="false"] .loading-logo { animation: none; }
+    #wordcraft_loading[aria-busy="false"] #wordcraft_progress { display: none; }
+    #wordcraft_loading_status, .loading-note { margin: 0; color: rgb(255 255 255 / 75%); font-size: 12px; line-height: 1.6; }
+    #wordcraft_loading_status { max-width: 36em; overflow-wrap: anywhere; }
   </style>
-  <!-- Cloudflare Web Analytics: counts page views and visits without cookies or a visitor id. Same site as the editor. -->
+  <!-- Cloudflare Web Analytics: counts page views and visits without cookies or a visitor id; no document
+       content. Site "khiankrub.app" in Chanon's Cloudflare account (manual snippet, since DNS is not proxied). -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "71eefeaacb7248f1afa852006019e49d"}'></script>
 </head>
 <body>
-<main>
-  <p class="brand"><svg viewBox="0 0 120 120" aria-hidden="true"><g transform="rotate(-14 60 70)"><rect x="22" y="26" width="64" height="64" rx="15" fill="#9a3a1f"/></g><g transform="rotate(10 60 70)"><rect x="36" y="22" width="64" height="64" rx="15" fill="#0f6e56"/></g><rect x="26" y="38" width="68" height="68" rx="16" fill="#1e3a8a"/><rect x="44" y="66" width="32" height="12" rx="6" fill="#F2B705"/></svg><span class="word">Krub<span>Office</span></span></p>
-  <h1>วันนี้ ...อยากทำอะไรดีครับ?</h1>
-  <ul class="apps">
-    <li>
-      <a class="app" href="./khian/">
-        <svg viewBox="0 0 512 512" aria-hidden="true">
-          <rect x="1.5" y="1.5" width="509" height="509" rx="111" fill="#1e3a8a" />
-          <path fill="#F2B705" fill-rule="evenodd" transform="translate(-11 -7)" d="M395.93 111.03 L395.93 329.49 Q395.93 366.23 371.52 386.12 Q347.11 406.00 301.81 406.00 Q256.00 406.00 232.09 386.12 Q208.18 366.23 208.18 329.49 L208.18 295.26 Q208.18 280.16 213.21 269.09 Q218.25 258.01 228.82 242.41 Q239.89 225.80 245.18 213.72 Q250.46 201.64 250.46 184.52 Q250.46 166.40 239.89 157.09 Q229.32 147.78 210.70 147.78 Q194.09 147.78 184.02 152.31 Q203.15 153.32 216.49 166.15 Q229.83 178.99 229.83 202.14 Q229.83 224.29 215.23 239.89 Q200.63 255.50 174.46 255.50 Q147.28 255.50 131.67 238.38 Q116.07 221.27 116.07 190.06 Q116.07 152.31 142.24 129.15 Q168.42 106.00 213.72 106.00 Q258.01 106.00 283.43 125.13 Q308.85 144.26 308.85 178.48 Q308.85 199.12 303.57 212.96 Q298.28 226.81 288.21 245.43 Q280.16 259.02 276.13 268.84 Q272.11 278.65 272.11 290.73 L272.11 329.99 Q272.11 342.58 279.91 349.12 Q287.71 355.66 302.31 355.66 Q316.40 355.66 323.95 349.12 Q331.50 342.58 331.50 329.99 L331.50 111.03 Z M196.60 203.15 Q196.60 193.08 190.56 187.04 Q184.52 181.00 174.46 181.00 Q164.39 181.00 158.10 187.04 Q151.81 193.08 151.81 203.15 Q151.81 213.21 158.10 219.26 Q164.39 225.30 174.46 225.30 Q184.52 225.30 190.56 219.00 Q196.60 212.71 196.60 203.15 Z"/>
-        </svg>
-        <span class="name">เขียนครับ</span>
-        <span class="kind">KhianKrub · เอกสาร</span>
-      </a>
-    </li>
-    <li>
-      <div class="app soon" aria-disabled="true">
-        <!-- Placeholder until KhitKrub has its own drawn icon: ค traced from Sarabun Bold (OFL) like KhianKrub's ข, gold on teal. -->
-        <span class="backing"><svg viewBox="0 0 512 512" aria-hidden="true">
-          <rect width="512" height="512" rx="111" fill="#0f6e56"/>
-          <path fill="#F2B705" fill-rule="nonzero" d="M 354.41 125.43 Q 389.64 151.86 389.64 197.66 L 389.64 393.97 L 325.21 393.97 L 325.21 204.20 Q 325.21 178.53 307.34 163.94 Q 289.47 149.34 258.27 149.34 Q 224.04 149.34 204.15 164.94 Q 184.27 180.55 184.27 208.23 Q 184.27 224.34 189.81 257.56 Q 198.37 227.86 215.73 211.50 Q 233.10 195.14 257.76 195.14 Q 282.43 195.14 296.27 207.73 Q 310.11 220.31 310.11 242.96 Q 310.11 265.11 297.02 277.69 Q 283.94 290.28 261.29 290.28 Q 249.71 290.28 239.89 286.25 Q 230.08 282.23 224.54 274.67 Q 216.49 286.25 211.45 303.11 Q 206.42 319.98 206.42 336.59 L 206.42 393.97 L 144.00 393.97 L 144.00 318.47 Q 144.00 307.39 134.44 273.16 Q 128.40 249.00 125.38 234.91 Q 122.36 220.82 122.36 208.74 Q 122.36 158.40 158.35 128.70 Q 194.34 99.00 258.27 99.00 Q 319.17 99.00 354.41 125.43ZM 245.43 227.86 Q 239.64 233.40 239.64 242.46 Q 239.64 252.02 245.43 257.56 Q 251.22 263.10 260.28 263.10 Q 269.34 263.10 274.88 257.56 Q 280.41 252.02 280.41 242.46 Q 280.41 233.40 274.88 227.86 Q 269.34 222.33 260.28 222.33 Q 251.22 222.33 245.43 227.86Z"/>
-        </svg></span>
-        <span class="name">คิดครับ</span>
-        <span class="kind">KhitKrub · ตารางคำนวณ</span>
-        <span class="wait">รอว่างก่อนนะครับ</span>
-      </div>
-    </li>
-    <li>
-      <div class="app soon" aria-disabled="true">
-        <!-- Placeholder until PhutKrub has its own drawn icon: พ traced from Sarabun Bold (OFL) like KhianKrub's ข, gold on deep coral. -->
-        <span class="backing"><svg viewBox="0 0 512 512" aria-hidden="true">
-          <rect width="512" height="512" rx="111" fill="#9a3a1f"/>
-          <path fill="#F2B705" fill-rule="nonzero" d="M 422.61 104.04 L 422.61 393.97 L 352.14 393.97 L 285.19 179.04 L 218.75 393.97 L 147.78 393.97 L 147.78 207.23 L 144.76 207.23 Q 120.09 207.23 104.74 192.38 Q 89.39 177.53 89.39 153.37 Q 89.39 129.71 106.00 114.36 Q 122.61 99.00 148.79 99.00 Q 176.47 99.00 193.84 115.36 Q 211.20 131.72 211.20 157.39 L 211.20 263.60 Q 211.20 276.18 208.68 304.88 L 219.26 261.59 L 262.04 106.05 L 308.85 106.05 L 351.13 261.59 L 361.70 304.88 Q 359.19 276.18 359.19 263.60 L 359.19 104.04 L 422.61 104.04ZM 160.61 169.73 Q 166.91 163.43 166.91 153.37 Q 166.91 143.30 160.61 137.01 Q 154.32 130.71 144.26 130.71 Q 134.69 130.71 128.15 137.01 Q 121.60 143.30 121.60 153.37 Q 121.60 162.93 128.15 169.47 Q 134.69 176.02 144.26 176.02 Q 154.32 176.02 160.61 169.73Z"/>
-        </svg></span>
-        <span class="name">พูดครับ</span>
-        <span class="kind">PhutKrub · งานนำเสนอ</span>
-        <span class="wait">รอว่างก่อนนะครับ</span>
-      </div>
-    </li>
-  </ul>
-</main>
-<footer>
-  ใช้ฟรีครับ · เอกสารประมวลผลในเบราว์เซอร์ของคุณ ·
-  <a href="./about.html">เกี่ยวกับ / About</a> · <a href="./privacy.html">ความเป็นส่วนตัว / Privacy</a>
-</footer>
+  <canvas id="wordcraft_canvas"></canvas>
+  <div id="wordcraft_loading" aria-busy="true">
+    <div class="loading-icon" aria-hidden="true">
+      <span class="sheet one"></span><span class="sheet two"></span>
+      <svg class="loading-logo" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1.5" y="1.5" width="509" height="509" rx="111" fill="#1e3a8a" stroke="#e8efff65" stroke-width="5"/>
+        <path fill="#F2B705" fill-rule="evenodd" transform="translate(-11 -7)" d="M395.93 111.03 L395.93 329.49 Q395.93 366.23 371.52 386.12 Q347.11 406.00 301.81 406.00 Q256.00 406.00 232.09 386.12 Q208.18 366.23 208.18 329.49 L208.18 295.26 Q208.18 280.16 213.21 269.09 Q218.25 258.01 228.82 242.41 Q239.89 225.80 245.18 213.72 Q250.46 201.64 250.46 184.52 Q250.46 166.40 239.89 157.09 Q229.32 147.78 210.70 147.78 Q194.09 147.78 184.02 152.31 Q203.15 153.32 216.49 166.15 Q229.83 178.99 229.83 202.14 Q229.83 224.29 215.23 239.89 Q200.63 255.50 174.46 255.50 Q147.28 255.50 131.67 238.38 Q116.07 221.27 116.07 190.06 Q116.07 152.31 142.24 129.15 Q168.42 106.00 213.72 106.00 Q258.01 106.00 283.43 125.13 Q308.85 144.26 308.85 178.48 Q308.85 199.12 303.57 212.96 Q298.28 226.81 288.21 245.43 Q280.16 259.02 276.13 268.84 Q272.11 278.65 272.11 290.73 L272.11 329.99 Q272.11 342.58 279.91 349.12 Q287.71 355.66 302.31 355.66 Q316.40 355.66 323.95 349.12 Q331.50 342.58 331.50 329.99 L331.50 111.03 Z M196.60 203.15 Q196.60 193.08 190.56 187.04 Q184.52 181.00 174.46 181.00 Q164.39 181.00 158.10 187.04 Q151.81 193.08 151.81 203.15 Q151.81 213.21 158.10 219.26 Q164.39 225.30 174.46 225.30 Q184.52 225.30 190.56 219.00 Q196.60 212.71 196.60 203.15 Z"/>
+      </svg>
+    </div>
+    <h1 class="loading-name">เขียนครับ</h1>
+    <div id="wordcraft_progress" role="progressbar" aria-label="กำลังเปิดโปรแกรม"><div class="loading-fill"></div></div>
+    <p id="wordcraft_loading_status" role="status">กำลังเปิดโปรแกรม…</p>
+    <noscript>กรุณาเปิด JavaScript ในเบราว์เซอร์ แล้วโหลดหน้านี้ใหม่</noscript>
+  </div>
 </body>
 </html>

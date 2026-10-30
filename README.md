@@ -1,16 +1,16 @@
 [เกี่ยวกับ / About](https://khiankrub.app/about.html) · [นโยบายความเป็นส่วนตัว / Privacy Policy](https://khiankrub.app/privacy.html)
 
 <p align="center">
-  <img src="khian/icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
+  <img src="icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
 
-# เขียนครับ · KhianKrub Web v0.10.1
+# เขียนครับ · KhianKrub Web v0.10.2
 
 **โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
 **A free browser-based word processor for Thai and English.**
 
-**[เปิดใช้งาน / Open KhianKrub](https://khiankrub.app/khian/)** · [KrubOffice](https://khiankrub.app/) · ปุ่ม **แจ้งปัญหา** ในโปรแกรม / the **Report a problem** button in the app
+**[เปิดใช้งาน / Open KhianKrub](https://khiankrub.app/)** · [KrubOffice](https://kruboffice.app/) · ปุ่ม **แจ้งปัญหา** ในโปรแกรม / the **Report a problem** button in the app
 
 <p align="center">
   <img src="images/khiankrub-web-hero.png" alt="KhianKrub Web with Thai menus: the navy band with the gold แจ้งปัญหา and แชร์ buttons, the Navigation pane listing 1. บทนำ, 2. วัตถุประสงค์, 3. ผลการดำเนินงาน, and a Thai report in TH Sarabun New with a list numbered ก. ข. ค. and a table captioned ตารางที่ 1" width="100%">
@@ -18,13 +18,11 @@
 
 ## ประกาศภาษาไทย
 
-**เขียนครับบนเว็บ (KhianKrub Web) v0.10.1** เปิดเร็วขึ้น ภาษาเป็นกันเองขึ้น และติดตั้งเป็นแอปได้ครับ เมื่อเข้า **[khiankrub.app](https://khiankrub.app/)** ยังพบหน้า **KrubOffice** ชุดโปรแกรมสำนักงานภาษาไทย ตอนนี้เปิดใช้ **เขียนครับ** (เอกสาร) ได้แล้ว ส่วน **คิดครับ** (ตารางคำนวณ) และ **พูดครับ** (งานนำเสนอ) รอว่างก่อนนะครับ
+**เขียนครับบนเว็บ (KhianKrub Web) v0.10.2** เปิดเข้าโปรแกรมได้ทันที เมื่อเข้า **[khiankrub.app](https://khiankrub.app/)** จะพบหน้าเริ่มต้นของเขียนครับเลย ส่วนหน้ารวมชุดโปรแกรมสำนักงานภาษาไทย **KrubOffice** ย้ายไปอยู่ที่ **[kruboffice.app](https://kruboffice.app/)** ตอนนี้เปิดใช้ **เขียนครับ** (เอกสาร) ได้แล้ว ส่วน **คิดครับ** (ตารางคำนวณ) และ **พูดครับ** (งานนำเสนอ) รอว่างก่อนนะครับ
 
-**เริ่มเร็วขึ้น** ตอนเปิดโปรแกรม เขียนครับโหลดเฉพาะฟอนต์ที่จำเป็นสองชุด คือ Sarabun สำหรับเมนู และ TH Sarabun New สำหรับเอกสาร ประมาณ 0.5 MB จากเดิม 3.2 MB ฟอนต์ไทยชุดอื่น ๆ จะโหลดเมื่อเอกสารหรือรายการฟอนต์ใช้ครั้งแรก เปิดครั้งแรกจึงเบาลง และยังเลือกฟอนต์ได้ครบเหมือนเดิม
+**ฉบับร่างและการเชื่อมต่อยังอยู่ครบ** ลิงก์เก่า เช่น khiankrub.app/khian/ ยังใช้ได้และพาเข้าโปรแกรมตามเดิม ฉบับร่างที่เก็บไว้ในเบราว์เซอร์นี้ การเชื่อมต่อ Google Drive และแอปที่ติดตั้งไว้ใช้ต่อได้ตามปกติ ปุ่ม **แอปทั้งหมด** ในโปรแกรมพาไปที่ kruboffice.app
 
-**ติดตั้งเป็นแอป** ใน Chrome กดปุ่มติดตั้งที่แถบที่อยู่เพื่อติดตั้ง khiankrub.app แล้วเปิดใช้เหมือนโปรแกรมบนเครื่อง
-
-**ปรับเล็กน้อย** ข้อความบนหน้า KrubOffice และหน้าเริ่มต้นเป็นกันเองขึ้น รายการฟอนต์แสดงชื่อฟอนต์ด้วยขนาดที่เหมาะกับหน้าตาของฟอนต์ ทำให้อ่านชื่อฟอนต์ SIPA ได้ง่ายขึ้น และกรอบ "รอว่างก่อน" ของคิดครับและพูดครับดูสะอาดขึ้น
+**PDF ปลอดภัยขึ้น** ถ้าบันทึกหรือพิมพ์เป็น PDF ในจังหวะแรกหลังเปิดเอกสาร ขณะที่ฟอนต์ที่ใช้ยังโหลดไม่เสร็จ เขียนครับจะขอให้ลองอีกครั้งในอีกสักครู่ แทนที่จะสร้าง PDF ด้วยฟอนต์สำรอง
 
 ใช้ได้ฟรีบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้ครับ
 
@@ -32,13 +30,11 @@
 
 ## English announcement
 
-**KhianKrub Web v0.10.1** opens faster, speaks more kindly, and can be installed as an app. **[khiankrub.app](https://khiankrub.app/)** still opens **KrubOffice**, the home of our Thai office apps: **KhianKrub** (documents) is ready today; **KhitKrub** (spreadsheets) and **PhutKrub** (presentations) are coming later.
+**KhianKrub Web v0.10.2** opens straight into the editor. **[khiankrub.app](https://khiankrub.app/)** now shows KhianKrub's start screen right away, and **KrubOffice**, the home of our Thai office apps, has its own address: **[kruboffice.app](https://kruboffice.app/)**. **KhianKrub** (documents) is ready today; **KhitKrub** (spreadsheets) and **PhutKrub** (presentations) are coming later.
 
-**Faster start.** The editor now loads only the two fonts it needs to open: Sarabun for the menus and TH Sarabun New for documents, about 0.5 MB instead of 3.2 MB. Every other Thai font is fetched the first time a document or the font list uses it, so the first start is lighter and the rest of the fonts are still there when you need them.
+**Your drafts and sign-in stay.** Old links such as khiankrub.app/khian/ still work and take you to the editor. Your recovery drafts in this browser, your Google Drive connection and the installed app carry on as before. The **All apps** button now opens kruboffice.app.
 
-**Install it.** In Chrome you can install khiankrub.app as an app from the install button in the address bar, and open it like any program on your computer.
-
-**Smaller touches.** The KrubOffice page and the start screen are worded in a friendlier Thai. The font list draws each name at a size that suits the design of the font, so the Thai SIPA fonts are easier to read. The "coming soon" tiles are cleaner.
+**Safer PDFs.** If you save or print a PDF in the first moment after opening a document, while a font it uses is still downloading, KhianKrub now asks you to try again in a moment instead of making a PDF in a substitute font.
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
@@ -46,16 +42,16 @@ Based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft tea
 
 ## หน้าตาโปรแกรม / A look around
 
-### KrubOffice และหน้าเริ่มต้น / KrubOffice and the start screen
+### หน้าเริ่มต้นและ KrubOffice / The start screen and KrubOffice
 
-**khiankrub.app** เปิดที่หน้า KrubOffice ให้เลือกโปรแกรม ตอนนี้ใช้ได้เฉพาะเขียนครับ คิดครับและพูดครับรอว่างก่อนนะครับ เขียนครับเปิดที่หน้าเริ่มต้น เลือกแม่แบบ หรือเขียนต่อจากฉบับร่างในเบราว์เซอร์นี้
+**kruboffice.app** คือหน้ารวมโปรแกรมให้เลือกใช้ ตอนนี้ใช้ได้เฉพาะเขียนครับ คิดครับและพูดครับรอว่างก่อนนะครับ ส่วน **khiankrub.app** เปิดเขียนครับที่หน้าเริ่มต้นทันที เลือกแม่แบบ หรือเขียนต่อจากฉบับร่างในเบราว์เซอร์นี้
 
-**khiankrub.app** opens on KrubOffice, where you pick an app; KhianKrub is available now, with KhitKrub and PhutKrub to come. KhianKrub opens on a start screen: pick a template, or carry on with a draft kept in this browser.
+**kruboffice.app** is the home page where you pick an app; KhianKrub is available now, with KhitKrub and PhutKrub to come. **khiankrub.app** opens KhianKrub straight on its start screen: pick a template, or carry on with a draft kept in this browser.
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="images/khiankrub-web-krubOffice.png" alt="The KrubOffice page: the three-tile logo, the greeting วันนี้ ...อยากทำอะไรดีครับ?, and three app icons, เขียนครับ (a gold ข on navy) and the faded คิดครับ and พูดครับ marked รอว่างก่อนนะครับ, on an off-white background with a faint ประจำยาม lattice" width="100%"><p align="center"><sub><b>KrubOffice</b> · khiankrub.app</sub></p></td>
-<td width="50%" valign="top"><img src="images/khiankrub-web-start.png" alt="The KhianKrub start screen in Thai: a top bar with เปิดไฟล์, Google Drive, ตัวเลือก and แอปทั้งหมด, the greeting สวัสดีครับ เริ่มเขียนอะไรดีครับ, five template thumbnails, and the section ฉบับร่างในเบราว์เซอร์นี้ครับ" width="100%"><p align="center"><sub><b>หน้าเริ่มต้น / Start screen</b> · khiankrub.app/khian/</sub></p></td>
+<td width="50%" valign="top"><img src="images/khiankrub-web-krubOffice.png" alt="The KrubOffice page: the three-tile logo, the greeting วันนี้ ...อยากทำอะไรดีครับ?, and three app icons, เขียนครับ (a gold ข on navy) and the faded คิดครับ and พูดครับ marked รอว่างก่อนนะครับ, on an off-white background with a faint ประจำยาม lattice" width="100%"><p align="center"><sub><b>KrubOffice</b> · kruboffice.app</sub></p></td>
+<td width="50%" valign="top"><img src="images/khiankrub-web-start.png" alt="The KhianKrub start screen in Thai: a top bar with เปิดไฟล์, Google Drive, ตัวเลือก and แอปทั้งหมด, the greeting สวัสดีครับ เริ่มเขียนอะไรดีครับ, five template thumbnails, and the section ฉบับร่างในเบราว์เซอร์นี้ครับ" width="100%"><p align="center"><sub><b>หน้าเริ่มต้น / Start screen</b> · khiankrub.app</sub></p></td>
 </tr>
 </table>
 
@@ -117,7 +113,7 @@ Recovery is on by default. A snapshot is saved after about two seconds without c
 
 ## เริ่มใช้งาน / Getting started
 
-1. เปิด / Visit **[khiankrub.app](https://khiankrub.app/)** บนคอมพิวเตอร์หรือ iPad แล้วเลือก **เขียนครับ** / on a computer or iPad, and choose **KhianKrub**.
+1. เปิด / Visit **[khiankrub.app](https://khiankrub.app/)** บนคอมพิวเตอร์หรือ iPad / on a computer or iPad.
 2. ที่หน้าเริ่มต้น เลือกเอกสารเปล่า แม่แบบ หรือฉบับร่าง หรือกด **เปิดไฟล์** / On the start screen, pick a blank document, a template or a draft, or press **Open file**.
 3. บันทึกงานผ่าน **ไฟล์ → บันทึก** ลงเครื่องหรือ Google Drive / Save your work through **File → Save**, to this device or Google Drive.
 4. หากต้องการติดตั้ง กดไอคอนติดตั้งในแถบที่อยู่ของ Chrome (ถ้ามี) หรือเลือกคำสั่งติดตั้งแอปจากเมนู Chrome แล้วยืนยัน / To install, click Chrome's address-bar install icon, if shown, or use its app-install menu option and confirm.
@@ -144,6 +140,6 @@ Documents are processed in the browser. Preferences, explicitly added fonts and 
 
 This public repository contains the built web app, screenshots, documentation and licence notices. The web app's source repository is private.
 
-KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `khian/fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
+KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.10.1**, source commit `6342e74f`.
+Prepared from version **0.10.2**, source commit `f9fe02d9`.
