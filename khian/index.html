@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>KhianKrub</title>
   <meta name="theme-color" content="#1E3A8A">
-  <link rel="manifest" href="./manifest.webmanifest">
+  <!-- The site's KrubOffice manifest (packaging/web/public): installing from here installs the whole suite. -->
+  <link rel="manifest" href="../manifest.webmanifest">
   <link rel="apple-touch-icon" href="./icons/192/ai.storyteller.wordcraft.png">
-  
   
   
   <link rel="icon" href="./wordcraft-34cbaa9d8cd08310.ico" integrity="sha384-ftTc8EN72A78z+Eb1RP4Wefr5kDxPvrUQ57y6gB/Mip4cp8WAOCCCc3XoEbIBcsQ"/>
@@ -78,10 +78,10 @@ async function __trunkInitializer(init, source, sourceSize, initializer, initWit
 }
 
 
-import init, * as bindings from './wordcraft-web-fdf4972a31007023.js';
+import init, * as bindings from './wordcraft-web-23f1887b4bd0970.js';
 import initializer from './loading-1ac372f39b7fe74f.js';
 
-const wasm = await __trunkInitializer(init, './wordcraft-web-9b5b54f8df8e79d0_bg.wasm', 32750127, initializer(), true);
+const wasm = await __trunkInitializer(init, './wordcraft-web-283ed1b6237ceed_bg.wasm', 33003941, initializer(), true);
 
 
 window.wasmBindings = bindings;

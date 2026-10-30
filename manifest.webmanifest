@@ -1,0 +1,22 @@
+{
+  "id": "/",
+  "name": "KrubOffice",
+  "short_name": "KrubOffice",
+  "description": "ชุดโปรแกรมสำนักงานภาษาไทยบนเว็บ: เขียนครับ สำหรับเอกสาร",
+  "lang": "th",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FBF8F1",
+  "theme_color": "#FBF8F1",
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icons/krubOffice-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/krubOffice-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/krubOffice-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/krubOffice.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "เขียนครับ (KhianKrub)", "short_name": "เขียนครับ", "url": "./khian/", "icons": [{ "src": "khian/icons/192/ai.storyteller.wordcraft.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}

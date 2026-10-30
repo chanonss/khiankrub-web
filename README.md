@@ -4,7 +4,7 @@
   <img src="khian/icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
 
-# เขียนครับ · KhianKrub Web v0.10.0
+# เขียนครับ · KhianKrub Web v0.10.1
 
 **โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
@@ -18,11 +18,13 @@
 
 ## ประกาศภาษาไทย
 
-**เขียนครับบนเว็บ (KhianKrub Web) v0.10.0** มาพร้อมหน้าแรกใหม่ เมื่อเข้า **[khiankrub.app](https://khiankrub.app/)** จะพบหน้า **KrubOffice** ชุดโปรแกรมสำนักงานภาษาไทยบนเว็บ ตอนนี้เปิดใช้ **เขียนครับ** (เอกสาร) ได้แล้ว ส่วน **คิดครับ** (ตารางคำนวณ) และ **พูดครับ** (งานนำเสนอ) รอว่างก่อนครับ
+**เขียนครับบนเว็บ (KhianKrub Web) v0.10.1** เปิดเร็วขึ้น ภาษาเป็นกันเองขึ้น และติดตั้งเป็นแอปได้ครับ เมื่อเข้า **[khiankrub.app](https://khiankrub.app/)** ยังพบหน้า **KrubOffice** ชุดโปรแกรมสำนักงานภาษาไทย ตอนนี้เปิดใช้ **เขียนครับ** (เอกสาร) ได้แล้ว ส่วน **คิดครับ** (ตารางคำนวณ) และ **พูดครับ** (งานนำเสนอ) รอว่างก่อนนะครับ
 
-เขียนครับเปิดที่หน้าเริ่มต้นแบบเดียวกับโปรแกรมเอกสารออนไลน์ทั่วไป เลือกเอกสารเปล่าหรือแม่แบบ (จดหมาย ประวัติย่อ รายงาน) ได้ทันที และมีรายการ **ฉบับร่างในเบราว์เซอร์นี้** กดเพื่อเขียนต่อจากที่ค้างไว้ ดาวน์โหลดเป็นไฟล์ Word หรือทิ้งฉบับร่างได้ ฉบับร่างเก็บไว้เฉพาะในเบราว์เซอร์บนเครื่องนี้ จึงควรบันทึกไฟล์สำเนาไว้ด้วย
+**เริ่มเร็วขึ้น** ตอนเปิดโปรแกรม เขียนครับโหลดเฉพาะฟอนต์ที่จำเป็นสองชุด คือ Sarabun สำหรับเมนู และ TH Sarabun New สำหรับเอกสาร ประมาณ 0.5 MB จากเดิม 3.2 MB ฟอนต์ไทยชุดอื่น ๆ จะโหลดเมื่อเอกสารหรือรายการฟอนต์ใช้ครั้งแรก เปิดครั้งแรกจึงเบาลง และยังเลือกฟอนต์ได้ครบเหมือนเดิม
 
-รุ่นนี้รวมการปรับปรุงจาก WordCraft v0.12 ด้วย เช่น กด Tab เพื่อเยื้องย่อหน้าที่เลือกทั้งหมด ชุดสไตล์คงค่าภาษาไทยของเอกสารไว้ ครอบตัดรูปจากเมนูคลิกขวา แทนที่ด้วยนิพจน์ปกติแบบใช้กลุ่ม เปิดไฟล์ Office ที่เข้ารหัสแบบ Standard ได้ และส่งออก PDF เร็วขึ้น
+**ติดตั้งเป็นแอป** ใน Chrome กดปุ่มติดตั้งที่แถบที่อยู่เพื่อติดตั้ง khiankrub.app แล้วเปิดใช้เหมือนโปรแกรมบนเครื่อง
+
+**ปรับเล็กน้อย** ข้อความบนหน้า KrubOffice และหน้าเริ่มต้นเป็นกันเองขึ้น รายการฟอนต์แสดงชื่อฟอนต์ด้วยขนาดที่เหมาะกับหน้าตาของฟอนต์ ทำให้อ่านชื่อฟอนต์ SIPA ได้ง่ายขึ้น และกรอบ "รอว่างก่อน" ของคิดครับและพูดครับดูสะอาดขึ้น
 
 ใช้ได้ฟรีบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้ครับ
 
@@ -30,11 +32,13 @@
 
 ## English announcement
 
-**KhianKrub Web v0.10.0** brings a new front door. **[khiankrub.app](https://khiankrub.app/)** now opens **KrubOffice**, a home for Thai office apps on the web. **KhianKrub** (documents) is ready today; **KhitKrub** (spreadsheets) and **PhutKrub** (presentations) are coming later.
+**KhianKrub Web v0.10.1** opens faster, speaks more kindly, and can be installed as an app. **[khiankrub.app](https://khiankrub.app/)** still opens **KrubOffice**, the home of our Thai office apps: **KhianKrub** (documents) is ready today; **KhitKrub** (spreadsheets) and **PhutKrub** (presentations) are coming later.
 
-KhianKrub now opens on a start screen, like other online word processors. Pick a blank document or a template (letter, résumé, report), or carry on with one of your **drafts in this browser**: click one to keep writing, or download it as a Word file or discard it. Drafts stay only in this browser on this device, so please also save a file copy.
+**Faster start.** The editor now loads only the two fonts it needs to open: Sarabun for the menus and TH Sarabun New for documents, about 0.5 MB instead of 3.2 MB. Every other Thai font is fetched the first time a document or the font list uses it, so the first start is lighter and the rest of the fonts are still there when you need them.
 
-This release also includes improvements from WordCraft v0.12: Tab indents whole selected paragraphs, style sets keep a document's Thai defaults, pictures can be cropped from the right-click menu, regex Replace supports capture groups, Standard-encrypted Office files open, and PDF export is faster.
+**Install it.** In Chrome you can install khiankrub.app as an app from the install button in the address bar, and open it like any program on your computer.
+
+**Smaller touches.** The KrubOffice page and the start screen are worded in a friendlier Thai. The font list draws each name at a size that suits the design of the font, so the Thai SIPA fonts are easier to read. The "coming soon" tiles are cleaner.
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
@@ -44,14 +48,14 @@ Based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft tea
 
 ### KrubOffice และหน้าเริ่มต้น / KrubOffice and the start screen
 
-**khiankrub.app** เปิดที่หน้า KrubOffice ให้เลือกโปรแกรม ตอนนี้ใช้ได้เฉพาะเขียนครับ คิดครับและพูดครับรอว่างก่อนครับ เขียนครับเปิดที่หน้าเริ่มต้น เลือกแม่แบบ หรือเขียนต่อจากฉบับร่างในเบราว์เซอร์นี้
+**khiankrub.app** เปิดที่หน้า KrubOffice ให้เลือกโปรแกรม ตอนนี้ใช้ได้เฉพาะเขียนครับ คิดครับและพูดครับรอว่างก่อนนะครับ เขียนครับเปิดที่หน้าเริ่มต้น เลือกแม่แบบ หรือเขียนต่อจากฉบับร่างในเบราว์เซอร์นี้
 
 **khiankrub.app** opens on KrubOffice, where you pick an app; KhianKrub is available now, with KhitKrub and PhutKrub to come. KhianKrub opens on a start screen: pick a template, or carry on with a draft kept in this browser.
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="images/khiankrub-web-krubOffice.png" alt="The KrubOffice page: the three-tile logo, the greeting วันนี้อยากทำอะไรครับ, and three app icons, เขียนครับ (a gold ข on navy) and the faded คิดครับ and พูดครับ marked รอว่างก่อนครับ, on an off-white background with a faint ประจำยาม lattice" width="100%"><p align="center"><sub><b>KrubOffice</b> · khiankrub.app</sub></p></td>
-<td width="50%" valign="top"><img src="images/khiankrub-web-start.png" alt="The KhianKrub start screen in Thai: a top bar with เปิดไฟล์, Google Drive, ตัวเลือก and แอปทั้งหมด, the greeting สวัสดีครับ เริ่มเขียนอะไรดี, five template thumbnails, and the section ฉบับร่างในเบราว์เซอร์นี้" width="100%"><p align="center"><sub><b>หน้าเริ่มต้น / Start screen</b> · khiankrub.app/khian/</sub></p></td>
+<td width="50%" valign="top"><img src="images/khiankrub-web-krubOffice.png" alt="The KrubOffice page: the three-tile logo, the greeting วันนี้ ...อยากทำอะไรดีครับ?, and three app icons, เขียนครับ (a gold ข on navy) and the faded คิดครับ and พูดครับ marked รอว่างก่อนนะครับ, on an off-white background with a faint ประจำยาม lattice" width="100%"><p align="center"><sub><b>KrubOffice</b> · khiankrub.app</sub></p></td>
+<td width="50%" valign="top"><img src="images/khiankrub-web-start.png" alt="The KhianKrub start screen in Thai: a top bar with เปิดไฟล์, Google Drive, ตัวเลือก and แอปทั้งหมด, the greeting สวัสดีครับ เริ่มเขียนอะไรดีครับ, five template thumbnails, and the section ฉบับร่างในเบราว์เซอร์นี้ครับ" width="100%"><p align="center"><sub><b>หน้าเริ่มต้น / Start screen</b> · khiankrub.app/khian/</sub></p></td>
 </tr>
 </table>
 
@@ -142,4 +146,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `khian/fonts/` accompany the built app. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.10.0**, source commit `4763efaa`.
+Prepared from version **0.10.1**, source commit `6342e74f`.
