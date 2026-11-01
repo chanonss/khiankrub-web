@@ -4,7 +4,7 @@
   <img src="icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
 
-# เขียนครับ · KhianKrub Web v0.10.4
+# เขียนครับ · KhianKrub Web v0.10.5
 
 **โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
@@ -18,11 +18,9 @@
 
 ## ประกาศภาษาไทย
 
-**เขียนครับบนเว็บ (KhianKrub Web) v0.10.4** ทำให้ทำงานกับหลายเอกสารได้สะดวกขึ้น และหาแอปอื่นได้ง่ายขึ้นครับ
+**เขียนครับบนเว็บ (KhianKrub Web) v0.10.5** พาไปยังคิดครับและพูดครับได้แล้วครับ
 
-**เปิดแต่ละเอกสารในแท็บใหม่** ที่หน้าเริ่มต้น เมื่อเลือกแม่แบบ เอกสารเปล่า หรือฉบับร่าง เอกสารนั้นจะเปิดในแท็บใหม่ของเบราว์เซอร์ หน้าเริ่มต้นยังอยู่ที่เดิม เลือกเอกสารอื่นต่อได้ทันที และรายการฉบับร่างจะอัปเดตเมื่อกลับมาที่หน้านั้น
-
-**ปุ่มสลับแอป** ปุ่ม "แอปทั้งหมด" เปลี่ยนเป็นปุ่มจุดเก้าจุดที่แถบด้านบน กดแล้วจะเห็นรายการแอปของ **KrubOffice** คือ เขียนครับ (ที่ที่คุณอยู่) ส่วน คิดครับ และพูดครับ มีป้าย "รอว่างก่อนนะครับ" พร้อมลิงก์ไปที่ **[kruboffice.app](https://kruboffice.app/)** และบน kruboffice.app เมื่อเลือกแอป แอปจะเปิดในแท็บใหม่เช่นกัน
+**คิดครับและพูดครับเปิดให้ใช้แล้ว** คิดครับ (โปรแกรมตารางคำนวณ) อยู่ที่ **[khitkrub.app](https://khitkrub.app/)** และพูดครับ (โปรแกรมงานนำเสนอ) อยู่ที่ **[phutkrub.app](https://phutkrub.app/)** ที่ปุ่มสลับแอป (ปุ่มจุดเก้าจุดที่แถบด้านบน) ทั้งสองแอปเป็นลิงก์ที่เปิดในแท็บใหม่ ป้าย "รอว่างก่อนนะครับ" หายไปแล้ว และบน **[kruboffice.app](https://kruboffice.app/)** ไอคอนของทั้งสามแอปกดเปิดได้
 
 ใช้ได้ฟรีบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้ครับ
 
@@ -30,11 +28,9 @@
 
 ## English announcement
 
-**KhianKrub Web v0.10.4** makes it easier to work on several documents and to find the other apps.
+**KhianKrub Web v0.10.5** now leads to KhitKrub and PhutKrub.
 
-**A new tab for each document.** On the start screen, choosing a template, a blank document or one of your drafts opens it in a new browser tab. The start screen stays where it is, so you can pick another document beside it, and its list of drafts updates when you come back to it.
-
-**An app switcher.** The "All apps" button is now a grid button in the top bar. It opens a small menu of the **KrubOffice** apps: KhianKrub (where you are), with KhitKrub and PhutKrub marked as coming soon, and a link to **[kruboffice.app](https://kruboffice.app/)**. On kruboffice.app, choosing an app now opens it in a new tab too.
+**KhitKrub and PhutKrub are open.** KhitKrub (คิดครับ), the spreadsheet app, is at **[khitkrub.app](https://khitkrub.app/)**, and PhutKrub (พูดครับ), the presentation app, is at **[phutkrub.app](https://phutkrub.app/)**. In the app switcher (the grid button in the top bar) both are now links that open in a new tab, and the "coming soon" labels are gone. On **[kruboffice.app](https://kruboffice.app/)** all three app icons open their apps.
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
@@ -44,13 +40,13 @@ Based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft tea
 
 ### หน้าเริ่มต้นและ KrubOffice / The start screen and KrubOffice
 
-**kruboffice.app** คือหน้ารวมโปรแกรมให้เลือกใช้ ตอนนี้ใช้ได้เฉพาะเขียนครับ คิดครับและพูดครับรอว่างก่อนนะครับ ส่วน **khiankrub.app** เปิดเขียนครับที่หน้าเริ่มต้นทันที เลือกแม่แบบ หรือเขียนต่อจากฉบับร่างในเบราว์เซอร์นี้
+**kruboffice.app** คือหน้ารวมโปรแกรมให้เลือกใช้ ตอนนี้เลือกใช้ได้ทั้งเขียนครับ คิดครับ และพูดครับ ส่วน **khiankrub.app** เปิดเขียนครับที่หน้าเริ่มต้นทันที เลือกแม่แบบ หรือเขียนต่อจากฉบับร่างในเบราว์เซอร์นี้
 
-**kruboffice.app** is the home page where you pick an app; KhianKrub is available now, with KhitKrub and PhutKrub to come. **khiankrub.app** opens KhianKrub straight on its start screen: pick a template, or carry on with a draft kept in this browser.
+**kruboffice.app** is the home page where you pick an app; KhianKrub, KhitKrub and PhutKrub are all available. **khiankrub.app** opens KhianKrub straight on its start screen: pick a template, or carry on with a draft kept in this browser.
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="images/khiankrub-web-krubOffice.png" alt="The KrubOffice page: the three-tile logo, the greeting วันนี้ ...อยากทำอะไรดีครับ?, and three app icons, เขียนครับ (a gold ข on navy) and the faded คิดครับ and พูดครับ marked รอว่างก่อนนะครับ, on an off-white background with a faint ประจำยาม lattice" width="100%"><p align="center"><sub><b>KrubOffice</b> · kruboffice.app</sub></p></td>
+<td width="50%" valign="top"><img src="images/khiankrub-web-krubOffice.png" alt="The KrubOffice page: the three-tile logo, the greeting วันนี้ ...อยากทำอะไรดีครับ?, and three app icons, เขียนครับ (a gold ข on navy), คิดครับ (a gold ค on teal) and พูดครับ (a gold พ on coral), on an off-white background with a faint ประจำยาม lattice" width="100%"><p align="center"><sub><b>KrubOffice</b> · kruboffice.app</sub></p></td>
 <td width="50%" valign="top"><img src="images/khiankrub-web-start.png" alt="The KhianKrub start screen in Thai: a top bar with เปิดไฟล์, Google Drive, ตัวเลือก and แอปทั้งหมด, the greeting สวัสดีครับ เริ่มเขียนอะไรดีครับ, five template thumbnails, and the section ฉบับร่างในเบราว์เซอร์นี้ครับ" width="100%"><p align="center"><sub><b>หน้าเริ่มต้น / Start screen</b> · khiankrub.app</sub></p></td>
 </tr>
 </table>
@@ -142,4 +138,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. The TLWG fonts (version 0.7.4) are the publisher's unmodified files; their [source release](https://github.com/tlwg/fonts-tlwg/releases/tag/v0.7.4) is also kept in `fonts/`. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.10.4**, source commit `2e950ee2`.
+Prepared from version **0.10.5**, source commit `8fb3d26c`.
