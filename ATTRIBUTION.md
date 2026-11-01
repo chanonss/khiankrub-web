@@ -11,6 +11,7 @@ Generated-in-code art is original and has no file to list: the UI icon set (`cra
 | Asset | Author | Source | Licence | Notes |
 |---|---|---|---|---|
 | `docs/images/khiankrub-web-recovery.png` | Chanon Sarasuk with Codex | Actual Thai recovery manager in the web app, captured in headless Chrome with original synthetic document text | MIT OR Apache-2.0 | Browser-local recovery UI; no Microsoft assets |
+| `docs/images/khiankrub-web-ribbon.png` | Chanon Sarasuk with Claude | Actual KhianKrub web Home tab with the Quiet Glass icons, captured in headless Chrome on a fresh profile (built-in report template) | MIT OR Apache-2.0 | README screenshot of the new icons; no Microsoft UI or assets |
 | `docs/images/khiankrub-web-hero.png` | Chanon Sarasuk | Actual KhianKrub web editor captured in headless Chrome: Thai menus, Navigation pane, original Thai showcase report | MIT OR Apache-2.0 | Original; no Microsoft UI or assets |
 | `docs/images/khiankrub-web-krubOffice.png` | Chanon Sarasuk | Actual KrubOffice launcher page (khiankrub.app) captured in headless Chrome: three-tile logo, Thai greeting, the เขียนครับ, คิดครับ and พูดครับ tiles (letters traced from Sarabun Bold, SIL OFL 1.1), and the ประจำยาม lattice drawn by the page | MIT OR Apache-2.0 | README screenshot of the KrubOffice launcher (v0.10.0) |
 | `docs/images/khiankrub-web-start.png` | Chanon Sarasuk | Actual KhianKrub web start screen captured in headless Chrome on a fresh profile: Thai top bar and greeting, the five built-in template thumbnails (original WordCraft sample text), empty drafts section | MIT OR Apache-2.0 | README screenshot of the KhianKrub start screen (v0.10.0) |
@@ -19,7 +20,7 @@ Generated-in-code art is original and has no file to list: the UI icon set (`cra
 | `docs/images/khiankrub-web-save.png` | Chanon Sarasuk | Actual KhianKrub web Save page (download or Google Drive), captured in headless Chrome | MIT OR Apache-2.0 | Original; no Microsoft UI or assets |
 | `docs/images/khiankrub-web-editor-th.png` | Chanon Sarasuk with Codex | Actual KhianKrub web editor captured in headless Chrome, Thai menus and original Thai–English example text | MIT OR Apache-2.0 | Original; no Microsoft UI or assets |
 | `docs/images/khiankrub-web-editor-en.png` | Chanon Sarasuk | Actual KhianKrub web editor captured in headless Chrome, English menus and the original Thai showcase report | MIT OR Apache-2.0 | Original; no Microsoft UI or assets |
-| `docs/images/khiankrub-web-loading.png` | Chanon Sarasuk with Codex | Actual KhianKrub navy-and-gold loading screen captured in headless Chrome | MIT OR Apache-2.0 | Original HTML/CSS; system-rendered text |
+| `docs/images/khiankrub-web-loading.png` | Chanon Sarasuk with Codex; retaken with Claude | Actual KhianKrub navy loading screen with the glass ข logo, captured in headless Chrome | MIT OR Apache-2.0 | Original HTML/CSS; system-rendered text |
 | `packaging/web/kruboffice/images/kruboffice-launcher.png` | Chanon Sarasuk with Claude | Actual KrubOffice launcher page (kruboffice.app) captured in headless Chrome: three-tile logo, Thai greeting, the three live app tiles (letters traced from Sarabun Bold, SIL OFL 1.1) | MIT OR Apache-2.0 | Original; no Microsoft UI or assets |
 | `packaging/web/kruboffice/images/krubOffice-192.png` | Chanon Sarasuk | KrubOffice logo (three overlapping tiles) rendered from the drawn SVG, copied from packaging/web/public/icons | MIT OR Apache-2.0 | Original artwork; no Microsoft UI or assets |
 | `packaging/web/kruboffice/images/khiankrub-hero.png` | Chanon Sarasuk | Copy of docs/images/khiankrub-web-hero.png: the KhianKrub web editor with Thai menus and the original Thai showcase report | MIT OR Apache-2.0 | Original; no Microsoft UI or assets |
@@ -33,6 +34,8 @@ Generated-in-code art is original and has no file to list: the UI icon set (`cra
 | `packaging/web/kruboffice/images/khitkrub-editor.png` | Chanon Sarasuk with Claude | Actual KhitKrub web app editor with Thai menus and the built-in sample, captured in headless Chrome; sample content: GridCraft-fork sample workbooks written for this app (original Thai coffee-shop data) | MIT OR Apache-2.0 | Original; no Microsoft UI or assets |
 | `packaging/web/kruboffice/images/khitkrub-dark.png` | Chanon Sarasuk with Claude | Actual KhitKrub web app editor in the dark theme, captured in headless Chrome; sample content: GridCraft-fork sample workbooks written for this app (original Thai coffee-shop data) | MIT OR Apache-2.0 | Original; no Microsoft UI or assets |
 | `packaging/web/kruboffice/images/khitkrub-loading.png` | Chanon Sarasuk with Claude | Actual KhitKrub web app loading screen, captured in headless Chrome; sample content: GridCraft-fork sample workbooks written for this app (original Thai coffee-shop data) | MIT OR Apache-2.0 | Original; no Microsoft UI or assets |
+| `packaging/web/kruboffice/images/khiankrub-loading.png` | Chanon Sarasuk with Claude | Copy of docs/images/khiankrub-web-loading.png: the KhianKrub loading screen with the glass ข logo | MIT OR Apache-2.0 | Original; no Microsoft UI or assets |
+| `packaging/web/kruboffice/images/khiankrub-ribbon.png`, `packaging/web/kruboffice/images/phutkrub-ribbon.png`, `packaging/web/kruboffice/images/khitkrub-ribbon.png` | Chanon Sarasuk with Claude | Actual Home tabs of the three web apps with the shared Quiet Glass icons, captured in headless Chrome on a fresh profile (built-in report template, DeckCraft's original sample deck, KhitKrub's original Thai sample workbook) | MIT OR Apache-2.0 | KrubOffice README screenshots; no Microsoft UI or assets |
 | `assets/hyphenation/en-us.pat` | DesignCraft contributors (generated) | trained from the Moby list by DesignCraft's patgen | Public Domain (CC0-1.0) | Our own Liang hyphenation patterns (no TeX patterns) |
 | `assets/hyphenation/en-us.dic` | Grady Ward (Moby Hyphenator II word list); converted by DesignCraft contributors | https://www.gutenberg.org/ebooks/3204 (file `mhyph.txt`, SHA-256 `eeb30474c86b8af3469035ec1a0913e35905325ca885290db9dfed9881e230ac`), via DesignCraft | Public Domain | ~165k words with break points; drives spelling and hyphenation |
 | `assets/spelling/en-extra.txt` | WordCraft contributors | original word list written for this repository (common modern words the Moby list lacks); no other dictionary copied | MIT OR Apache-2.0 | ~240 lowercase English base forms supplementing spelling (#520), including British spellings (#40) |
@@ -170,3 +173,26 @@ DIP/SIPA's. Both package licences permit reproduction and distribution of the un
 | `fonts/THBaijam-*.ttf` (Bold, Bold Italic, Italic, Regular) | ทีม PITA; DIP/SIPA | Original [11-TH-Baijam.zip](https://www.f0nt.com/?dl_name=sipafonts/11-TH-Baijam.zip) | `fonts/LICENSE-SIPA-11.txt` |
 | `fonts/THKoHo-*.ttf` (Bold, Bold Italic, Italic, Regular) | กลุ่ม ก-ฮ; DIP/SIPA | Original [12-TH-KoHo.zip](https://www.f0nt.com/?dl_name=sipafonts/12-TH-KoHo.zip) | `fonts/LICENSE-SIPA-12.txt` |
 | `fonts/THFahkwang-*.ttf` (Bold, Bold Italic, Italic, Regular) | ทีม สิบเอ็ด; DIP/SIPA | Original [13-TH-Fah-Kwang.zip](https://www.f0nt.com/?dl_name=sipafonts/13-TH-Fah-Kwang.zip) | `fonts/LICENSE-SIPA-13.txt` |
+
+## Quiet Glass preview (2026-11-01)
+
+| Asset | Author | Source | Licence | Used for |
+|---|---|---|---|---|
+| `crates/krub-icons/src/lib.rs` | KrubOffice contributors | Original Quiet Glass Rust drawings, 24×24 grid, 2026-11-01 | MIT OR Apache-2.0 | Shared toolbar preview and glass letter treatment |
+| `assets/app-icon/khiankrub.svg`, `assets/app-icon/khiankrub-192.png`, `assets/app-icon/khiankrub-512.png` | KrubOffice contributors; The Sarabun Project Authors | Quiet Glass original treatment of existing Sarabun Bold letter outline | MIT OR Apache-2.0; letter outline SIL OFL 1.1 | Web icon master and generated install icons |
+| `assets/app-icon/OFL-Sarabun.txt` | The Sarabun Project Authors | Sarabun licence, google/fonts ofl/sarabun | SIL OFL 1.1 | Thai letter outline licence |
+
+## Quiet Glass shared catalog (2026-11-01)
+
+| Asset | Author | Source | Licence | Used for |
+|---|---|---|---|---|
+| `crates/krub-icons/src/deck.rs`, `crates/krub-icons/src/deck/draw.rs`, `crates/krub-icons/src/deck/geometry.rs` | DeckCraft and KrubOffice contributors | Original Rust artwork from storytold/deckcraft `crates/ui-egui/src/icons{.rs,/draw.rs,/geometry.rs}`; adapted to Quiet Glass ink, gold surfaces and 1.75-unit strokes | MIT OR Apache-2.0 | Shared canonical action symbols; no vendor artwork |
+| `crates/krub-icons/src/word.rs`, `crates/krub-icons/src/menu.rs` | WordCraft and KrubOffice contributors | Original Rust artwork from this suite's KhianKrub `crates/ui-egui/src/icons.rs` and `ribbon.rs`; converted to the common master and palette | MIT OR Apache-2.0 | Document-specific actions and menu diagrams |
+| `crates/krub-icons/src/sheet.rs` | GridCraft and KrubOffice contributors | Original Rust artwork from this suite's KhitKrub `crates/ui-egui/src/icons.rs`; adapted to common geometry, aliases and palette | MIT OR Apache-2.0 | Spreadsheet-specific actions |
+
+## Thai Distribution icon (2026-11-01)
+
+| Asset | Author | Source | Licence | Used for |
+|---|---|---|---|---|
+| `crates/krub-icons/src/thai.rs` | KrubOffice contributors; The Sarabun Project Authors | Original square; preflattened ท glyph from the existing Sarabun SemiBold face, google/fonts ofl/sarabun | Square/code MIT OR Apache-2.0; glyph SIL OFL 1.1 | Font-independent shared Thai Distribution toolbar icon |
+| `crates/krub-icons/OFL-Sarabun.txt` | The Sarabun Project Authors | Existing Sarabun licence, copied unchanged from assets/app-icon/OFL-Sarabun.txt | SIL OFL 1.1 | Licence for the ท outline |

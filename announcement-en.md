@@ -1,6 +1,8 @@
-**KhianKrub Web v0.10.5** now leads to KhitKrub and PhutKrub.
+**KhianKrub Web v0.11.0** has new icons and a new logo.
 
-**KhitKrub and PhutKrub are open.** KhitKrub (คิดครับ), the spreadsheet app, is at **[khitkrub.app](https://khitkrub.app/)**, and PhutKrub (พูดครับ), the presentation app, is at **[phutkrub.app](https://phutkrub.app/)**. In the app switcher (the grid button in the top bar) both are now links that open in a new tab, and the "coming soon" labels are gone. On **[kruboffice.app](https://kruboffice.app/)** all three app icons open their apps.
+- **New icons.** Every ribbon icon has been redrawn: dark, easy-to-read lines with a touch of gold where it matters. KhianKrub, PhutKrub and KhitKrub now share the same set, so the same button looks the same in every app.
+- **A ท icon for Thai Distribution.** The Thai Distribution button on the Home tab now shows a ท in a square, so it's easier to find. It works as before.
+- **A new logo.** A gold ข on navy with a glass shine, on the loading screen, the start screen and the icon you get when you add KhianKrub to your home screen or install it from the browser.
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 

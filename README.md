@@ -4,7 +4,7 @@
   <img src="icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
 
-# เขียนครับ · KhianKrub Web v0.10.5
+# เขียนครับ · KhianKrub Web v0.11.0
 
 **โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
@@ -18,9 +18,11 @@
 
 ## ประกาศภาษาไทย
 
-**เขียนครับบนเว็บ (KhianKrub Web) v0.10.5** พาไปยังคิดครับและพูดครับได้แล้วครับ
+**เขียนครับบนเว็บ (KhianKrub Web) v0.11.0** ไอคอนชุดใหม่และโลโก้ใหม่ครับ
 
-**คิดครับและพูดครับเปิดให้ใช้แล้ว** คิดครับ (โปรแกรมตารางคำนวณ) อยู่ที่ **[khitkrub.app](https://khitkrub.app/)** และพูดครับ (โปรแกรมงานนำเสนอ) อยู่ที่ **[phutkrub.app](https://phutkrub.app/)** ที่ปุ่มสลับแอป (ปุ่มจุดเก้าจุดที่แถบด้านบน) ทั้งสองแอปเป็นลิงก์ที่เปิดในแท็บใหม่ ป้าย "รอว่างก่อนนะครับ" หายไปแล้ว และบน **[kruboffice.app](https://kruboffice.app/)** ไอคอนของทั้งสามแอปกดเปิดได้
+- **ไอคอนชุดใหม่** ไอคอนบนริบบิ้นวาดใหม่ทั้งชุด เส้นสีเข้มอ่านง่าย แต้มสีทองเฉพาะส่วนสำคัญ และใช้ชุดเดียวกันทั้งเขียนครับ พูดครับ และคิดครับ ปุ่มเดียวกันจึงหน้าตาเหมือนกันทุกโปรแกรม
+- **ไอคอน ท สำหรับกระจายแบบไทย** ปุ่มจัดข้อความแบบกระจายไทยในแท็บหน้าแรกมีไอคอนใหม่เป็นตัว ท ในกรอบสี่เหลี่ยม หาง่ายขึ้น ปุ่มยังทำงานเหมือนเดิม
+- **โลโก้ใหม่** ตัว ข สีทองบนพื้นสีกรมท่า แบบกระจกมีประกาย ทั้งหน้ารอเปิดโปรแกรม หน้าเริ่มต้น และไอคอนเมื่อเพิ่มเขียนครับไว้ที่หน้าจอโฮมหรือติดตั้งจากเบราว์เซอร์
 
 ใช้ได้ฟรีบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้ครับ
 
@@ -28,9 +30,11 @@
 
 ## English announcement
 
-**KhianKrub Web v0.10.5** now leads to KhitKrub and PhutKrub.
+**KhianKrub Web v0.11.0** has new icons and a new logo.
 
-**KhitKrub and PhutKrub are open.** KhitKrub (คิดครับ), the spreadsheet app, is at **[khitkrub.app](https://khitkrub.app/)**, and PhutKrub (พูดครับ), the presentation app, is at **[phutkrub.app](https://phutkrub.app/)**. In the app switcher (the grid button in the top bar) both are now links that open in a new tab, and the "coming soon" labels are gone. On **[kruboffice.app](https://kruboffice.app/)** all three app icons open their apps.
+- **New icons.** Every ribbon icon has been redrawn: dark, easy-to-read lines with a touch of gold where it matters. KhianKrub, PhutKrub and KhitKrub now share the same set, so the same button looks the same in every app.
+- **A ท icon for Thai Distribution.** The Thai Distribution button on the Home tab now shows a ท in a square, so it's easier to find. It works as before.
+- **A new logo.** A gold ข on navy with a glass shine, on the loading screen, the start screen and the icon you get when you add KhianKrub to your home screen or install it from the browser.
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
@@ -51,6 +55,16 @@ Based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft tea
 </tr>
 </table>
 
+### ไอคอนชุดใหม่ / The new icons
+
+ไอคอนบนริบบิ้นวาดใหม่ทั้งชุด เส้นสีเข้มอ่านง่าย แต้มสีทองเฉพาะส่วนสำคัญ ใช้ชุดเดียวกันทั้งสามโปรแกรมใน KrubOffice ปุ่มกระจายแบบไทยในกลุ่มย่อหน้ามีไอคอนตัว ท
+
+Every ribbon icon is redrawn: dark, easy-to-read lines with a touch of gold where it matters, shared by all three KrubOffice apps. The Thai Distribution button in the Paragraph group shows a ท.
+
+<p align="center">
+  <img src="images/khiankrub-web-ribbon.png" alt="The KhianKrub Home tab in Thai with the new icons: Paste, Cut, Copy and Format Painter; the font box and formatting buttons; the paragraph buttons, where Align Left and the ท Thai Distribution button are highlighted in gold; and the Styles gallery" width="100%">
+</p>
+
 ### สีแถบด้านบนและลวดลายไทย / Band colours and Thai motifs
 
 เลือกสีแถบด้านบนได้หกสี และใส่ลวดลายไทยจาง ๆ ได้ ทั้งประจำยาม กระจัง ก้านขด ดอกพิกุล และผ้าขาวม้า ที่ **ไฟล์ → ตัวเลือก → ทั่วไป** ลวดลายทุกแบบวาดขึ้นใหม่โดยโปรแกรมเอง
@@ -65,7 +79,7 @@ Six band colours, each with an optional faint Thai motif: ประจำยา�
 <tr>
 <td width="60%" valign="top"><img src="images/khiankrub-web-dark.png" alt="KhianKrub Web in the dark theme with Thai menus, the Navigation pane and the same Thai report" width="100%"><p align="center"><sub><b>ธีมมืด / Dark theme.</b> เมนูและแถบเครื่องมือเป็นสีเข้ม หน้ากระดาษยังขาวเหมือนตอนพิมพ์ / Dark menus and ribbon, with the page kept white as it will print.</sub></p></td>
 <td width="40%" valign="top"><img src="images/khiankrub-web-save.png" alt="The Save page in Thai with two choices: เครื่องนี้ (download a copy to this computer or iPad) and Google Drive (connect Google Drive)" width="100%"><p align="center"><sub><b>บันทึก / Save.</b> ดาวน์โหลดลงเครื่อง หรือบันทึกลง Google Drive ในหน้าเดียว / Download a copy, or save to Google Drive, from one page.</sub></p>
-<img src="images/khiankrub-web-loading.png" alt="The navy-and-gold loading screen with the gold ข, the name เขียนครับ, a gold loading bar and the message กำลังเปิดโปรแกรม…" width="100%"><p align="center"><sub><b>หน้ารอเปิดโปรแกรม / Loading screen</b> ครั้งแรกอาจใช้เวลาสักครู่ / The first visit takes a moment.</sub></p></td>
+<img src="images/khiankrub-web-loading.png" alt="The navy loading screen with the glass gold ข logo, the name เขียนครับ, a gold loading bar and the message กำลังเปิดโปรแกรม…" width="100%"><p align="center"><sub><b>หน้ารอเปิดโปรแกรม / Loading screen</b> ครั้งแรกอาจใช้เวลาสักครู่ / The first visit takes a moment.</sub></p></td>
 </tr>
 </table>
 
@@ -138,4 +152,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. The TLWG fonts (version 0.7.4) are the publisher's unmodified files; their [source release](https://github.com/tlwg/fonts-tlwg/releases/tag/v0.7.4) is also kept in `fonts/`. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.10.5**, source commit `8fb3d26c`.
+Prepared from version **0.11.0**, source commit `3c444ddc`.
