@@ -50,7 +50,7 @@ Based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft tea
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="images/khiankrub-web-krubOffice.png" alt="The KrubOffice page: the three-tile logo, the greeting วันนี้ ...อยากทำอะไรดีครับ?, and three app icons, เขียนครับ (a gold ข on navy), คิดครับ (a gold ค on teal) and พูดครับ (a gold พ on coral), on an off-white background with a faint ประจำยาม lattice" width="100%"><p align="center"><sub><b>KrubOffice</b> · kruboffice.app</sub></p></td>
+<td width="50%" valign="top"><img src="images/khiankrub-web-krubOffice.png" alt="The KrubOffice page: the three-tile logo, the greeting วันนี้ ...อยากทำอะไรดีครับ?, and three glass app icons, เขียนครับ (a gold ข on navy), คิดครับ (a gold ค on teal) and พูดครับ (a gold พ on coral), on an off-white background with a faint ประจำยาม lattice" width="100%"><p align="center"><sub><b>KrubOffice</b> · kruboffice.app</sub></p></td>
 <td width="50%" valign="top"><img src="images/khiankrub-web-start.png" alt="The KhianKrub start screen in Thai: a top bar with เปิดไฟล์, Google Drive, ตัวเลือก and แอปทั้งหมด, the greeting สวัสดีครับ เริ่มเขียนอะไรดีครับ, five template thumbnails, and the section ฉบับร่างในเบราว์เซอร์นี้ครับ" width="100%"><p align="center"><sub><b>หน้าเริ่มต้น / Start screen</b> · khiankrub.app</sub></p></td>
 </tr>
 </table>
@@ -152,4 +152,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. The TLWG fonts (version 0.7.4) are the publisher's unmodified files; their [source release](https://github.com/tlwg/fonts-tlwg/releases/tag/v0.7.4) is also kept in `fonts/`. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.11.0**, source commit `3c444ddc`.
+Prepared from version **0.11.0**, source commit `db21ffbe`.
