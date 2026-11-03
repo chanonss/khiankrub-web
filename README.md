@@ -152,4 +152,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. The TLWG fonts (version 0.7.4) are the publisher's unmodified files; their [source release](https://github.com/tlwg/fonts-tlwg/releases/tag/v0.7.4) is also kept in `fonts/`. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.11.0**, source commit `df9a5a0b`.
+Prepared from version **0.11.0**, source commit `65b213be`.
