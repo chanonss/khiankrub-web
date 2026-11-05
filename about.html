@@ -2,43 +2,61 @@
 <html lang="th">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>เกี่ยวกับเขียนครับ | About KhianKrub</title>
-  <meta name="description" content="เขียนครับ (KhianKrub) โปรแกรมประมวลผลคำฟรีบนเว็บสำหรับภาษาไทยและภาษาอังกฤษ พร้อมการเชื่อมต่อ Google Drive แบบเลือกใช้">
+  <title>เกี่ยวกับ KrubOffice | About KrubOffice</title>
+  <meta name="description" content="KrubOffice ชุดโปรแกรมสำนักงานภาษาไทยใช้ฟรี: เขียนครับ (KhianKrub) สำหรับเอกสาร คิดครับ (KhitKrub) สำหรับตารางคำนวณ และพูดครับ (PhutKrub) สำหรับงานนำเสนอ บนเว็บและบน Windows พร้อมการเชื่อมต่อ Google Drive แบบเลือกใช้">
   <link rel="stylesheet" href="./site.css"><link rel="icon" href="./icons/192/ai.storyteller.wordcraft.png">
   <link rel="canonical" href="https://khiankrub.app/about.html">
+  <style>
+    .brand svg { width: 42px; height: 42px; flex: none; }
+    .apps { list-style: none; padding: 0; margin: 18px 0 8px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .apps li { margin: 0; padding: 16px; border: 1px solid #dce3ef; border-radius: 14px; text-align: center; background: #fbfcfe; }
+    .apps img { width: 64px; height: 64px; display: block; margin: 0 auto 6px; }
+    .apps b { display: block; font-size: 19px; }
+    .apps span { display: block; font-size: 14.5px; color: var(--muted); line-height: 1.5; }
+    .apps a { font-size: 14.5px; }
+    @media (max-width: 600px) { .apps { grid-template-columns: 1fr; } .apps li { display: grid; grid-template-columns: 56px 1fr; gap: 4px 12px; text-align: left; align-items: center; } .apps img { width: 56px; height: 56px; margin: 0; grid-row: span 3; } }
+  </style>
 </head>
 <body>
 <a class="skip" href="#main">ข้ามไปยังเนื้อหา / Skip to content</a>
-<header><div class="bar"><a class="brand" href="./about.html"><img src="./icons/192/ai.storyteller.wordcraft.png" alt="" width="42" height="42">เขียนครับ · KhianKrub</a><nav aria-label="เมนูหลัก"><a href="./">เปิดโปรแกรม / Open editor</a><a href="./privacy.html">ความเป็นส่วนตัว / Privacy</a></nav></div></header>
+<header><div class="bar"><a class="brand" href="https://kruboffice.app/"><svg viewBox="0 0 120 120" aria-hidden="true"><g transform="rotate(-14 60 70)"><rect x="22" y="26" width="64" height="64" rx="15" fill="#d47a57"/></g><g transform="rotate(10 60 70)"><rect x="36" y="22" width="64" height="64" rx="15" fill="#39a58d"/></g><rect x="26" y="38" width="68" height="68" rx="16" fill="#ffffff"/><rect x="44" y="66" width="32" height="12" rx="6" fill="#F2B705"/></svg>KrubOffice</a><nav aria-label="เมนูหลัก"><a href="https://kruboffice.app/">หน้าหลัก / Home</a><a href="./privacy.html">ความเป็นส่วนตัว / Privacy</a></nav></div></header>
 <main id="main">
 <p class="language"><a href="#thai">ภาษาไทย</a> · <a href="#english" lang="en">English</a></p>
 <section id="thai" lang="th">
-<p class="eyebrow">เกี่ยวกับเขียนครับ</p>
-<h1>เขียนและจัดรูปแบบเอกสาร<br>ได้จากเบราว์เซอร์</h1>
-<p class="lead">เขียนครับ (KhianKrub) เป็นโปรแกรมประมวลผลคำบนเว็บที่ใช้งานได้ฟรี สำหรับเอกสารภาษาไทยและภาษาอังกฤษ ดูแลและพัฒนาโดย Chanon Sarasuk</p>
-<a class="button" href="./">เปิดเขียนครับ</a>
-<h2>ทำอะไรได้บ้าง</h2>
-<p>สร้างเอกสาร เปิดและแก้ไขไฟล์ Word (.docx) จัดรูปแบบข้อความ หัวข้อ รายการและตาราง แล้วดาวน์โหลดเอกสารกลับลงเครื่อง ใช้งานผ่านเบราว์เซอร์บนคอมพิวเตอร์หรือแท็บเล็ต โดยไม่จำเป็นต้องเชื่อมต่อ Google Drive</p>
+<p class="eyebrow">เกี่ยวกับ KrubOffice</p>
+<h1>ชุดโปรแกรมสำนักงานภาษาไทย<br>ใช้ฟรี</h1>
+<p class="lead">KrubOffice มีสามโปรแกรมสำหรับงานภาษาไทยและภาษาอังกฤษ ใช้ได้ทั้งบนเว็บและบนคอมพิวเตอร์ ดูแลและพัฒนาโดย Chanon Sarasuk</p>
+<ul class="apps">
+  <li><img src="https://khiankrub.app/icons/192/khiankrub-192.png" alt=""><b>เขียนครับ</b><span>KhianKrub · เอกสาร Word (.docx)</span><a href="./">khiankrub.app</a></li>
+  <li><img src="https://khitkrub.app/icons/192/khitkrub-192.png" alt=""><b>คิดครับ</b><span>KhitKrub · ตารางคำนวณ Excel (.xlsx)</span><a href="https://khitkrub.app/">khitkrub.app</a></li>
+  <li><img src="https://phutkrub.app/icons/192/phutkrub-192.png" alt=""><b>พูดครับ</b><span>PhutKrub · งานนำเสนอ PowerPoint (.pptx)</span><a href="https://phutkrub.app/">phutkrub.app</a></li>
+</ul>
+<a class="button" href="https://kruboffice.app/">เปิด KrubOffice</a>
+<h2>ใช้บนเว็บหรือบนคอมพิวเตอร์</h2>
+<p><b>บนเว็บ</b> เปิดได้ทันทีจากเบราว์เซอร์บนคอมพิวเตอร์หรือ iPad ไม่ต้องติดตั้ง ไม่ต้องสมัครสมาชิก งานใหม่เก็บเป็นฉบับร่างในอุปกรณ์ของคุณ และดาวน์โหลดเป็นไฟล์ได้เมื่อต้องการ</p>
+<p><b>บนคอมพิวเตอร์</b> KrubOffice สำหรับ Windows รวมทั้งสามโปรแกรมไว้ในแอปเดียว ดับเบิลคลิกไฟล์แล้วแอปเลือกโปรแกรมให้เอง ใช้ได้แม้ไม่มีอินเทอร์เน็ต <a href="https://kruboffice.app/desktop.html">ดาวน์โหลดและวิธีติดตั้ง</a> รุ่นสำหรับ macOS จะตามมาภายหลัง</p>
 <h2>เชื่อมต่อ Google Drive เมื่อคุณต้องการ</h2>
-<p>คุณเลือกเชื่อมต่อเพื่อเปิดเอกสาร Word จาก Google Drive บันทึกสำเนาใหม่ หรือบันทึกกลับไปยังไฟล์ที่เปิดจาก Drive ได้ แอปขอสิทธิ์ <code>drive.file</code> เพื่อใช้เฉพาะไฟล์ที่คุณเลือกให้แอปหรือสร้างด้วยแอป ไม่ได้ขอสิทธิ์เข้าถึงไฟล์ทั้งหมดใน Drive</p>
-<p>ไฟล์ส่งตรงระหว่างเบราว์เซอร์ของคุณกับ Google Drive เมื่อคุณสั่งเปิดหรือบันทึก ไม่มีการบันทึกขึ้น Drive อัตโนมัติ การใช้ Drive ขึ้นอยู่กับการอนุญาตของ Google และการตั้งค่าบัญชีของคุณ</p>
-<div class="note">เอกสารประมวลผลในเบราว์เซอร์ และมีสำเนากู้คืนเก็บไว้บนอุปกรณ์ตามค่าเริ่มต้น อ่านรายละเอียดข้อมูลและวิธีลบสำเนาได้ใน <a href="./privacy.html">นโยบายความเป็นส่วนตัว</a></div>
+<p>ทั้งสามโปรแกรมบนเว็บเชื่อมต่อ Google Drive ได้ตามที่คุณเลือก เพื่อเปิดไฟล์จาก Drive บันทึกสำเนาใหม่ หรือบันทึกกลับไปยังไฟล์ที่เปิดจาก Drive การเชื่อมต่อใช้บัญชี Google ร่วมกันในชื่อ เขียนครับ (KhianKrub) แอปขอสิทธิ์ <code>drive.file</code> เพื่อใช้เฉพาะไฟล์ที่คุณเลือกให้แอปหรือสร้างด้วยแอป ไม่ได้ขอสิทธิ์เข้าถึงไฟล์ทั้งหมดใน Drive</p>
+<p>ไฟล์ส่งตรงระหว่างเบราว์เซอร์ของคุณกับ Google Drive เมื่อคุณสั่งเปิดหรือบันทึก ไม่มีการบันทึกขึ้น Drive อัตโนมัติ การใช้ Drive ขึ้นอยู่กับการอนุญาตของ Google และการตั้งค่าบัญชีของคุณ KrubOffice บนคอมพิวเตอร์รุ่นปัจจุบันยังไม่เชื่อมต่อ Google Drive</p>
+<div class="note">เอกสารประมวลผลในเบราว์เซอร์หรือบนคอมพิวเตอร์ของคุณ และมีสำเนากู้คืนเก็บไว้บนอุปกรณ์ตามค่าเริ่มต้น อ่านรายละเอียดข้อมูลและวิธีลบสำเนาได้ใน <a href="./privacy.html">นโยบายความเป็นส่วนตัว</a></div>
 <h2>ที่มาและการติดต่อ</h2>
-<p>พัฒนาจาก <a href="https://github.com/storytold/wordcraft">WordCraft โดยทีม ArtCraft</a> และปรับปรุงโดย Chanon Sarasuk โครงการนี้ไม่ได้เป็นผลิตภัณฑ์ของ Google หรือได้รับการรับรองจาก Google</p>
+<p>พัฒนาต่อยอดจากโครงการโอเพนซอร์สของทีม ArtCraft ได้แก่ <a href="https://github.com/storytold/wordcraft">WordCraft</a> <a href="https://github.com/storytold/gridcraft">GridCraft</a> และ <a href="https://github.com/storytold/deckcraft">DeckCraft</a> ปรับปรุงสำหรับผู้ใช้ภาษาไทยโดย Chanon Sarasuk KrubOffice ไม่ใช่ผลิตภัณฑ์ของ ArtCraft, Google หรือ Microsoft และไม่ได้รับการรับรองจากบริษัทเหล่านั้น</p>
+<p>ติดตามข่าวและรุ่นใหม่ได้ที่ <a href="https://www.facebook.com/kruboffice/">เพจ Facebook ของ KrubOffice</a></p>
 <p>ติดต่อผู้ดูแลหรือสอบถามเรื่องข้อมูลส่วนบุคคล: <a href="mailto:khiankrub@gmail.com">khiankrub@gmail.com</a></p>
 </section>
 <section id="english" lang="en" class="section-language">
-<p class="eyebrow">ABOUT KHIANKRUB</p><h2>A free word processor in your browser</h2>
-<p>KhianKrub (เขียนครับ) is a free web word processor for Thai and English, developed and operated by Chanon Sarasuk. Create documents, open and edit Word (.docx) files, format text, headings, lists and tables, and download your work. Use it on a computer or tablet. Connecting Google Drive is optional.</p>
-<h3>Why KhianKrub asks for Google Drive access</h3>
-<p>Connect Drive to open a Word document, save a new copy, or save changes back to the file you opened. KhianKrub requests the <code>drive.file</code> permission, limited to files you select for the app or create with it. It does not request access to every file in your Drive.</p>
-<p>Transfers go directly between your browser and Google Drive when you choose Open or Save. There is no automatic saving to Drive. Drive availability depends on Google's authorization and your account settings.</p>
-<p>Documents are processed in your browser. Local recovery copies are enabled by default. Read our <a href="./privacy.html#english">Privacy Policy</a> for data handling, storage and deletion controls.</p>
+<p class="eyebrow">ABOUT KRUBOFFICE</p><h2>Free Thai office apps</h2>
+<p>KrubOffice is three free apps for Thai and English, on the web and on the desktop, developed and operated by Chanon Sarasuk: <b>KhianKrub</b> (เขียนครับ) for Word documents (.docx) at <a href="./">khiankrub.app</a>, <b>KhitKrub</b> (คิดครับ) for Excel spreadsheets (.xlsx) at <a href="https://khitkrub.app/">khitkrub.app</a>, and <b>PhutKrub</b> (พูดครับ) for PowerPoint presentations (.pptx) at <a href="https://phutkrub.app/">phutkrub.app</a>.</p>
+<p><b>On the web</b>, they open straight in the browser on a computer or iPad, with no install and no account. <b>On the desktop</b>, KrubOffice for Windows puts all three in one app that opens each file in the right program and works offline: <a href="https://kruboffice.app/desktop.html">download and install</a>. macOS comes later.</p>
+<h3>Why the apps ask for Google Drive access</h3>
+<p>On the web, each app can connect to Google Drive to open a file, save a new copy, or save changes back to the file you opened. The three share one Google sign-in, shown as KhianKrub. They request the <code>drive.file</code> permission, limited to files you select for the app or create with it. They do not request access to every file in your Drive.</p>
+<p>Transfers go directly between your browser and Google Drive when you choose Open or Save. There is no automatic saving to Drive. Drive availability depends on Google's authorization and your account settings. KrubOffice for the desktop does not connect to Google Drive yet.</p>
+<p>Documents are processed in your browser or on your computer. Local recovery copies are enabled by default. Read our <a href="./privacy.html#english">Privacy Policy</a> for data handling, storage and deletion controls.</p>
 <h3>Credits and contact</h3>
-<p>Based on <a href="https://github.com/storytold/wordcraft">WordCraft by the ArtCraft team</a>, with modifications by Chanon Sarasuk. KhianKrub is independent and is not a Google product or endorsed by Google. The built website and licence notices are available in <a href="https://github.com/chanonss/khiankrub-web">chanonss/khiankrub-web</a>.</p>
-<p>Support and privacy contact: <a href="mailto:khiankrub@gmail.com">khiankrub@gmail.com</a>.</p>
-<a class="button" href="./">Open KhianKrub</a>
+<p>Based on <a href="https://github.com/storytold/wordcraft">WordCraft</a>, <a href="https://github.com/storytold/gridcraft">GridCraft</a> and <a href="https://github.com/storytold/deckcraft">DeckCraft</a> by the ArtCraft team, adapted for Thai users by Chanon Sarasuk. KrubOffice is independent: it is not a product of, or endorsed by, ArtCraft, Google or Microsoft. The desktop app is open source at <a href="https://github.com/chanonss/kruboffice-desktop">chanonss/kruboffice-desktop</a>; the built websites and licence notices are at <a href="https://github.com/chanonss/khiankrub-web">chanonss/khiankrub-web</a>, <a href="https://github.com/chanonss/khitkrub-web">khitkrub-web</a> and <a href="https://github.com/chanonss/phutkrub-web">phutkrub-web</a>.</p>
+<p>News and new versions: <a href="https://www.facebook.com/kruboffice/">KrubOffice on Facebook</a>. Support and privacy contact: <a href="mailto:khiankrub@gmail.com">khiankrub@gmail.com</a>.</p>
+<a class="button" href="https://kruboffice.app/">Open KrubOffice</a>
 </section>
 </main>
-<footer><p>© 2026 Chanon Sarasuk · Based on WordCraft by the ArtCraft team.</p><p><a href="./about.html">About</a> · <a href="./privacy.html">Privacy Policy</a> · <a href="mailto:khiankrub@gmail.com">Contact</a></p></footer>
+<footer><p>© 2026 Chanon Sarasuk · Based on WordCraft, GridCraft and DeckCraft by the ArtCraft team.</p><p><a href="./about.html">About</a> · <a href="./privacy.html">Privacy Policy</a> · <a href="mailto:khiankrub@gmail.com">Contact</a></p></footer>
 </body></html>
