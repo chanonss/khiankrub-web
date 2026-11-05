@@ -4,7 +4,7 @@
   <img src="icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
 
-# เขียนครับ · KhianKrub Web v0.11.0
+# เขียนครับ · KhianKrub Web v0.12.0
 
 **โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
@@ -18,11 +18,20 @@
 
 ## ประกาศภาษาไทย
 
-**เขียนครับบนเว็บ (KhianKrub Web) v0.11.0** ไอคอนชุดใหม่และโลโก้ใหม่ครับ
+**เขียนครับบนเว็บ (KhianKrub Web) v0.12.0** คัดลอกและตัดตารางได้ กล่องโต้ตอบเป็นภาษาไทย และฉบับร่างที่ชัดเจนขึ้นครับ
 
-- **ไอคอนชุดใหม่** ไอคอนบนริบบิ้นวาดใหม่ทั้งชุด เส้นสีเข้มอ่านง่าย แต้มสีทองเฉพาะส่วนสำคัญ และใช้ชุดเดียวกันทั้งเขียนครับ พูดครับ และคิดครับ ปุ่มเดียวกันจึงหน้าตาเหมือนกันทุกโปรแกรม
-- **ไอคอน ท สำหรับกระจายแบบไทย** ปุ่มจัดข้อความแบบกระจายไทยในแท็บหน้าแรกมีไอคอนใหม่เป็นตัว ท ในกรอบสี่เหลี่ยม หาง่ายขึ้น ปุ่มยังทำงานเหมือนเดิม
-- **โลโก้ใหม่** ตัว ข สีทองบนพื้นสีกรมท่า แบบกระจกมีประกาย ทั้งหน้ารอเปิดโปรแกรม หน้าเริ่มต้น และไอคอนเมื่อเพิ่มเขียนครับไว้ที่หน้าจอโฮมหรือติดตั้งจากเบราว์เซอร์
+- **ฉบับร่างในอุปกรณ์นี้** เอกสารใหม่ที่ยังไม่ได้บันทึกเป็นไฟล์หรือลง Google Drive เรียกว่าฉบับร่างอย่างชัดเจน หน้าเริ่มต้นแสดง **ชื่อ (ฉบับร่าง)** แถบชื่อด้านบนแสดง **(ฉบับร่าง) — บันทึกในอุปกรณ์นี้แล้ว** และเมื่อทุกอย่างถูกเก็บแล้ว ปิดแท็บได้โดยเบราว์เซอร์ไม่ถาม ส่วนไฟล์ที่เปิดจากเครื่องหรือ Google Drive ที่ยังมีการแก้ไขค้างอยู่ เบราว์เซอร์จะถามก่อนปิดแท็บ
+- **กล่องโต้ตอบเป็นภาษาไทย** เมื่อเลือกเมนูภาษาไทย หน้าต่างถามบันทึกการเปลี่ยนแปลง ไฟล์ › ตัวเลือก และกล่องโต้ตอบที่ใช้บ่อย เช่น ฟอนต์ ย่อหน้า ตั้งค่าหน้ากระดาษ ค้นหาและแทนที่ และสัญลักษณ์ เป็นภาษาไทยแล้ว ส่วนกล่องโต้ตอบที่ใช้น้อยกว่าจะทยอยแปลต่อไป
+- **คัดลอกและตัดตาราง** เลือกทั้งตารางแล้วตัด ตารางจะถูกนำออกทั้งตาราง เลือกแถวหรือเซลล์แล้วคัดลอก จะได้ตารางเฉพาะส่วนที่เลือกไปวางได้ ตัดแถวหรือเซลล์จะลบข้อความและคงแถวและเซลล์ไว้ เหมือนใน Word
+- **ข้อความในรูปร่างหมุนตามรูปร่าง** หมุนกล่องข้อความหรือรูปร่าง ข้อความข้างในหมุนตามไปด้วย ระหว่างพิมพ์แก้ข้อความจะตั้งตรงให้อ่านง่าย
+- **บันทึกเป็นแม่แบบ Word (.dotx)** ใน ไฟล์ › ส่งออก
+- **เลขลำดับ a. b. c.** ในคลังลำดับเลขของแท็บหน้าแรก
+- **ฟอนต์ Tahoma** เมื่อเปิดเอกสารที่ใช้ Tahoma โปรแกรมบอกวิธีโหลดฟอนต์จากเครื่อง (Chrome และ Edge โหลดฟอนต์ที่ติดตั้งในเครื่องได้ เบราว์เซอร์อื่นเพิ่มไฟล์ฟอนต์เองได้)
+- **จัดหน้าเหมือน Word มากขึ้น** เลขลำดับหัวข้อนับถูกต้องเมื่อขึ้นต้นด้วยหัวข้อย่อย (เช่น ข้อ 10.1 แล้วต่อด้วยข้อ 11) จุดนำแท็บในสารบัญและแบบฟอร์มเว้นระยะเหมือน Word เส้นขอบด้านข้างของย่อหน้าอยู่นอกข้อความ และย่อหน้าที่ขึ้นส่วนแบบต่อเนื่องไม่ล้นหน้ากระดาษอีกต่อไป
+- **ไฟล์ .doc** เปิดได้ถูกต้องขึ้น ไฟล์จาก Word 365 ใช้ฟอนต์ Aptos ตามต้นฉบับ ส่วนของเอกสารและเซลล์ตารางอ่านได้ถูกต้อง และทนต่อไฟล์เสียมากขึ้น
+- **ไฟล์ .docx และ .rtf** ขนาดฟอนต์เริ่มต้นถูกเก็บเมื่อบันทึก ไฟล์ .docx ที่มีความสัมพันธ์จำนวนมากเปิดได้ทันทีแทนการรอหลายนาที และรูปภาพแบบ WMF และ EMF ในไฟล์ .rtf ไม่หายแล้ว
+- **หัวกระดาษและท้ายกระดาษ** ปิดหัวกระดาษหรือท้ายกระดาษแล้ว เคอร์เซอร์กลับไปที่เดิมในเนื้อหา
+- **การพิมพ์และอื่น ๆ** เอกสารที่มีลิงก์หรือสารบัญพิมพ์ได้ สารบัญแบบลิงก์ใช้เลขหน้าแบบ PAGEREF เหมือน Word ย่อหน้าที่ใช้สไตล์ที่ไม่มีอยู่จัดรูปแบบเป็นปกติ ขยาย/ย่อขนาดฟอนต์ทีละขั้นตามขนาดของแต่ละส่วน และคุณสมบัติตารางใช้กับทุกแถว คอลัมน์ และเซลล์ที่เลือก
 
 ใช้ได้ฟรีบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้ครับ
 
@@ -30,11 +39,20 @@
 
 ## English announcement
 
-**KhianKrub Web v0.11.0** has new icons and a new logo.
+**KhianKrub Web v0.12.0** copies and cuts tables, has its dialogs in Thai, and calls drafts plainly drafts.
 
-- **New icons.** Every ribbon icon has been redrawn: dark, easy-to-read lines with a touch of gold where it matters. KhianKrub, PhutKrub and KhitKrub now share the same set, so the same button looks the same in every app.
-- **A ท icon for Thai Distribution.** The Thai Distribution button on the Home tab now shows a ท in a square, so it's easier to find. It works as before.
-- **A new logo.** A gold ข on navy with a glass shine, on the loading screen, the start screen and the icon you get when you add KhianKrub to your home screen or install it from the browser.
+- **Drafts on this device.** A new document not yet saved as a file or to Google Drive is plainly called a draft: the start screen lists **Name (draft)**, the title bar reads **(draft) — Saved on this device**, and once everything is kept the tab closes without the browser asking. A file opened from this device or Google Drive with unsaved edits still makes the browser ask before the tab closes.
+- **Dialogs in Thai.** With Thai menus, the Save Changes prompt, File › Options and the most-used dialogs, such as Font, Paragraph, Page Setup, Find and Replace and Symbol, are in Thai; the less-used dialogs will follow.
+- **Copy and cut tables.** Select a whole table and Cut removes it; copy rows or cells and you get a table of just those to paste; cutting rows or cells clears their text and keeps the rows and cells, as in Word.
+- **Text turns with its shape.** Rotate a text box or shape and the text inside turns with it; while you edit, it stands upright so it's easy to read.
+- **Save as a Word template (.dotx)** from File › Export.
+- **a. b. c. numbering** in the Numbering library on the Home tab.
+- **Tahoma.** When a document uses Tahoma, the app explains how to load the font from your computer (Chrome and Edge can use installed fonts; in other browsers you can add the font file).
+- **Layout closer to Word.** List numbers count correctly when a sub-item comes first (10.1, then 11); tab leader dots in tables of contents and forms are spaced as in Word; paragraph side borders sit outside the text; and paragraphs that each start a continuous section no longer run off the page.
+- **.doc files** open more faithfully: Word 365 files use Aptos as in the original, sections and table cells are read correctly, and damaged files are handled more safely.
+- **.docx and .rtf files.** The default font size is kept when saving, a .docx with many relationships opens at once instead of after minutes, and WMF and EMF pictures in .rtf files are no longer lost.
+- **Header and footer.** Closing the header or footer takes you back to where you were in the body.
+- **Printing and more.** Documents with links or a table of contents print; linked tables of contents use PAGEREF page numbers as Word does; a paragraph with a missing style is formatted as Normal; Grow and Shrink Font step each part from its own size; and Table Properties applies to every selected row, column and cell.
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
@@ -101,22 +119,31 @@ The gold **Report a problem** button beside Share opens a short form. The app fi
 | เอกสารใหม่ใช้ TH Sarabun New 16 จุด พร้อมฟอนต์แห่งชาติ SIPA ครบ 13 ตระกูล และฟอนต์ TLWG 8 ตระกูล (Garuda, Kinnari, Laksaman, Loma, Norasi, Sawasdee, Umpush, Waree) ไม่ต้องติดตั้งเพิ่ม | New documents use TH Sarabun New, 16 pt; all 13 original SIPA national-font families and 8 TLWG families (Garuda, Kinnari, Laksaman, Loma, Norasi, Sawasdee, Umpush, Waree) are included, with no installation needed |
 | ตัดคำไทย จัดข้อความแบบกระจายไทย และใช้เลขหรือตัวอักษรไทยในรายการ | Thai word breaking, Thai Distribution, and Thai list numbering |
 | จัดรูปแบบข้อความ ย่อหน้า สไตล์ หัวเรื่อง ตาราง และรูปภาพ | Format text, paragraphs, styles, headings, tables and pictures |
-| เมนูหลักภาษาไทยและภาษาอังกฤษ บางกล่องโต้ตอบยังเป็นภาษาอังกฤษ | Thai and English interface options; some dialogs remain in English |
+| คัดลอกและตัดทั้งตาราง แถว หรือเซลล์ ได้ตารางเฉพาะส่วนที่เลือกไปวางที่อื่น | Copy and cut whole tables, rows or cells, pasting a table of just what you selected |
+| ส่งออกเป็นแม่แบบ Word (`.dotx`) | Export a Word template (`.dotx`) |
+| เมนูหลักภาษาไทยและภาษาอังกฤษ กล่องโต้ตอบที่ใช้บ่อยเป็นภาษาไทยแล้ว | Thai and English interface options; the most-used dialogs are in Thai |
 | เลือกธีม สีแถบด้านบน ลวดลายไทย ขนาดเมนู และหน่วยวัด | Choose the theme, band colour, Thai motif, interface size and measurement units |
 | เก็บภาษา หน่วยวัด ธีม และการตั้งค่าเมนูในเบราว์เซอร์เดิมบนอุปกรณ์เดิม | Remember language, units, theme and interface preferences in the same browser on the same device |
 | หน้าเริ่มต้นพร้อมแม่แบบ และรายการฉบับร่างในเบราว์เซอร์ให้เขียนต่อ ดาวน์โหลด หรือทิ้งได้ | A start screen with templates and the drafts kept in this browser, to keep writing, download or discard |
-| มีฉบับกู้คืนอัตโนมัติในเบราว์เซอร์ พร้อมกู้คืน ดาวน์โหลด และทิ้งฉบับกู้คืน | Automatic recovery drafts in the browser, with restore, download and discard controls |
+| เอกสารใหม่บันทึกเป็นฉบับร่างในอุปกรณ์นี้อัตโนมัติ ปิดแท็บได้โดยไม่หาย | New documents are saved automatically as drafts on this device, so closing the tab loses nothing |
 | ติดตั้งผ่าน Chrome เพื่อเปิดในหน้าต่างแอปแยก | Install through Chrome to open in a separate app window |
 
-## การกู้คืนงาน / Recovery drafts
+## ฉบับร่างในอุปกรณ์นี้ / Drafts on this device
 
-![KhianKrub recovery drafts manager in Thai, with restore, download and discard controls](images/khiankrub-web-recovery.png)
+<table>
+<tr>
+<td width="50%" valign="top"><img src="images/khiankrub-web-drafts.png" alt="The KhianKrub start screen in Thai with the section ฉบับร่างในอุปกรณ์นี้: each draft is listed with (ฉบับร่าง) after its name and the time it was saved" width="100%"><p align="center"><sub><b>ฉบับร่างที่หน้าเริ่มต้น / Drafts on the start screen</b></sub></p></td>
+<td width="50%" valign="top"><img src="images/khiankrub-web-draft-title.png" alt="The KhianKrub title bar in Thai showing a document name followed by (ฉบับร่าง) — บันทึกในอุปกรณ์นี้แล้ว" width="100%"><p align="center"><sub><b>แถบชื่อเอกสาร / The title bar</b></sub></p></td>
+</tr>
+</table>
 
-เปิดการกู้คืนไว้โดยเริ่มต้น โปรแกรมจะเก็บฉบับกู้คืนในเบราว์เซอร์หลังหยุดพิมพ์ประมาณ 2 วินาที หรือเป็นระยะระหว่างพิมพ์ต่อเนื่อง เมื่อเปิดเว็บอีกครั้ง ฉบับร่างจะอยู่ในหน้าเริ่มต้น กดเพื่อเขียนต่อ หรือใช้เมนู ⋮ เพื่อดาวน์โหลดสำเนาหรือทิ้ง และยังจัดการได้ที่ **จัดการฉบับกู้คืน** ตั้งค่าได้ที่ **ไฟล์ → ตัวเลือก → ทั่วไป → การกู้คืนในอุปกรณ์นี้**
+เขียนครับบนเว็บไม่มีพื้นที่เก็บไฟล์บนเซิร์ฟเวอร์ เอกสารใหม่ที่ยังไม่ได้บันทึกเป็นไฟล์หรือลง Google Drive จะเก็บเป็น **ฉบับร่าง** ในเบราว์เซอร์ของอุปกรณ์นี้โดยอัตโนมัติ หลังหยุดพิมพ์ประมาณ 2 วินาที หรือเป็นระยะระหว่างพิมพ์ต่อเนื่อง แถบชื่อเอกสารจะแสดง **ชื่อเอกสาร (ฉบับร่าง) — บันทึกในอุปกรณ์นี้แล้ว** เมื่อทุกอย่างที่พิมพ์ถูกเก็บแล้ว ปิดแท็บได้ทันทีโดยเบราว์เซอร์ไม่ถามอีก เมื่อเปิดเว็บอีกครั้ง ฉบับร่างจะอยู่ในหน้าเริ่มต้นในชื่อ **ชื่อเอกสาร (ฉบับร่าง)** กดเพื่อเขียนต่อ หรือใช้เมนู ⋮ เพื่อดาวน์โหลดสำเนาหรือทิ้ง ฉบับร่างจะอยู่จนกว่าคุณจะทิ้ง ตั้งค่าได้ที่ **ไฟล์ → ตัวเลือก → ทั่วไป → การกู้คืนในอุปกรณ์นี้**
 
-Recovery is on by default. A snapshot is saved after about two seconds without changes, or periodically during continuous editing. On return, drafts are listed on the start screen: click one to keep writing, or use its ⋮ menu to download a copy or discard it. **Manage recovery drafts** works too. Configure it under **File → Options → General → Recovery on this device**.
+KhianKrub on the web has no server storage. A new document that has not been saved as a file or to Google Drive is kept automatically as a **draft** in this device's browser, about two seconds after you stop typing, or periodically while you keep typing. The title bar reads **Name (draft) — Saved on this device** once everything you typed is kept, and you can close the tab without the browser asking. On return, the start screen lists it as **Name (draft)**: click it to keep writing, or use its ⋮ menu to download a copy or discard it. A draft stays until you discard it. Configure it under **File → Options → General → Recovery on this device**.
 
-- สถานะ **บันทึกฉบับกู้คืนในอุปกรณ์นี้แล้ว** หมายถึงฉบับกู้คืนในเบราว์เซอร์ ไม่ใช่ไฟล์ต้นฉบับหรือ Drive / **Recovery copy saved on this device** refers to a browser draft, not the original file or Drive.
+- ฉบับร่างไม่ใช่ไฟล์ต้นฉบับหรือ Drive หากต้องการเก็บไว้ที่อื่น ให้บันทึกลง Google Drive หรือดาวน์โหลดสำเนา / A draft is not the original file or Drive; to keep it anywhere else, save to Google Drive or download a copy.
+- หากเบราว์เซอร์ไม่รับปากว่าจะเก็บข้อมูลไว้ หน้าเริ่มต้นจะเตือนว่าเบราว์เซอร์อาจลบฉบับร่างเองเมื่อพื้นที่ไม่พอ ไม่ได้เข้าใช้นาน หรือปิดหน้าต่างส่วนตัว / If the browser does not agree to keep the site's storage, the start screen warns that it may remove drafts by itself when space runs short, after a long time without a visit, or when a private window closes.
+- เอกสารที่เปิดจากไฟล์หรือ Google Drive ยังถามก่อนปิดแท็บเมื่อมีการแก้ไขที่ยังไม่ได้บันทึก / Documents opened from a file or Google Drive still ask before the tab closes with unsaved edits.
 - เก็บฉบับก่อนหน้าไว้ด้วย การดาวน์โหลดไม่ลบฉบับกู้คืน / The previous snapshot is also kept. Downloads do not delete drafts.
 - กู้คืนเนื้อหาและรูปแบบของเอกสาร โดยไม่กู้คืนประวัติเลิกทำ / Restoration keeps document content and formatting, but does not restore undo history.
 - หากใช้อุปกรณ์ร่วมกับผู้อื่น ควรทิ้งฉบับกู้คืนเมื่อเสร็จงาน / On shared devices, discard recovery drafts when finished.
@@ -152,4 +179,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. The TLWG fonts (version 0.7.4) are the publisher's unmodified files; their [source release](https://github.com/tlwg/fonts-tlwg/releases/tag/v0.7.4) is also kept in `fonts/`. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.11.0**, source commit `65b213be`.
+Prepared from version **0.12.0**, source commit `c997390b`.
