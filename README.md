@@ -4,7 +4,7 @@
   <img src="icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
 
-# เขียนครับ · KhianKrub Web v0.12.0
+# เขียนครับ · KhianKrub Web v0.13.0
 
 **โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
@@ -18,20 +18,11 @@
 
 ## ประกาศภาษาไทย
 
-**เขียนครับบนเว็บ (KhianKrub Web) v0.12.0** คัดลอกและตัดตารางได้ กล่องโต้ตอบเป็นภาษาไทย และฉบับร่างที่ชัดเจนขึ้นครับ
+**เขียนครับบนเว็บ (KhianKrub Web) v0.13.0** มีแท็บหัวกระดาษและท้ายกระดาษ และตั้งเลขหน้าแยกตามส่วนได้แล้วครับ
 
-- **ฉบับร่างในอุปกรณ์นี้** เอกสารใหม่ที่ยังไม่ได้บันทึกเป็นไฟล์หรือลง Google Drive เรียกว่าฉบับร่างอย่างชัดเจน หน้าเริ่มต้นแสดง **ชื่อ (ฉบับร่าง)** แถบชื่อด้านบนแสดง **(ฉบับร่าง) — บันทึกในอุปกรณ์นี้แล้ว** และเมื่อทุกอย่างถูกเก็บแล้ว ปิดแท็บได้โดยเบราว์เซอร์ไม่ถาม ส่วนไฟล์ที่เปิดจากเครื่องหรือ Google Drive ที่ยังมีการแก้ไขค้างอยู่ เบราว์เซอร์จะถามก่อนปิดแท็บ
-- **กล่องโต้ตอบเป็นภาษาไทย** เมื่อเลือกเมนูภาษาไทย หน้าต่างถามบันทึกการเปลี่ยนแปลง ไฟล์ › ตัวเลือก และกล่องโต้ตอบที่ใช้บ่อย เช่น ฟอนต์ ย่อหน้า ตั้งค่าหน้ากระดาษ ค้นหาและแทนที่ และสัญลักษณ์ เป็นภาษาไทยแล้ว ส่วนกล่องโต้ตอบที่ใช้น้อยกว่าจะทยอยแปลต่อไป
-- **คัดลอกและตัดตาราง** เลือกทั้งตารางแล้วตัด ตารางจะถูกนำออกทั้งตาราง เลือกแถวหรือเซลล์แล้วคัดลอก จะได้ตารางเฉพาะส่วนที่เลือกไปวางได้ ตัดแถวหรือเซลล์จะลบข้อความและคงแถวและเซลล์ไว้ เหมือนใน Word
-- **ข้อความในรูปร่างหมุนตามรูปร่าง** หมุนกล่องข้อความหรือรูปร่าง ข้อความข้างในหมุนตามไปด้วย ระหว่างพิมพ์แก้ข้อความจะตั้งตรงให้อ่านง่าย
-- **บันทึกเป็นแม่แบบ Word (.dotx)** ใน ไฟล์ › ส่งออก
-- **เลขลำดับ a. b. c.** ในคลังลำดับเลขของแท็บหน้าแรก
-- **ฟอนต์ Tahoma** เมื่อเปิดเอกสารที่ใช้ Tahoma โปรแกรมบอกวิธีโหลดฟอนต์จากเครื่อง (Chrome และ Edge โหลดฟอนต์ที่ติดตั้งในเครื่องได้ เบราว์เซอร์อื่นเพิ่มไฟล์ฟอนต์เองได้)
-- **จัดหน้าเหมือน Word มากขึ้น** เลขลำดับหัวข้อนับถูกต้องเมื่อขึ้นต้นด้วยหัวข้อย่อย (เช่น ข้อ 10.1 แล้วต่อด้วยข้อ 11) จุดนำแท็บในสารบัญและแบบฟอร์มเว้นระยะเหมือน Word เส้นขอบด้านข้างของย่อหน้าอยู่นอกข้อความ และย่อหน้าที่ขึ้นส่วนแบบต่อเนื่องไม่ล้นหน้ากระดาษอีกต่อไป
-- **ไฟล์ .doc** เปิดได้ถูกต้องขึ้น ไฟล์จาก Word 365 ใช้ฟอนต์ Aptos ตามต้นฉบับ ส่วนของเอกสารและเซลล์ตารางอ่านได้ถูกต้อง และทนต่อไฟล์เสียมากขึ้น
-- **ไฟล์ .docx และ .rtf** ขนาดฟอนต์เริ่มต้นถูกเก็บเมื่อบันทึก ไฟล์ .docx ที่มีความสัมพันธ์จำนวนมากเปิดได้ทันทีแทนการรอหลายนาที และรูปภาพแบบ WMF และ EMF ในไฟล์ .rtf ไม่หายแล้ว
-- **หัวกระดาษและท้ายกระดาษ** ปิดหัวกระดาษหรือท้ายกระดาษแล้ว เคอร์เซอร์กลับไปที่เดิมในเนื้อหา
-- **การพิมพ์และอื่น ๆ** เอกสารที่มีลิงก์หรือสารบัญพิมพ์ได้ สารบัญแบบลิงก์ใช้เลขหน้าแบบ PAGEREF เหมือน Word ย่อหน้าที่ใช้สไตล์ที่ไม่มีอยู่จัดรูปแบบเป็นปกติ ขยาย/ย่อขนาดฟอนต์ทีละขั้นตามขนาดของแต่ละส่วน และคุณสมบัติตารางใช้กับทุกแถว คอลัมน์ และเซลล์ที่เลือก
+- **แท็บหัวกระดาษและท้ายกระดาษ** ดับเบิลคลิกหัวกระดาษหรือท้ายกระดาษ แท็บนี้จะขึ้นมาบน Ribbon รวมคำสั่งหัวกระดาษ ท้ายกระดาษ หมายเลขหน้า วันที่และเวลา รูปภาพ การไปส่วนก่อนหน้าและถัดไป หน้าแรกแยกต่างหาก หน้าคี่และหน้าคู่ต่างกัน และระยะห่างจากขอบกระดาษไว้ที่เดียว
+- **เชื่อมกับส่วนก่อนหน้า** ปิดการเชื่อมเพื่อให้หัวกระดาษหรือท้ายกระดาษของแต่ละส่วนมีเนื้อหาเป็นของตัวเอง หน้ากระดาษบอกว่ากำลังแก้ส่วนที่เท่าไร และขึ้นว่า **เหมือนส่วนก่อนหน้า** เมื่อยังเชื่อมอยู่
+- **เลขหน้าแยกตามส่วน** เริ่มนับใหม่และใช้รูปแบบของตัวเองได้ เช่น คำนำและสารบัญใช้ i ii iii แล้วเนื้อหาเริ่มที่ 1 บันทึกเป็น .docx แล้วเปิดใน Word ได้เลขหน้าเหมือนเดิม
 
 ใช้ได้ฟรีบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้ครับ
 
@@ -39,20 +30,11 @@
 
 ## English announcement
 
-**KhianKrub Web v0.12.0** copies and cuts tables, has its dialogs in Thai, and calls drafts plainly drafts.
+**KhianKrub Web v0.13.0** adds a Header & Footer tab and page numbers per section.
 
-- **Drafts on this device.** A new document not yet saved as a file or to Google Drive is plainly called a draft: the start screen lists **Name (draft)**, the title bar reads **(draft) — Saved on this device**, and once everything is kept the tab closes without the browser asking. A file opened from this device or Google Drive with unsaved edits still makes the browser ask before the tab closes.
-- **Dialogs in Thai.** With Thai menus, the Save Changes prompt, File › Options and the most-used dialogs, such as Font, Paragraph, Page Setup, Find and Replace and Symbol, are in Thai; the less-used dialogs will follow.
-- **Copy and cut tables.** Select a whole table and Cut removes it; copy rows or cells and you get a table of just those to paste; cutting rows or cells clears their text and keeps the rows and cells, as in Word.
-- **Text turns with its shape.** Rotate a text box or shape and the text inside turns with it; while you edit, it stands upright so it's easy to read.
-- **Save as a Word template (.dotx)** from File › Export.
-- **a. b. c. numbering** in the Numbering library on the Home tab.
-- **Tahoma.** When a document uses Tahoma, the app explains how to load the font from your computer (Chrome and Edge can use installed fonts; in other browsers you can add the font file).
-- **Layout closer to Word.** List numbers count correctly when a sub-item comes first (10.1, then 11); tab leader dots in tables of contents and forms are spaced as in Word; paragraph side borders sit outside the text; and paragraphs that each start a continuous section no longer run off the page.
-- **.doc files** open more faithfully: Word 365 files use Aptos as in the original, sections and table cells are read correctly, and damaged files are handled more safely.
-- **.docx and .rtf files.** The default font size is kept when saving, a .docx with many relationships opens at once instead of after minutes, and WMF and EMF pictures in .rtf files are no longer lost.
-- **Header and footer.** Closing the header or footer takes you back to where you were in the body.
-- **Printing and more.** Documents with links or a table of contents print; linked tables of contents use PAGEREF page numbers as Word does; a paragraph with a missing style is formatted as Normal; Grow and Shrink Font step each part from its own size; and Table Properties applies to every selected row, column and cell.
+- **Header & Footer tab.** Double-click a header or footer and the tab appears on the ribbon, with Header, Footer, Page Number, Date & Time, Picture, Previous and Next section, Different First Page, Different Odd & Even Pages and the distances from the page edge in one place.
+- **Link to Previous.** Turn it off and a section's header or footer has content of its own. The page shows which section you're editing, and **Same as Previous** while it's still linked.
+- **Page numbers per section.** Each section can restart its numbering and use its own format, for example i, ii, iii for the preface and contents, then 1 for the body. Saved as .docx, Word shows the same page numbers.
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
@@ -111,6 +93,16 @@ Six band colours, each with an optional faint Thai motif: ประจำยา�
 
 The gold **Report a problem** button beside Share opens a short form. The app fills in its version and your browser; no document content is sent.
 
+### หัวกระดาษและท้ายกระดาษแยกตามส่วน / Headers, footers and page numbers by section
+
+ดับเบิลคลิกที่หัวกระดาษหรือท้ายกระดาษ แท็บ **หัวกระดาษและท้ายกระดาษ** จะปรากฏขึ้น มีปุ่มไปส่วนก่อนหน้าและส่วนถัดไป และปุ่ม **เชื่อมกับส่วนก่อนหน้า** เมื่อปิดปุ่มนี้ ส่วนนั้นจะมีหัวกระดาษหรือท้ายกระดาษของตัวเอง เริ่มนับเลขหน้าใหม่และใช้รูปแบบตัวเลขของตัวเองได้ เช่น ส่วนนำเป็นเลขโรมัน i, ii แล้วเนื้อเรื่องเริ่มที่ 1 หรือใช้เลขไทย ๑, ๒, ๓ ตั้งได้ที่ **หมายเลขหน้า → จัดรูปแบบหมายเลขหน้า…** บนหน้ากระดาษมีป้ายบอกว่าเป็นหัวกระดาษของส่วนที่เท่าไร และป้าย **เหมือนส่วนก่อนหน้า** เมื่อยังเชื่อมอยู่ บันทึกเป็นไฟล์ `.docx` แล้วเปิดใน Word ได้เหมือนเดิม
+
+Double-click a header or footer and the **Header & Footer** tab appears, with Previous and Next section and **Link to Previous**. Turn it off and the section gets a header or footer of its own, with page numbers that restart and a number format of its own: front matter in i, ii, then the body from 1, or Thai digits ๑, ๒, ๓, set under **Page Number → Format Page Numbers…**. Tags on the page name each section's header and footer and say **Same as Previous** while they are linked. It all saves to `.docx` and opens the same in Word.
+
+<p align="center">
+  <img src="images/khiankrub-web-header-footer.png" alt="KhianKrub in Thai editing a footer: the หัวกระดาษและท้ายกระดาษ tab with เชื่อมกับส่วนก่อนหน้า turned off, and two pages of section 2 tagged หัวกระดาษ -ส่วนที่ 2- with เหมือนส่วนก่อนหน้า, their footers numbered 1 and 2" width="100%">
+</p>
+
 ## ความสามารถ / Features
 
 | ภาษาไทย | English |
@@ -121,6 +113,7 @@ The gold **Report a problem** button beside Share opens a short form. The app fi
 | จัดรูปแบบข้อความ ย่อหน้า สไตล์ หัวเรื่อง ตาราง และรูปภาพ | Format text, paragraphs, styles, headings, tables and pictures |
 | คัดลอกและตัดทั้งตาราง แถว หรือเซลล์ ได้ตารางเฉพาะส่วนที่เลือกไปวางที่อื่น | Copy and cut whole tables, rows or cells, pasting a table of just what you selected |
 | ส่งออกเป็นแม่แบบ Word (`.dotx`) | Export a Word template (`.dotx`) |
+| หัวกระดาษ ท้ายกระดาษ และเลขหน้าแยกตามส่วน (เชื่อมกับส่วนก่อนหน้า เริ่มนับใหม่ เลขโรมันหรือเลขไทย) | Headers, footers and page numbers per section (Link to Previous, restart, roman or Thai numbers) |
 | เมนูหลักภาษาไทยและภาษาอังกฤษ กล่องโต้ตอบที่ใช้บ่อยเป็นภาษาไทยแล้ว | Thai and English interface options; the most-used dialogs are in Thai |
 | เลือกธีม สีแถบด้านบน ลวดลายไทย ขนาดเมนู และหน่วยวัด | Choose the theme, band colour, Thai motif, interface size and measurement units |
 | เก็บภาษา หน่วยวัด ธีม และการตั้งค่าเมนูในเบราว์เซอร์เดิมบนอุปกรณ์เดิม | Remember language, units, theme and interface preferences in the same browser on the same device |
@@ -179,4 +172,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. The TLWG fonts (version 0.7.4) are the publisher's unmodified files; their [source release](https://github.com/tlwg/fonts-tlwg/releases/tag/v0.7.4) is also kept in `fonts/`. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.12.0**, source commit `e1f0d1b0`.
+Prepared from version **0.13.0**, source commit `dd0fe560`.
