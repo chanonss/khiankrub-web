@@ -4,7 +4,7 @@
   <img src="icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
 
-# เขียนครับ · KhianKrub Web v0.13.0
+# เขียนครับ · KhianKrub Web v0.14.0
 
 **โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
@@ -18,11 +18,13 @@
 
 ## ประกาศภาษาไทย
 
-**เขียนครับบนเว็บ (KhianKrub Web) v0.13.0** มีแท็บหัวกระดาษและท้ายกระดาษ และตั้งเลขหน้าแยกตามส่วนได้แล้วครับ
+**เขียนครับบนเว็บ (KhianKrub Web) v0.14.0** บอกเมื่อเครื่องไม่มีฟอนต์ที่เอกสารใช้ และจัดย่อหน้าภาษาไทยได้ตรงกับ Word มากขึ้นครับ
 
-- **แท็บหัวกระดาษและท้ายกระดาษ** ดับเบิลคลิกหัวกระดาษหรือท้ายกระดาษ แท็บนี้จะขึ้นมาบน Ribbon รวมคำสั่งหัวกระดาษ ท้ายกระดาษ หมายเลขหน้า วันที่และเวลา รูปภาพ การไปส่วนก่อนหน้าและถัดไป หน้าแรกแยกต่างหาก หน้าคี่และหน้าคู่ต่างกัน และระยะห่างจากขอบกระดาษไว้ที่เดียว
-- **เชื่อมกับส่วนก่อนหน้า** ปิดการเชื่อมเพื่อให้หัวกระดาษหรือท้ายกระดาษของแต่ละส่วนมีเนื้อหาเป็นของตัวเอง หน้ากระดาษบอกว่ากำลังแก้ส่วนที่เท่าไร และขึ้นว่า **เหมือนส่วนก่อนหน้า** เมื่อยังเชื่อมอยู่
-- **เลขหน้าแยกตามส่วน** เริ่มนับใหม่และใช้รูปแบบของตัวเองได้ เช่น คำนำและสารบัญใช้ i ii iii แล้วเนื้อหาเริ่มที่ 1 บันทึกเป็น .docx แล้วเปิดใน Word ได้เลขหน้าเหมือนเดิม
+- **บอกเมื่อเครื่องไม่มีฟอนต์ที่เอกสารใช้** ช่องฟอนต์มีเครื่องหมาย ▲ สีส้ม ชี้ค้างไว้จะบอกว่าแสดงด้วยฟอนต์อะไรแทน และแถบสถานะขึ้นว่า **ไม่ได้ติดตั้งฟอนต์ N ตัว** คลิกดูรายชื่อและกด **เพิ่มฟอนต์…** ได้ TH SarabunPSK กับ TH Sarabun New ใช้แทนกันได้โดยไม่เตือน เพราะความกว้างตัวอักษรเท่ากัน
+- **ย่อหน้าชิดขอบที่ขึ้นต้นด้วยการเว้นวรรค อยู่ตรงตำแหน่งเดิม** หนังสือราชการที่ย่อหน้าด้วยการเคาะวรรค เมื่อจัดชิดขอบหรือกระจายแบบไทย ตัวอักษรแรกอยู่ตรงกับตอนจัดชิดซ้ายเหมือนใน Word
+- **ชื่อวันตรงกับวันที่ในไทย** วันที่แบบมีชื่อวันและปุ่ม "วันนี้" ใช้วันตามเวลาในเครื่อง (เดิมก่อน 7 โมงเช้าได้ชื่อวันของเมื่อวาน)
+- **ไฟล์ Word เหมือนต้นฉบับมากขึ้น** เส้นขอบแบบเส้นคู่หนาบาง การตั้งค่าส่วน เลขหน้าแบบมีเลขบท และการตั้งค่าอื่น ๆ ไม่หายเมื่อบันทึก .docx และพื้นหลังแบบ "ไม่มี" ไม่ทาสีทับอีก
+- **คัดลอกไปวางในโปรแกรมอื่นแล้วรูปแบบยังอยู่มากขึ้น** และคลิกในกล่องข้อความที่วางทับรูปได้แล้ว
 
 ใช้ได้ฟรีบนคอมพิวเตอร์และ iPad ยังไม่รองรับโทรศัพท์มือถือ หากพบปัญหาหรือมีข้อเสนอแนะ รบกวนกดปุ่ม **แจ้งปัญหา** ข้างปุ่มแชร์ในโปรแกรม ขอบคุณทุกคนที่ช่วยทดลองใช้ครับ
 
@@ -30,11 +32,13 @@
 
 ## English announcement
 
-**KhianKrub Web v0.13.0** adds a Header & Footer tab and page numbers per section.
+**KhianKrub Web v0.14.0** tells you when a document's fonts aren't on your computer, and lays out Thai paragraphs closer to Word.
 
-- **Header & Footer tab.** Double-click a header or footer and the tab appears on the ribbon, with Header, Footer, Page Number, Date & Time, Picture, Previous and Next section, Different First Page, Different Odd & Even Pages and the distances from the page edge in one place.
-- **Link to Previous.** Turn it off and a section's header or footer has content of its own. The page shows which section you're editing, and **Same as Previous** while it's still linked.
-- **Page numbers per section.** Each section can restart its numbering and use its own format, for example i, ii, iii for the preface and contents, then 1 for the body. Saved as .docx, Word shows the same page numbers.
+- **Fonts that aren't installed are flagged.** The font box shows an orange ▲ and, on hover, the font drawn instead; the status bar says **N fonts not installed** and lists them, with **Add Font…**. TH SarabunPSK and TH Sarabun New stand in for each other without a warning: their letters are the same width.
+- **Justified paragraphs that start with spaces stay put.** Thai official letters indent with spaces; justified or Thai Distributed, the first character now sits where it does left-aligned, as in Word.
+- **Day names follow Thai time.** Dates with the day's name, and a date picker's Today, use the computer's local day (before 7 a.m. they gave yesterday's).
+- **Word files keep more.** Compound border lines, section settings, chapter page numbers and other settings survive a .docx save, and "nil" shading no longer paints a fill.
+- **Copies keep more formatting in other programs**, and a click inside a text box laid over a picture reaches the box's text.
 
 It's free on computers and iPads; phones aren't supported yet. If you find a problem or have a suggestion, please press **Report a problem** (แจ้งปัญหา) next to Share in the app. Thank you for trying it.
 
@@ -172,4 +176,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. The TLWG fonts (version 0.7.4) are the publisher's unmodified files; their [source release](https://github.com/tlwg/fonts-tlwg/releases/tag/v0.7.4) is also kept in `fonts/`. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.13.0**, source commit `dd0fe560`.
+Prepared from version **0.14.0**, source commit `28b82ea4`.
