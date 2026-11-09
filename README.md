@@ -4,7 +4,7 @@
   <img src="icons/192/ai.storyteller.wordcraft.png" alt="KhianKrub: a gold ข on navy" width="96" height="96">
 </p>
 
-# เขียนครับ · KhianKrub Web v0.14.0
+# เขียนครับ · KhianKrub Web v0.15.0
 
 **โปรแกรมพิมพ์เอกสารภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
@@ -18,7 +18,7 @@
 
 ## ประกาศภาษาไทย
 
-**เขียนครับบนเว็บ (KhianKrub Web) v0.14.0** บอกเมื่อเครื่องไม่มีฟอนต์ที่เอกสารใช้ และจัดย่อหน้าภาษาไทยได้ตรงกับ Word มากขึ้นครับ
+**เขียนครับบนเว็บ (KhianKrub Web) v0.15.0** บอกเมื่อเครื่องไม่มีฟอนต์ที่เอกสารใช้ และจัดย่อหน้าภาษาไทยได้ตรงกับ Word มากขึ้นครับ
 
 - **บอกเมื่อเครื่องไม่มีฟอนต์ที่เอกสารใช้** ช่องฟอนต์มีเครื่องหมาย ▲ สีส้ม ชี้ค้างไว้จะบอกว่าแสดงด้วยฟอนต์อะไรแทน และแถบสถานะขึ้นว่า **ไม่ได้ติดตั้งฟอนต์ N ตัว** คลิกดูรายชื่อและกด **เพิ่มฟอนต์…** ได้ TH SarabunPSK กับ TH Sarabun New ใช้แทนกันได้โดยไม่เตือน เพราะความกว้างตัวอักษรเท่ากัน
 - **ย่อหน้าชิดขอบที่ขึ้นต้นด้วยการเว้นวรรค อยู่ตรงตำแหน่งเดิม** หนังสือราชการที่ย่อหน้าด้วยการเคาะวรรค เมื่อจัดชิดขอบหรือกระจายแบบไทย ตัวอักษรแรกอยู่ตรงกับตอนจัดชิดซ้ายเหมือนใน Word
@@ -32,7 +32,7 @@
 
 ## English announcement
 
-**KhianKrub Web v0.14.0** tells you when a document's fonts aren't on your computer, and lays out Thai paragraphs closer to Word.
+**KhianKrub Web v0.15.0** tells you when a document's fonts aren't on your computer, and lays out Thai paragraphs closer to Word.
 
 - **Fonts that aren't installed are flagged.** The font box shows an orange ▲ and, on hover, the font drawn instead; the status bar says **N fonts not installed** and lists them, with **Add Font…**. TH SarabunPSK and TH Sarabun New stand in for each other without a warning: their letters are the same width.
 - **Justified paragraphs that start with spaces stay put.** Thai official letters indent with spaces; justified or Thai Distributed, the first character now sits where it does left-aligned, as in Word.
@@ -176,4 +176,4 @@ This public repository contains the built web app, screenshots, documentation an
 
 KhianKrub is based on [WordCraft](https://github.com/storytold/wordcraft) by the ArtCraft team, adapted by Chanon Sarasuk. It is not affiliated with or endorsed by the ArtCraft team. WordCraft's [MIT](LICENSE-MIT) and [Apache-2.0](LICENSE-APACHE) licences, [NOTICE](NOTICE), [asset attribution](ATTRIBUTION.md), and the font licences in `fonts/` accompany the built app. The TLWG fonts (version 0.7.4) are the publisher's unmodified files; their [source release](https://github.com/tlwg/fonts-tlwg/releases/tag/v0.7.4) is also kept in `fonts/`. Screenshots show KhianKrub itself with original example text.
 
-Prepared from version **0.14.0**, source commit `e38e44d9`.
+Prepared from version **0.15.0**, source commit `befc905a`.
